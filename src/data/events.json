@@ -1,0 +1,271 @@
+[
+  {
+    "id": 1,
+    "year": "HOME",
+    "title": "La linea de tiempo del",
+    "text1": {
+      "title": "yoga",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in nisl ullamcorper, tincidunt est eu, congue felis. Morbi pharetra imperdiet mollis. Nullam hendrerit dui leo, eu feugiat risus tristique eu. Integer aliquam odio vitae velit hendrerit aliquet. Curabitur bibendum dapibus porta.<br /><br /> Sed non lobortis augue. Aliquam erat volutpat. Maecenas aliquet, est nec fringilla pulvinar, dui velit faucibus sapien, eleifend rhoncus libero tellus eu ex. Pellentesque a aliquet ex. Praesent sodales ac lectus sit amet pellentesque. Phasellus quis placerat eros."
+    },
+    "text2": {
+      "title": "",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in nisl ullamcorper, tincidunt est eu, congue felis. Morbi pharetra imperdiet mollis. Nullam hendrerit dui leo, eu feugiat risus tristique eu. Integer aliquam odio vitae velit hendrerit aliquet. Curabitur bibendum dapibus porta. "
+    },
+    "image1": "yoga.png",
+     "layoutId": 0
+  },
+  {
+    "id": 2,
+    "year": "3300 aec",
+    "title": "Desarrollo de la civilización del INDO-SARÁSVATI",
+    "text1": {
+      "title": "",
+      "content": "<p>La civilización del Indo-Sarasvati, también conocida como la <b>Civilización del Valle del Indo</b>, fue una de las civilizaciones más antiguas del mundo, desarrollándose aproximadamente entre el 3300 y el 1300 a.C. en las regiones del actual <b>Pakistán y noroeste de la India.</b><br/><br/>La civilización se denominó \"Indo-Sarasvati\" porque muchos de sus asentamientos estaban cerca del ahora desaparecido <b>río Sarasvati</b>, mencionado en los textos védicos como un río sagrado. Investigaciones arqueológicas y geológicas sugieren que este río desempeñó un papel crucial en el auge de la civilización, proporcionando agua para la agricultura y transporte.</p>"
+    },
+    "text2": {
+      "title": "Sellos con figuras en posturas meditativas",
+      "content": "<p>En <b>Mohenjo-Daro</b> se encontraron sellos que muestran figuras humanas en lo que parecen ser <b>posturas de meditación o yoga</b>.<br/><br/> El sello más conocido es el de <b>\"Pashupati\"</b>, que representa a una figura masculina sentada en posición de loto (imagen inferior), rodeada de animales. Este sello ha sido interpretado por algunos como una representación de una forma temprana del dios Shiva, quien en tradiciones posteriores es considerado el \"Adiyogi\" o el primer maestro del yoga.<br/><br/>  Aunque <b>no hay consenso absoluto</b> sobre esta interpretación, los sellos son una posible evidencia de prácticas rituales y corporales que podrían estar relacionadas con los orígenes del yoga."
+    },
+    "image1": "sello-1.png",
+    "image2": "sello-2.png",
+    "imageTop": "mapa.png",
+     "layoutId": 1
+  },
+  {
+    "id": 3,
+    "year": "2000 aec",
+    "title": "Migración aria",
+    "text1": {
+      "title": "",
+      "content": "La teoría de la migración aria propone que grupos de pueblos indoeuropeos, conocidos como arios, migraron hacia el subcontinente indio desde las estepas de Asia Central, alrededor del <b>2000-1500 aec</b>. Estos migrantes habrían introducido las lenguas indoeuropeas en la región, que con el tiempo evolucionaron en el sánscrito y otras lenguas indoarias modernas.<br/><br/> Este movimiento coincidió con el <b>declive de la civilización del Indo-Sarasvati</b>, lo que sugiere una interacción entre las culturas locales y los recién llegados. Según esta teoría, los arios trajeron consigo prácticas culturales y religiosas que se reflejan en los textos védicos, marcando el <b>inicio de la era védica</b> en el norte de la India."
+    },
+    "table1": {
+      "title": "Evidencias que respaldan la teoría",
+      "content": [
+        {
+          "cellTitle": "Lingüísticas",
+          "cell": "Las lenguas indoarias, como el sánscrito, comparten raíces con lenguas indoeuropeas como el griego y el latín, sugiriendo un origen común."
+        },
+        {
+          "cellTitle": "Arqueológicas",
+          "cell": "Aparición de carros de guerra y caballos, elementos asociados con los arios, ausentes en la civilización del Indo."
+        },
+        {
+          "cellTitle": "Textuales",
+          "cell": "Los textos védicos mencionan carros, caballos y batallas, elementos que parecen no coincidir con la civilización del Indo."
+        },
+        {
+            "cellTitle": "Genéticas",
+            "cell": "Estudios recientes detectan flujo genético desde Asia Central hacia el subcontinente indio en ese período."
+        }]
+    },
+    "table2": {
+        "title": "Críticas y revisiones de la teoría",
+        "content": [
+          {
+            "cellTitle": "Teoría de la continuidad:",
+            "cell": "Algunos académicos sostienen que los cambios culturales fueron desarrollos internos, no producto de migraciones externas."
+          },
+          {
+            "cellTitle": "Falta de evidencia de invasión",
+            "cell": "No se han encontrado pruebas arqueológicas de una conquista violenta o destrucción masiva de asentamientos del Indo."
+          },
+          {
+            "cellTitle": "Cronología alternativa",
+            "cell": "Estudios sugieren que los textos védicos podrían ser más antiguos, implicando una presencia aria previa al colapso del Indo."
+          },
+          {
+              "cellTitle": "Interacción cultural",
+              "cell": "En lugar de migraciones masivas, algunos sugieren una asimilación cultural gradual entre los habitantes locales y nuevos grupos."
+          }]
+      },
+    "image": "",
+    "layoutId": 2
+  },
+ {
+  "id": 4,
+  "year": "1500 aec",
+  "title": "Vedas",
+  "text1": {
+    "title": "",
+    "content": "Los Vedas son los <b>textos más antiguos</b> de la tradición india y constituyen la base del hinduismo. Se compusieron en sánscrito védico entre aproximadamente <b>1500 y 500 aec</b>. durante la Era Védica en el subcontinente indio. Los Vedas son considerados <b>śruti</b> (\"lo escuchado\"), es decir, conocimiento divino revelado a los <b>rishis</b> (sabios o videntes) en un estado de meditación profunda.<br/><br/>Cada Veda tiene cuatro partes principales: <b>Samhitas</b> (himnos), <b>Brahmanas</b> (rituales), <b>Aranyakas</b> (textos meditativos) y <b>Upanishads</b> (filosofía)."
+  },
+  "cards": [
+    {
+      "title": "Rig Veda",
+      "subtitle": "1500-1200 aec",
+      "content": "<p> 1,028 himnos en 10 mandalas (libros), dedicados a deidades como Agni (fuego), Indra (rey de los dioses) y Soma (una planta ritual). <br/>  Cánticos de alabanza y oraciones para ceremonias.</p>",
+      "image": "vedas1.png"
+    },
+    {
+      "title": "Sama Veda",
+      "subtitle": "1200-1000 aec",
+      "content": "<p> Himnos del Rig Veda reorganizados para ser cantados en ceremonias. <br/>  Música ritual y melodías (sāman).</p>",
+      "image": "vedas2.png"
+    },
+    {
+      "title": "Yajur Veda",
+      "subtitle": "1200-800 aec",
+      "content": "<p> Prosa y versos que instruyen cómo realizar sacrificios védicos. <br/>  Manual de rituales para sacerdotes.</p>",
+      "image": "vedas3.png"
+    },
+    {
+      "title": "Atharva Veda",
+      "subtitle": "1200-800 aec",
+      "content": "<p> Himnos y rituales prácticos relacionados con la vida diaria, como curación, protección y magia. <br/>  Rituales menos formales y hechizos.</p>",
+      "image": "vedas4.png"
+    }
+  ],
+  "layoutId": 3
+},
+  {
+    "id": 5,
+    "year": "2500 aec",
+    "title": "Evento Antiguo 2500 AEC",
+    "text1": {
+      "title": "Introducción",
+      "content": "Este es el contenido de la introducción del evento antiguo 2500 AEC."
+    },
+    "text2": {
+      "title": "Detalles",
+      "content": "Estos son los detalles del evento antiguo 2500 AEC."
+    },
+    "image": "path/to/image5.jpg",
+     "layoutId": 1
+  },
+  {
+    "id": 6,
+    "year": "205400 aec",
+    "title": "Evento Antiguo 2000 AEC",
+    "text1": {
+      "title": "Introducción",
+      "content": "Este es el contenido de la introducción del evento antiguo 2000 AEC."
+    },
+    "text2": {
+      "title": "Detalles",
+      "content": "Estos son los detalles del evento antiguo 2000 AEC."
+    },
+    "image": "path/to/image6.jpg",
+     "layoutId": 1
+  },
+  {
+    "id": 7,
+    "year": "1504 aec",
+    "title": "Evento Antiguo 1500 AEC",
+    "text1": {
+      "title": "Introducción",
+      "content": "Este es el contenido de la introducción del evento antiguo 1500 AEC."
+    },
+    "text2": {
+      "title": "Detalles",
+      "content": "Estos son los detalles del evento antiguo 1500 AEC."
+    },
+    "image": "path/to/image7.jpg",
+     "layoutId": 1
+  },
+  {
+    "id": 8,
+    "year": "800 ec",
+    "title": "Evento Antiguo 800 EC",
+    "text1": {
+      "title": "Introducción",
+      "content": "Este es el contenido de la introducción del evento antiguo 800 EC."
+    },
+    "text2": {
+      "title": "Detalles",
+      "content": "Estos son los detalles del evento antiguo 800 EC."
+    },
+    "image": "path/to/image8.jpg",
+     "layoutId": 1
+  },
+  {
+    "id": 9,
+    "year": "500 ec",
+    "title": "Evento Antiguo 500 EC",
+    "text1": {
+      "title": "Introducción",
+      "content": "Este es el contenido de la introducción del evento antiguo 500 EC."
+    },
+    "text2": {
+      "title": "Detalles",
+      "content": "Estos son los detalles del evento antiguo 500 EC."
+    },
+    "image": "path/to/image9.jpg",
+     "layoutId": 1
+  },
+  {
+    "id": 10,
+    "year": "563 ec",
+    "title": "Evento Antiguo 563 EC",
+    "text1": {
+      "title": "Introducción",
+      "content": "Este es el contenido de la introducción del evento antiguo 563 EC."
+    },
+    "text2": {
+      "title": "Detalles",
+      "content": "Estos son los detalles del evento antiguo 563 EC."
+    },
+    "image": "path/to/image10.jpg",
+     "layoutId": 1
+  },
+  {
+    "id": 11,
+    "year": "200 ec",
+    "title": "Evento Antiguo 200 EC",
+    "text1": {
+      "title": "Introducción",
+      "content": "Este es el contenido de la introducción del evento antiguo 200 EC."
+    },
+    "text2": {
+      "title": "Detalles",
+      "content": "Estos son los detalles del evento antiguo 200 EC."
+    },
+    "image": "path/to/image11.jpg",
+     "layoutId": 1
+  },
+  {
+    "id": 12,
+    "year": "400 ec",
+    "title": "Evento Antiguo 400 EC",
+    "text1": {
+      "title": "Introducción",
+      "content": "Este es el contenido de la introducción del evento antiguo 400 EC."
+    },
+    "text2": {
+      "title": "Detalles",
+      "content": "Estos son los detalles del evento antiguo 400 EC."
+    },
+    "image": "path/to/image12.jpg",
+     "layoutId": 1
+  },
+  {
+    "id": 13,
+    "year": "600 ec",
+    "title": "Evento Antiguo 600 EC",
+    "text1": {
+      "title": "Introducción",
+      "content": "Este es el contenido de la introducción del evento antiguo 600 EC."
+    },
+    "text2": {
+      "title": "Detalles",
+      "content": "Estos son los detalles del evento antiguo 600 EC."
+    },
+    "image": "path/to/image13.jpg",
+     "layoutId": 1
+  },
+  {
+    "id": 14,
+    "year": "1200 ec",
+    "title": "Evento Antiguo 1200 EC",
+    "text1": {
+      "title": "Introducción",
+      "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
+    },
+    "text2": {
+      "title": "Detalles",
+      "content": "Estos son los detalles del evento antiguo 1200 EC."
+    },
+    "image": "path/to/image14.jpg",
+     "layoutId": 1
+  }
+]

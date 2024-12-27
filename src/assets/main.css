@@ -2,11 +2,64 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Color variables */
+:root {
+  --floral-white: #f8f7f0;
+  --powder-blue: #95B7CA;
+  --force-blue: #4C7F9A;
+  --sunset: #EFCD9F;
+  --yellow: #F0C16B;
+}
+
 #app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
   font-weight: normal;
+  background-color: var(--floral-white);
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: var(--force-blue);
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: "Shadows Into Light Two", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: "Shadows Into Light Two", serif;
+  margin-bottom: 1rem;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 8rem;
+  font-weight: 600;
+  font-style: normal;
+  color: var(--yellow);
+  line-height: 1;
+  letter-spacing: -12px;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.border-page {
+  border-right: 1px dashed #EFCD9F;
+}
+
+.layout-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.column {
+  flex: 1;
 }
 
 
