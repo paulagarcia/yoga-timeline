@@ -23,11 +23,11 @@ import LayoutHome from './LayoutHome.vue';
 import LayoutOne from './LayoutOne.vue';
 import LayoutTwo from './LayoutTwo.vue';
 import LayoutThree from './LayoutThree.vue';
-import { Event } from '@/types/Event';
+import { Event } from '@/types/Events';
 
 const props = defineProps<{ eventId: number }>();
+const event = computed<Event | null>(() => events.find(event => event.id === props.eventId) || null);
 
-const event = computed<Event | undefined>(() => events.find(event => event.id === props.eventId));
 </script>
 
 <style scoped>

@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col h-full justify-center pr-6 shadows-into-light-two-regular">
     <ul class="flex flex-col items-end justify-center mr-6 pr-3">
-      <li v-for="yearAndID in yearsWithId" :key="yearAndID.id" @click="emitSelectedEventId(yearAndID.id)" class="cursor-pointer mb-2" :class="{ 'text-xl selected': yearAndID.id === selectedEventId }">
+      <li v-for="yearAndID in yearsWithId" :key="yearAndID.id" @click="changePath(yearAndID.id)" class="cursor-pointer mb-2" :class="{ 'text-xl selected': yearAndID.id === eventId }">
         {{ yearAndID.year }}
       </li>
     </ul>
@@ -9,22 +9,20 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from 'vue';
-import years from '@/data/years'; // Importa los años desde el archivo years.ts
+import { ref } from 'vue';
+import years from '../data/years'; // Importa los años desde el archivo years.ts
+import { useRouter } from 'vue-router';
 
-const emit = defineEmits(['selectedEventId']);
+const router = useRouter(); // Importa el router de vue-router
 
+defineProps<{ eventId: number }>();
 const yearsWithId = ref(years);
-const selectedEventId = ref<number>(1);
 
-const emitSelectedEventId = (id: number) => {
-  selectedEventId.value = id;
-  emit('selectedEventId', id);
+
+const changePath = (id: number) => {
+  router.push({ name: `event-${id}`})
 };
 
-onMounted(() => {
-  emit('selectedEventId', selectedEventId.value);
-});
 </script>
 
 <style scoped>

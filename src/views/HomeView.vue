@@ -1,10 +1,10 @@
 <template>
   <div class="page-wrapper">
     <div class="w-1/12">
-      <TimeLine @selectedEventId="handleSelectedEventId" />
+      <TimeLine :eventId="selectedEventId" />
     </div>
     <div class="w-11/12">
-      <ContentGenerator :eventId="selectedEventId" />
+      <ContentGenerator :eventId="selectedEventId" :id="eventId"/>
     </div>
   </div>
 </template>
@@ -12,16 +12,21 @@
 <script setup lang="ts">
 import ContentGenerator from '@/components/ContentGenerator.vue';
 import TimeLine from '@/components/TimeLine.vue';
-import { ref } from 'vue';
+import { defineProps, ref, watch } from 'vue';
 import events from '@/data/events.json';
+import { Event } from '../types/Events';
 
-const selectedEventId = ref<number>(1);
-const selectedEvent = ref(events.find(event => event.id === selectedEventId.value));
+const props = defineProps<{ eventId: number }>();
 
-const handleSelectedEventId = (id: number) => {
-  selectedEventId.value = id;
-  selectedEvent.value = events.find(event => event.id === id);
-};
+const selectedEventId = ref<number>();
+const selectedEvent = ref<Event | null>(events.find((event: Event) => event.id === selectedEventId.value) || null);
+
+
+watch(() => props.eventId, (newValue) => {
+  selectedEventId.value = newValue;
+  selectedEvent.value = events.find((event: Event) => event.id === newValue) || null;
+}, { deep: true, immediate: true  });
+
 </script>
 
 <style scoped>
