@@ -30,7 +30,7 @@
 
 <script setup lang="ts">
 import { defineProps } from 'vue';
-import { Event } from '@/types/Event';
+import { Event } from '@/types/Events';
 import YearTitleText from './YearTitleText.vue';
 
 
