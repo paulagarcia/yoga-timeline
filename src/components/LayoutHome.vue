@@ -6,7 +6,7 @@
       <p class="pr-10" v-html="event.text1.content"></p>
     </div>
     <div class="column justify-end">
-      <p class="px-20 mb-12">{{ event.text2.content }}</p>
+      <p class="px-20 mb-12" v-if="event.text2">{{ event.text2.content }}</p>
       <img :src="imageSrc" alt="Image" />
       
     </div>

@@ -3,7 +3,7 @@
     <div class="w-2/5 pr-16">
       <YearTitleText :event="event" />
     </div>
-    <div class="w-3/5 h-full flex flex-col items-center justify-between">
+    <div v-if="event.cards" class="w-3/5 h-full flex flex-col items-center justify-between">
       <!-- Primera card a la izquierda -->
       <div class="flex flex-col w-full">
         <div class="flex justify-start">
@@ -70,10 +70,10 @@ const props = defineProps<{
   event: Event
 }>();
 
-const image1Src = computed(() => new URL(`../assets/images/${props.event.cards[0].image}`, import.meta.url).href);
-const image2Src = computed(() => new URL(`../assets/images/${props.event.cards[1].image}`, import.meta.url).href);
-const image3Src = computed(() => new URL(`../assets/images/${props.event.cards[2].image}`, import.meta.url).href);
-const image4Src = computed(() => new URL(`../assets/images/${props.event.cards[3].image}`, import.meta.url).href);
+const image1Src = computed(() => props.event.cards ? new URL(`../assets/images/${props.event.cards[0].image}`, import.meta.url).href : '');
+const image2Src = computed(() => props.event.cards ? new URL(`../assets/images/${props.event.cards[1].image}`, import.meta.url).href : '');
+const image3Src = computed(() => props.event.cards ? new URL(`../assets/images/${props.event.cards[2].image}`, import.meta.url).href : '');
+const image4Src = computed(() => props.event.cards ? new URL(`../assets/images/${props.event.cards[3].image}`, import.meta.url).href : '');
 </script>
 
 <style scoped>

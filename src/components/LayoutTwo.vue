@@ -3,7 +3,7 @@
     <div class="w-2/5 pr-16">
       <YearTitleText :event="event" />
     </div>
-    <div class="w-3/5 h-full flex  items-center p-8 justify-center">
+    <div v-if="event.table1 && event.table2" class="w-3/5 h-full flex  items-center p-8 justify-center">
       <div class="yellow-column"></div>
       <div class="flex flex-col">
 

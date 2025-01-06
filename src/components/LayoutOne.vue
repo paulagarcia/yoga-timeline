@@ -7,7 +7,7 @@
       <img class="absolute top-0 right-0 top-image" :src="imageSrcTop" alt="Mapa"/>
       <div class="flex">
         <BlueColumnWithImages :image1="event.image1" :image2="event.image2" />
-        <div class="flex flex-col justify-end pr-24 pb-24">
+        <div v-if="event.text2" class="flex flex-col justify-end pr-24 pb-24">
           <h3>{{ event.text2.title }}</h3>
           <p v-html="event.text2.content"></p>
         </div>
