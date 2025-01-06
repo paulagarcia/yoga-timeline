@@ -63,7 +63,7 @@
 
 <script setup lang="ts">
 import { defineProps, computed } from 'vue';
-import { Event } from '@/types/Events';
+import { Event } from '../types/Events';
 import YearTitleText from "./YearTitleText.vue";
 
 const props = defineProps<{

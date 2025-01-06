@@ -1,19 +1,19 @@
 <template>
   <div class="page-wrapper">
     <div class="w-1/12">
-      <TimeLine :eventId="selectedEventId" />
+      <TimeLine :eventId="selectedEventId ?? 0" :id="eventId" />
     </div>
     <div class="w-11/12">
-      <ContentGenerator :eventId="selectedEventId" :id="eventId"/>
+      <ContentGenerator :eventId="selectedEventId ?? 0" :id="eventId"/>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import ContentGenerator from '@/components/ContentGenerator.vue';
-import TimeLine from '@/components/TimeLine.vue';
+import ContentGenerator from '../components/ContentGenerator.vue';
+import TimeLine from '../components/TimeLine.vue';
 import { defineProps, ref, watch } from 'vue';
-import events from '@/data/events.json';
+import events from '../data/events.json';
 import { Event } from '../types/Events';
 
 const props = defineProps<{ eventId: number }>();

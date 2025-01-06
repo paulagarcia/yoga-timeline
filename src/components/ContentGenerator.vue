@@ -18,12 +18,12 @@
 
 <script setup lang="ts">
 import { defineProps, computed } from 'vue';
-import events from '@/data/events.json';
-import LayoutHome from '@/components/LayoutHome.vue';
-import LayoutOne from '@/components/LayoutOne.vue';
-import LayoutTwo from '@/components/LayoutTwo.vue';
-import LayoutThree from '@/components/LayoutThree.vue';
-import { Event } from '@/types/Events';
+import events from '../data/events.json';
+import LayoutHome from './LayoutHome.vue';
+import LayoutOne from './LayoutOne.vue';
+import LayoutTwo from './LayoutTwo.vue';
+import LayoutThree from './LayoutThree.vue';
+import { Event } from '../types/Events';
 
 const props = defineProps<{ eventId: number }>();
 const event = computed<Event | null>(() => events.find(event => event.id === props.eventId) || null);

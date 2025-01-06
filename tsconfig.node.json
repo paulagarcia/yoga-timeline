@@ -15,7 +15,7 @@
     "composite": true,
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
 
-    "module": "es2015",
+    "module": "esnext",
     "moduleResolution": "Bundler",
     "types": ["node"],
     "target": "esnext",
@@ -23,6 +23,8 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "noEmit": false
+    "noEmit": false,
+    "declaration": true,
+    "declarationDir": "./types"
   }
 }

@@ -7,7 +7,7 @@
 </template>
 
 <script setup lang="ts">
-import { Event } from '@/types/Events';
+import { Event } from '../types/Events';
 import { defineProps } from 'vue';
 
 defineProps<{
