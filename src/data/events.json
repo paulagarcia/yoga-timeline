@@ -120,8 +120,8 @@
 },
   {
     "id": 5,
-    "year": "2500 aec",
-    "title": "Evento Antiguo 2500 AEC",
+    "year": "800 aec",
+    "title": "Upaniṣad",
     "text1": {
       "title": "Introducción",
       "content": "Este es el contenido de la introducción del evento antiguo 2500 AEC."
@@ -135,8 +135,8 @@
   },
   {
     "id": 6,
-    "year": "205400 aec",
-    "title": "Evento Antiguo 2000 AEC",
+    "year": "500 aec",
+    "title": "Katha Upanishad",
     "text1": {
       "title": "Introducción",
       "content": "Este es el contenido de la introducción del evento antiguo 2000 AEC."
@@ -150,18 +150,20 @@
   },
   {
     "id": 7,
-    "year": "1504 aec",
-    "title": "Evento Antiguo 1500 AEC",
+    "year": "563 aec",
+    "title": "Nacimiento del Buddha",
     "text1": {
-      "title": "Introducción",
-      "content": "Este es el contenido de la introducción del evento antiguo 1500 AEC."
+      "title": "",
+      "content": "<p><b>Siddhartha Gautama</b>, el Buda histórico, nació en Lumbini (Nepal) alrededor del siglo VI-V a.C. como príncipe de la tribu Shakya. Protegido de las dificultades de la vida, a los 29 años se enfrentó al sufrimiento humano al ver la vejez, la enfermedad y la muerte. Abandonó su vida de lujo para buscar la iluminación, practicando austeridades extremas antes de adoptar el <b>\"Camino Medio\"</b>.</p><br/><p> A los 35 años, bajo el árbol Bodhi, alcanzó el despertar, comprendiendo la naturaleza del sufrimiento y su liberación. Pasó el resto de su vida enseñando las <b>Cuatro Nobles Verdades</b> y el <b>Óctuple Sendero</b>, fundando el budismo.</p>"
     },
     "text2": {
-      "title": "Detalles",
-      "content": "Estos son los detalles del evento antiguo 1500 AEC."
+      "title": "Relación entre el Budismo y el Yoga",
+      "content": "<p>El budismo integra prácticas relacionadas con el yoga, especialmente en la meditación y la disciplina mental.<p> <br/><p> Siddhartha Gautama se entrenó en <b>técnicas yóguicas</b> antes de desarrollar sus propios métodos, como la <b>atención plena (sati)</b> y la <b>concentración (samadhi)</b>.</p><br/> <p> Ambas tradiciones comparten conceptos como el desapego, la purificación de la mente y la búsqueda de la <b>liberación (moksha o nirvana)</b>.</p><br/> <p>Aunque el yoga se centra en la unión con el absoluto (Brahman), el budismo enfatiza la <b>comprensión de la impermanencia y el vacío (shunyata)</b>, ofreciendo caminos complementarios hacia la trascendencia espiritual.</p>"
     },
-    "image": "path/to/image7.jpg",
-     "layoutId": 1
+    "image1": "buddha-2.png",
+    "image2": "",
+    "imageTop": "buddha-map.png",
+    "layoutId": 1
   },
   {
     "id": 8,
