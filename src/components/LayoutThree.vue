@@ -1,9 +1,9 @@
 <template>
   <div class="flex h-full justify-between items-center">
-    <div class="w-2/5 pr-16">
+    <div class="w-2/6 2xl:w-2/5 2xl:pr-16 pr-4">
       <YearTitleText :event="event" />
     </div>
-    <div v-if="event.cards" class="w-3/5 h-full flex flex-col items-center justify-between">
+    <div v-if="event.cards" class="w-4/6 2xl:w-3/5 flex flex-col h-full justify-between">
       <!-- Primera card a la izquierda -->
       <div class="flex flex-col w-full">
         <div class="flex justify-start">
@@ -21,7 +21,7 @@
       <!-- Segunda y tercera card a la derecha -->
       <div class="relative w-full mr-4">
         <div class="color-column-right"></div>
-        <div class="flex justify-end items-center relative mb-8 z-10">
+        <div class="flex justify-end items-center relative mb-2 z-10">
           <div class="flex flex-col items-end mr-4">
             <h4>{{ event.cards[1].title }}</h4>
             <p class="year mb-2">{{ event.cards[1].subtitle }}</p>
@@ -32,7 +32,7 @@
           </div>
         </div>
 		<!-- Tercera -->
-		<div class="flex justify-end items-center relative z-10">
+		<div class="flex justify-end items-center relative z-10 -mt-2">
           <div class="flex flex-col items-end mr-4">
             <h4>{{ event.cards[2].title }}</h4>
             <p class="year mb-2">{{ event.cards[2].subtitle }}</p>
@@ -44,18 +44,18 @@
         </div>
       </div>
       <!-- Cuarta card a la izquierda -->
-      <div class="flex flex-col justify-center relative w-full h-full">
-		<div class="color-column-bottom"></div>
-        <div class="flex flex-col flex-end ">
-			<div>
-				<h4 class="ml-20">{{ event.cards[3].title }}</h4>
-            	<p class="year ml-20">{{ event.cards[3].subtitle }}</p>
-			</div>
-			<div class="flex items-center relative z-10 -bottom-4 right-10">
-				<img :src="image4Src" alt="Image 3" class="image mr-4" />
-				<p class="max-w-md" v-html="event.cards[3].content"></p>
-			</div>
-      	</div>
+      <div class="flex flex-col justify-center relative w-full">
+		    <div class="color-column-bottom"></div>
+        <div class="flex flex-col align-center">
+          <div class="-mt-4">
+            <h4 class="ml-20">{{ event.cards[3].title }}</h4>
+            <p class="year ml-20">{{ event.cards[3].subtitle }}</p>
+          </div>
+          <div class="flex items-center relative z-10 bottom-0 right-10">
+            <img :src="image4Src" alt="Image 3" class="image mr-4" />
+            <p class="max-w-md" v-html="event.cards[3].content"></p>
+          </div>
+        </div>
        </div>
 	   </div>
   </div>

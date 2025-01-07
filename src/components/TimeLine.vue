@@ -1,7 +1,7 @@
 <template>
-  <div class="flex flex-col h-full justify-center pr-6 shadows-into-light-two-regular">
-    <ul class="flex flex-col items-end justify-center mr-6 pr-3">
-      <li v-for="yearAndID in yearsWithId" :key="yearAndID.id" @click="changePath(yearAndID.id)" class="cursor-pointer mb-2" :class="{ 'text-xl selected': yearAndID.id === eventId }">
+  <div class="flex flex-col h-full justify-center items-center shadows-into-light-two-regular">
+    <ul class="flex flex-col items-end justify-center max-w-max">
+      <li v-for="yearAndID in yearsWithId" :key="yearAndID.id" @click="changePath(yearAndID.id)" class="cursor-pointer mb-2 text-right" :class="{ 'text-xl selected': yearAndID.id === eventId }">
         {{ yearAndID.year }}
       </li>
     </ul>

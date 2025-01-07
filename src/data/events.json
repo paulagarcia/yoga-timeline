@@ -17,7 +17,7 @@
   {
     "id": 2,
     "year": "3300 aec",
-    "title": "Desarrollo de la civilización del INDO-SARÁSVATI",
+    "title": "Desarrollo de la civilización <br/> del INDO-SARÁSVATI",
     "text1": {
       "title": "",
       "content": "<p>La civilización del Indo-Sarasvati, también conocida como la <b>Civilización del Valle del Indo</b>, fue una de las civilizaciones más antiguas del mundo, desarrollándose aproximadamente entre el 3300 y el 1300 a.C. en las regiones del actual <b>Pakistán y noroeste de la India.</b><br/><br/>La civilización se denominó \"Indo-Sarasvati\" porque muchos de sus asentamientos estaban cerca del ahora desaparecido <b>río Sarasvati</b>, mencionado en los textos védicos como un río sagrado. Investigaciones arqueológicas y geológicas sugieren que este río desempeñó un papel crucial en el auge de la civilización, proporcionando agua para la agricultura y transporte.</p>"
@@ -121,17 +121,47 @@
   {
     "id": 5,
     "year": "800 aec",
-    "title": "Upaniṣad",
+    "title": "Primeras Upaniṣad",
     "text1": {
-      "title": "Introducción",
-      "content": "Este es el contenido de la introducción del evento antiguo 2500 AEC."
+      "title": "",
+      "content": "<p>Las Upaniṣads son <b>textos filosóficos y espirituales </b> fundamentales del hinduismo, considerados la <b>culminación de los Vedas</b>, conocidos como Vedānta (\"fin de los Vedas\").</p><br /> <p>Escritas entre el 800 y el 200 a.C., exploran cuestiones metafísicas, éticas y existenciales, enfocándose en la <b>relación entre el Atman (el ser individual) y el Brahman (la realidad suprema)</b>. Estas escrituras marcan la transición del ritualismo védico hacia una búsqueda introspectiva del conocimiento y la auto-realización.</p><br/><p> A través de diálogos, simbolismo y enseñanzas profundas, ofrecen una <b>guía hacia la liberación espiritual (moksha)</b> y han influido significativamente en las tradiciones filosóficas y religiosas de la India.</p>"
     },
-    "text2": {
-      "title": "Detalles",
-      "content": "Estos son los detalles del evento antiguo 2500 AEC."
+    "table1": {
+      "title": "Bṛhadāraṇyaka Upaniṣad",
+      "content": [
+        {
+          "cellTitle": "Significado del nombre",
+          "cell": "La gran <b>Upaniṣad del bosque</b> (Bṛhad = grande, Āraṇyaka = bosque). Pertenece al Śukla Yajurveda (rama blanca del Yajurveda)."
+        },
+        {
+          "cellTitle": "Estilo",
+          "cell": "Es una mezcla de narraciones, diálogos filosóficos y enseñanzas metafísicas."
+        },
+        
+        {
+            "cellTitle": "Temas principales",
+            "cell": "<b>Atman (el Ser) y Brahman (la Realidad Suprema):</b> La identidad entre el Atman y el Brahman es un tema central.<br/> <b>Moksha (liberación):</b> Explora el significado y el camino hacia la liberación del ciclo de nacimiento y muerte. <br/> <b>Neti Neti:</b> Introduce el concepto de \"ni esto, ni aquello\" como método para entender la naturaleza del Brahman. <br/><b>Conocimiento y sacrificio:</b> Reinterpreta los rituales védicos hacia un enfoque en el conocimiento interno y la auto-realización."
+        }]
     },
-    "image": "path/to/image5.jpg",
-     "layoutId": 1
+    "table2": {
+        "title": "Chāndogya Upaniṣad",
+        "content": [
+          {
+            "cellTitle": "Significado del nombre",
+            "cell": "Asociada al canto ritual (Chāndogya = relacionado con el canto sāma, derivado del Sāmaveda)."
+          },
+          {
+            "cellTitle": "Estilo",
+            "cell": "Más narrativa que la Bṛhadāraṇyaka, contiene historias y ejemplos concretos que ilustran conceptos abstractos."
+          },
+         
+          {
+            "cellTitle": "Temas principales",
+            "cell": "<b>Tat Tvam Asi: </b> (\"Eso eres tú\"), una de las Mahavakyas, que afirma la identidad del alma individual con la realidad cósmica.<br/> <b>Meditación y simbolismo:</b> Explora el poder del \"Om\" como símbolo del Brahman. <br/> <b>Uddalaka y Śvetaketu:</b> Contiene el famoso diálogo entre el sabio Uddalaka y su hijo Śvetaketu sobre la naturaleza de la realidad. <br/><b>Ética y espiritualidad:</b> Reflexiona sobre cómo el conocimiento del Brahman influye en la vida cotidiana y la moralidad."
+        }]
+      },
+    "image": "",
+    "layoutId": 2
   },
   {
     "id": 6,
@@ -167,8 +197,8 @@
   },
   {
     "id": 8,
-    "year": "800 ec",
-    "title": "Evento Antiguo 800 EC",
+    "year": "200 ec",
+    "title": "Maitrī Upanishad",
     "text1": {
       "title": "Introducción",
       "content": "Este es el contenido de la introducción del evento antiguo 800 EC."
