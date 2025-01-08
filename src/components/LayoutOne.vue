@@ -4,7 +4,7 @@
       <YearTitleText :event="event" />
     </div>
     <div class="w-4/6 2xl:w-3/5 relative h-full flex flex-col justify-end">
-      <img class="absolute top-0 right-0 top-image" :src="imageSrcTop" alt="Mapa"/>
+      <img v-if="imageSrcTop" class="absolute top-0 right-0 top-image" :src="imageSrcTop" alt="Mapa"/>
       <div class="flex">
         <BlueColumnWithImages :image1="event.image1" :image2="event.image2" />
         <div v-if="event.text2" class="flex flex-col justify-end pr-16 pb-16 2xl:pr-24 2xl:pb-24 z-10">
@@ -26,7 +26,7 @@ const props = defineProps<{
   event: Event
 }>();
 
-const imageSrcTop = computed(() => new URL(`../assets/images/${props.event.imageTop}`, import.meta.url).href);
+const imageSrcTop = computed(() => props.event.imageTop ? new URL(`../assets/images/${props.event.imageTop}`, import.meta.url).href : null);
 </script>
 
 <style scoped>

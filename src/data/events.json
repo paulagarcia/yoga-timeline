@@ -168,14 +168,15 @@
     "year": "500 aec",
     "title": "Katha Upanishad",
     "text1": {
-      "title": "Introducción",
-      "content": "Este es el contenido de la introducción del evento antiguo 2000 AEC."
+      "title": "",
+      "content": "La Katha Upaniṣad es uno de los textos más conocidos de la tradición védica, asociado al Krishna Yajurveda. Presenta un <b>diálogo entre el joven Nachiketa y Yama, el dios de la muerte</b>, en el que se exploran preguntas fundamentales sobre la naturaleza del alma (Atman), la muerte y la inmortalidad.<br/><br/> Este texto aborda la búsqueda de la verdad suprema, destacando la importancia de <b>elegir el śreyaḥ (el camino del bien) sobre el preyaḥ (el camino del placer)</b>. La Katha Upaniṣad combina una narrativa cautivadora con enseñanzas filosóficas profundas, enfatizando la meditación, el desapego y el conocimiento como medios para alcanzar la liberación espiritual (moksha)."
     },
     "text2": {
-      "title": "Detalles",
-      "content": "Estos son los detalles del evento antiguo 2000 AEC."
+      "title": "Primera definición de yoga",
+      "content": "En la Katha Upaniṣad, el Yoga se define como un camino para alcanzar la unión con el Brahman, la realidad suprema. El texto proclama: <b>\"El Yoga es el firme dominio de los sentidos\" (Yogaḥ sthira indriyadhāraṇā),</b> enfatizando que la disciplina comienza con el control de los sentidos y la mente. <br/><br/>En su contexto, el Yoga es presentado como una <b>práctica introspectiva</b> que permite al buscador trascender los placeres efímeros del mundo material y enfocarse en la luz eterna del Atman. Este dominio lleva a la calma interior y a la realización de la unidad entre el ser individual y lo divino, liberando al alma del ciclo de samsara (nacimiento y muerte)."
     },
-    "image": "path/to/image6.jpg",
+    "image1": "katha2.png",
+    "imageTop": "katha-top.png",
      "layoutId": 1
   },
   {
@@ -197,18 +198,29 @@
   },
   {
     "id": 8,
-    "year": "200 ec",
-    "title": "Maitrī Upanishad",
+    "year": "300 aec",
+    "title": "Mas Upanishads",
     "text1": {
-      "title": "Introducción",
-      "content": "Este es el contenido de la introducción del evento antiguo 800 EC."
+      "title": "",
+      "content": "La <b>Maitri Upaniṣad</b> y la <b>Śvetāśvatara Upaniṣad</b> son textos tardíos de las Upaniṣads principales, asociados al Krishna Yajurveda. Escritas <b>entre el 500 y 100 a.C.</b>, reflejan una <b>transición del ritualismo védico hacia prácticas espirituales introspectivas como el Yoga</b>.<br/><br/> La Śvetāśvatara Upaniṣad presenta el Yoga como un medio para alcanzar la unión con lo divino y enfatiza prácticas como <b>la meditación, el pranayama y la devoción</b>, introduciendo elementos teístas. La Maitri Upaniṣad detalla el Yoga como un camino práctico de <b>seis etapas hacia la liberación espiritual</b>. Ambas son fundamentales en el hinduismo por conectar el Vedānta con las tradiciones del Yoga."
     },
-    "text2": {
-      "title": "Detalles",
-      "content": "Estos son los detalles del evento antiguo 800 EC."
+    "table1": {
+      "title": "Maitri Upaniṣad",
+      "content": [
+        {
+          "cellTitle": "",
+          "cell": "La Maitri Upaniṣad describe <b>seis pasos esenciales para la práctica del Yoga</b> , que conducen a la liberación espiritual (moksha). <br/>El primer paso es el <b>control de los sentidos (pratyahara)</b>, que implica retirar la atención de los objetos externos. Luego, la <b>reflexión o pensamiento adecuado (vichara)</b>, que consiste en examinar la naturaleza del ser y el universo. El tercer paso es la <b>meditación profunda (dhyana)</b>, para enfocar la mente en el Brahman. Le sigue la <b>calma mental (santosh)</b>, lograda al trascender deseos y perturbaciones. El quinto es la <b>introspección (tarka)</b>, para alcanzar claridad interior, y finalmente, <b>la unión con el Ser (samadhi)</b>, donde se realiza la identidad con lo divino."
+        }]
     },
-    "image": "path/to/image8.jpg",
-     "layoutId": 1
+    "table2": {
+        "title": "Śvetāśvatara Upaniṣad",
+        "content": [
+          {
+            "cellTitle": "",
+            "cell": "La Śvetāśvatara Upaniṣad presenta una <b>visión más teísta y personal</b>. En ella, el Brahman se identifica con una divinidad trascendental, a menudo asociada con Śiva o Rudra, y el Yoga se convierte en un medio para conectar directamente con esta divinidad.<br/><br/> La Upaniṣad subraya que, a través de <b>la práctica del Yoga (meditación, control de la mente y devoción)</b>, se puede alcanzar la <b>unión con lo divino</b> y experimentar la paz eterna y la liberación. La relación con lo divino, por tanto, es clave para entender la práctica y el propósito del Yoga en este texto."
+        }]
+      },
+     "layoutId": 2
   },
   {
     "id": 9,
