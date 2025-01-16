@@ -121,17 +121,17 @@
   {
     "id": 5,
     "year": "800 aec",
-    "title": "Primeras Upaniṣad",
+    "title": "Primeras Upanishad",
     "text1": {
       "title": "",
-      "content": "<p>Las Upaniṣads son <b>textos filosóficos y espirituales </b> fundamentales del hinduismo, considerados la <b>culminación de los Vedas</b>, conocidos como Vedānta (\"fin de los Vedas\").</p><br /> <p>Escritas entre el 800 y el 200 a.C., exploran cuestiones metafísicas, éticas y existenciales, enfocándose en la <b>relación entre el Atman (el ser individual) y el Brahman (la realidad suprema)</b>. Estas escrituras marcan la transición del ritualismo védico hacia una búsqueda introspectiva del conocimiento y la auto-realización.</p><br/><p> A través de diálogos, simbolismo y enseñanzas profundas, ofrecen una <b>guía hacia la liberación espiritual (moksha)</b> y han influido significativamente en las tradiciones filosóficas y religiosas de la India.</p>"
+      "content": "<p>Las Upanishads son <b>textos filosóficos y espirituales </b> fundamentales del hinduismo, considerados la <b>culminación de los Vedas</b>, conocidos como Vedānta (\"fin de los Vedas\").</p><br /> <p>Escritas entre el 800 y el 200 a.C., exploran cuestiones metafísicas, éticas y existenciales, enfocándose en la <b>relación entre el Atman (el ser individual) y el Brahman (la realidad suprema)</b>. Estas escrituras marcan la transición del ritualismo védico hacia una búsqueda introspectiva del conocimiento y la auto-realización.</p><br/><p> A través de diálogos, simbolismo y enseñanzas profundas, ofrecen una <b>guía hacia la liberación espiritual (moksha)</b> y han influido significativamente en las tradiciones filosóficas y religiosas de la India.</p>"
     },
     "table1": {
-      "title": "Bṛhadāraṇyaka Upaniṣad",
+      "title": "Brihadaranyaka Upanishad",
       "content": [
         {
           "cellTitle": "Significado del nombre",
-          "cell": "La gran <b>Upaniṣad del bosque</b> (Bṛhad = grande, Āraṇyaka = bosque). Pertenece al Śukla Yajurveda (rama blanca del Yajurveda)."
+          "cell": "La gran <b>Upanishad del bosque</b> (Bṛhad = grande, Āraṇyaka = bosque)."
         },
         {
           "cellTitle": "Estilo",
@@ -144,15 +144,15 @@
         }]
     },
     "table2": {
-        "title": "Chāndogya Upaniṣad",
+        "title": "Chāndogya Upanishad",
         "content": [
           {
             "cellTitle": "Significado del nombre",
-            "cell": "Asociada al canto ritual (Chāndogya = relacionado con el canto sāma, derivado del Sāmaveda)."
+            "cell": "Asociada al canto ritual."
           },
           {
             "cellTitle": "Estilo",
-            "cell": "Más narrativa que la Bṛhadāraṇyaka, contiene historias y ejemplos concretos que ilustran conceptos abstractos."
+            "cell": "Más narrativa, contiene historias y ejemplos concretos que ilustran conceptos abstractos."
           },
          
           {
@@ -169,11 +169,11 @@
     "title": "Katha Upanishad",
     "text1": {
       "title": "",
-      "content": "La Katha Upaniṣad es uno de los textos más conocidos de la tradición védica, asociado al Krishna Yajurveda. Presenta un <b>diálogo entre el joven Nachiketa y Yama, el dios de la muerte</b>, en el que se exploran preguntas fundamentales sobre la naturaleza del alma (Atman), la muerte y la inmortalidad.<br/><br/> Este texto aborda la búsqueda de la verdad suprema, destacando la importancia de <b>elegir el śreyaḥ (el camino del bien) sobre el preyaḥ (el camino del placer)</b>. La Katha Upaniṣad combina una narrativa cautivadora con enseñanzas filosóficas profundas, enfatizando la meditación, el desapego y el conocimiento como medios para alcanzar la liberación espiritual (moksha)."
+      "content": "La Katha Upanishad es uno de los textos más conocidos de la tradición védica. Presenta un <b>diálogo entre el joven Nachiketa y Yama, el dios de la muerte</b>, en el que se exploran preguntas fundamentales sobre la naturaleza del alma (Atman), la muerte y la inmortalidad.<br/><br/> Este texto aborda la búsqueda de la verdad suprema, destacando la importancia de <b>elegir el śreyaḥ (el camino del bien) sobre el preyaḥ (el camino del placer)</b>. La Katha Upanishad combina una narrativa cautivadora con enseñanzas filosóficas profundas, enfatizando la meditación, el desapego y el conocimiento como medios para alcanzar la liberación espiritual."
     },
     "text2": {
       "title": "Primera definición de yoga",
-      "content": "En la Katha Upaniṣad, el Yoga se define como un camino para alcanzar la unión con el Brahman, la realidad suprema. El texto proclama: <b>\"El Yoga es el firme dominio de los sentidos\" (Yogaḥ sthira indriyadhāraṇā),</b> enfatizando que la disciplina comienza con el control de los sentidos y la mente. <br/><br/>En su contexto, el Yoga es presentado como una <b>práctica introspectiva</b> que permite al buscador trascender los placeres efímeros del mundo material y enfocarse en la luz eterna del Atman. Este dominio lleva a la calma interior y a la realización de la unidad entre el ser individual y lo divino, liberando al alma del ciclo de samsara (nacimiento y muerte)."
+      "content": "En la Katha Upanishad, el Yoga se define como un camino para alcanzar la unión con el Brahman, la realidad suprema. El texto proclama: <b>\"El Yoga es el firme dominio de los sentidos\" (Yogaḥ sthira indriyadhāraṇā),</b> enfatizando que la disciplina comienza con el control de los sentidos y la mente. <br/><br/>En su contexto, el Yoga es presentado como una <b>práctica introspectiva</b> que permite al buscador trascender los placeres efímeros del mundo material y enfocarse en la luz eterna del Atman. Este dominio lleva a la calma interior y a la realización de la unidad entre el ser individual y lo divino, liberando al alma del ciclo de samsara (nacimiento y muerte)."
     },
     "image1": "katha2.png",
     "imageTop": "katha-top.png",
@@ -202,45 +202,47 @@
     "title": "Mas Upanishads",
     "text1": {
       "title": "",
-      "content": "La <b>Maitri Upaniṣad</b> y la <b>Śvetāśvatara Upaniṣad</b> son textos tardíos de las Upaniṣads principales, asociados al Krishna Yajurveda. Escritas <b>entre el 500 y 100 a.C.</b>, reflejan una <b>transición del ritualismo védico hacia prácticas espirituales introspectivas como el Yoga</b>.<br/><br/> La Śvetāśvatara Upaniṣad presenta el Yoga como un medio para alcanzar la unión con lo divino y enfatiza prácticas como <b>la meditación, el pranayama y la devoción</b>, introduciendo elementos teístas. La Maitri Upaniṣad detalla el Yoga como un camino práctico de <b>seis etapas hacia la liberación espiritual</b>. Ambas son fundamentales en el hinduismo por conectar el Vedānta con las tradiciones del Yoga."
+      "content": "La <b>Maitri Upanishad</b> y la <b>Śvetāśvatara Upanishad</b> son textos tardíos de las Upanishads principales. Escritas <b>entre el 500 y 100 a.C.</b>, reflejan una <b>transición del ritualismo védico hacia prácticas espirituales introspectivas como el Yoga</b>.<br/><br/> La Śvetāśvatara Upanishad presenta el Yoga como un medio para alcanzar la unión con lo divino y enfatiza prácticas como <b>la meditación, el pranayama y la devoción</b>, introduciendo elementos teístas. La Maitri Upanishad detalla el Yoga como un camino práctico de <b>seis etapas hacia la liberación espiritual</b>. Ambas son fundamentales en el hinduismo por conectar el Vedānta con las tradiciones del Yoga."
     },
     "table1": {
-      "title": "Maitri Upaniṣad",
+      "title": "Maitri Upanishad",
       "content": [
         {
           "cellTitle": "",
-          "cell": "La Maitri Upaniṣad describe <b>seis pasos esenciales para la práctica del Yoga</b> , que conducen a la liberación espiritual (moksha). <br/>El primer paso es el <b>control de los sentidos (pratyahara)</b>, que implica retirar la atención de los objetos externos. Luego, la <b>reflexión o pensamiento adecuado (vichara)</b>, que consiste en examinar la naturaleza del ser y el universo. El tercer paso es la <b>meditación profunda (dhyana)</b>, para enfocar la mente en el Brahman. Le sigue la <b>calma mental (santosh)</b>, lograda al trascender deseos y perturbaciones. El quinto es la <b>introspección (tarka)</b>, para alcanzar claridad interior, y finalmente, <b>la unión con el Ser (samadhi)</b>, donde se realiza la identidad con lo divino."
+          "cell": "La Maitri Upanishad describe <b>seis pasos esenciales para la práctica del Yoga</b> , que conducen a la liberación espiritual (moksha). <br/>El primer paso es el <b>control de los sentidos (pratyahara)</b>, que implica retirar la atención de los objetos externos. Luego, la <b>reflexión o pensamiento adecuado (vichara)</b>, que consiste en examinar la naturaleza del ser y el universo. El tercer paso es la <b>meditación profunda (dhyana)</b>, para enfocar la mente en el Brahman. Le sigue la <b>calma mental (santosh)</b>, lograda al trascender deseos y perturbaciones. El quinto es la <b>introspección (tarka)</b>, para alcanzar claridad interior, y finalmente, <b>la unión con el Ser (samadhi)</b>, donde se realiza la identidad con lo divino."
         }]
     },
     "table2": {
-        "title": "Śvetāśvatara Upaniṣad",
+        "title": "Śvetāśvatara Upanishad",
         "content": [
           {
             "cellTitle": "",
-            "cell": "La Śvetāśvatara Upaniṣad presenta una <b>visión más teísta y personal</b>. En ella, el Brahman se identifica con una divinidad trascendental, a menudo asociada con Śiva o Rudra, y el Yoga se convierte en un medio para conectar directamente con esta divinidad.<br/><br/> La Upaniṣad subraya que, a través de <b>la práctica del Yoga (meditación, control de la mente y devoción)</b>, se puede alcanzar la <b>unión con lo divino</b> y experimentar la paz eterna y la liberación. La relación con lo divino, por tanto, es clave para entender la práctica y el propósito del Yoga en este texto."
+            "cell": "La Śvetāśvatara Upanishad presenta una <b>visión más teísta y personal</b>. En ella, el Brahman se identifica con una divinidad trascendental, a menudo asociada con Śiva o Rudra, y el Yoga se convierte en un medio para conectar directamente con esta divinidad.<br/><br/> La Upanishad subraya que, a través de <b>la práctica del Yoga (meditación, control de la mente y devoción)</b>, se puede alcanzar la <b>unión con lo divino</b> y experimentar la paz eterna y la liberación. La relación con lo divino, por tanto, es clave para entender la práctica y el propósito del Yoga en este texto."
         }]
       },
      "layoutId": 2
   },
   {
     "id": 9,
-    "year": "500 ec",
-    "title": "Evento Antiguo 500 EC",
+    "year": "200 aec",
+    "title": "Mahabharata",
     "text1": {
-      "title": "Introducción",
-      "content": "Este es el contenido de la introducción del evento antiguo 500 EC."
+      "title": "",
+      "content": "El Mahabharata es una de las <b>epopeyas más grandes y antiguas de la India</b>, atribuida al sabio Vyasa y compuesta entre el siglo IV a.C. y el siglo IV d.C. Con <b>más de 100,000 versos</b>, relata la lucha dinástica entre los Pándavas y los Kauravas por el trono de Hastinapura.<br/><br/> Este texto abarca mitología, filosofía, ética y dharma. Dentro de él se encuentra la <b>Bhagavad Gita</b>, un <b>diálogo espiritual entre Krishna y Arjuna</b>, considerado uno de los textos fundamentales del hinduismo. El Mahabharata es una obra esencial para comprender la cultura y espiritualidad de la India."
     },
     "text2": {
-      "title": "Detalles",
-      "content": "Estos son los detalles del evento antiguo 500 EC."
+      "title": "Que dice del yoga?",
+      "content": "El Mahabharata, especialmente la Bhagavad Gita, establece los fundamentos del yoga como un camino espiritual. Krishna enseña a Arjuna sobre <b>tres tipos principales de yoga:</b><br/><b>Karma Yoga:</b>: yoga de la acción desinteresada<br/><b>Bhakti Yoga</b> yoga de la devoción<br/><b>Jnana Yoga:</b> yoga del conocimiento.<br/><br/>Estos caminos guían al practicante hacia la liberación (moksha), integrando ética, disciplina y espiritualidad. Además, la epopeya aborda temas de control de la mente y desapego, principios centrales en el yoga. El Mahabharata conecta la práctica del yoga con la vida cotidiana y el dharma."
     },
-    "image": "path/to/image9.jpg",
-     "layoutId": 1
+    "image1": "gita-4.png",
+    "image2": "gita-3.png",
+    "imageTop": "gita-top.png",
+    "layoutId": 1
   },
   {
     "id": 10,
-    "year": "563 ec",
-    "title": "Evento Antiguo 563 EC",
+    "year": "400 ec",
+    "title": "Yoga Sutra",
     "text1": {
       "title": "Introducción",
       "content": "Este es el contenido de la introducción del evento antiguo 563 EC."
@@ -254,8 +256,8 @@
   },
   {
     "id": 11,
-    "year": "200 ec",
-    "title": "Evento Antiguo 200 EC",
+    "year": "600 ec",
+    "title": "Tantra hindú",
     "text1": {
       "title": "Introducción",
       "content": "Este es el contenido de la introducción del evento antiguo 200 EC."
@@ -269,14 +271,14 @@
   },
   {
     "id": 12,
-    "year": "400 ec",
-    "title": "Evento Antiguo 400 EC",
+    "year": "800 ec",
+    "title": "Tantra Budista",
     "text1": {
       "title": "Introducción",
       "content": "Este es el contenido de la introducción del evento antiguo 400 EC."
     },
     "text2": {
-      "title": "Detalles",
+      "title": "Amrtasiddhi",
       "content": "Estos son los detalles del evento antiguo 400 EC."
     },
     "image": "path/to/image12.jpg",
@@ -284,8 +286,8 @@
   },
   {
     "id": 13,
-    "year": "600 ec",
-    "title": "Evento Antiguo 600 EC",
+    "year": "1100 ec",
+    "title": "Amaraughaprabodha",
     "text1": {
       "title": "Introducción",
       "content": "Este es el contenido de la introducción del evento antiguo 600 EC."
@@ -300,13 +302,388 @@
   {
     "id": 14,
     "year": "1200 ec",
-    "title": "Evento Antiguo 1200 EC",
+    "title": "Manuales de Hatha Yoga",
     "text1": {
       "title": "Introducción",
       "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
     },
     "text2": {
-      "title": "Detalles",
+      "title": "Hatha Pradīpikā (Siglo XV)",
+      "content": "Estos son los detalles del evento antiguo 1200 EC."
+    },
+    "image": "path/to/image14.jpg",
+     "layoutId": 1
+  },
+  {
+    "id": 15,
+    "year": "1875 ec",
+    "title": "Sociedad Teosófica",
+    "text1": {
+      "title": "Introducción",
+      "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
+    },
+    "text2": {
+      "title": "Relacion con el Yoga",
+      "content": "Estos son los detalles del evento antiguo 1200 EC."
+    },
+    "image": "path/to/image14.jpg",
+     "layoutId": 1
+  },
+  {
+    "id": 16,
+    "year": "1893 ec",
+    "title": "Swami Vivekananda",
+    "text1": {
+      "title": "Introducción",
+      "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
+    },
+    "text2": {
+      "title": "Discurso en Chicago",
+      "content": "Estos son los detalles del evento antiguo 1200 EC."
+    },
+    "image": "path/to/image14.jpg",
+     "layoutId": 1
+  },
+  {
+    "id": 17,
+    "year": "1918 ec",
+    "title": "Shri Yogendra",
+    "text1": {
+      "title": "Introducción",
+      "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
+    },
+    "text2": {
+      "title": "The Yoga Institute",
+      "content": "Estos son los detalles del evento antiguo 1200 EC."
+    },
+    "image": "path/to/image14.jpg",
+     "layoutId": 1
+  },
+  {
+    "id": 18,
+    "year": "1920 ec",
+    "title": "Paramahansa Yogananda",
+    "text1": {
+      "title": "Introducción",
+      "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
+    },
+    "text2": {
+      "title": "Difusión mundial del kriyā yoga",
+      "content": "Estos son los detalles del evento antiguo 1200 EC."
+    },
+    "image": "path/to/image14.jpg",
+     "layoutId": 1
+  },
+  {
+    "id": 19,
+    "year": "1924 ec",
+    "title": "Swami Kuvalayananda",
+    "text1": {
+      "title": "Introducción",
+      "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
+    },
+    "text2": {
+      "title": "Instituto Kaivalyadhama",
+      "content": "Estos son los detalles del evento antiguo 1200 EC."
+    },
+    "image": "path/to/image14.jpg",
+     "layoutId": 1
+  },
+  {
+    "id": 20,
+    "year": "1933 ec",
+    "title": "T. Krishnamacharya",
+    "text1": {
+      "title": "Introducción",
+      "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
+    },
+    "text2": {
+      "title": "Haṭhayoga para jóvenes regios",
+      "content": "Estos son los detalles del evento antiguo 1200 EC."
+    },
+    "image": "path/to/image14.jpg",
+     "layoutId": 1
+  },
+  {
+    "id": 21,
+    "year": "1934 ec",
+    "title": "Sitadevi Yogendra",
+    "text1": {
+      "title": "Introducción",
+      "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
+    },
+    "text2": {
+      "title": "Primer libro de yoga escrito por una mujer india",
+      "content": "Estos son los detalles del evento antiguo 1200 EC."
+    },
+    "image": "path/to/image14.jpg",
+     "layoutId": 1
+  },
+  {
+    "id": 22,
+    "year": "1948 ec",
+    "title": "Pattabhi Jois",
+    "text1": {
+      "title": "Introducción",
+      "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
+    },
+    "text2": {
+      "title": "Ashtanga vinyāsa yoga",
+      "content": "Estos son los detalles del evento antiguo 1200 EC."
+    },
+    "image": "path/to/image14.jpg",
+     "layoutId": 1
+  },
+  {
+    "id": 23,
+    "year": "1966 ec",
+    "title": "BKS Iyengar",
+    "text1": {
+      "title": "Introducción",
+      "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
+    },
+    "text2": {
+      "title": "Luz sobre el Yoga",
+      "content": "Estos son los detalles del evento antiguo 1200 EC."
+    },
+    "image": "path/to/image14.jpg",
+     "layoutId": 1
+  },
+  {
+    "id": 24,
+    "year": "1968 ec",
+    "title": "Yogi Bhajan",
+    "text1": {
+      "title": "Introducción",
+      "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
+    },
+    "text2": {
+      "title": "kundalini yoga",
+      "content": "Estos son los detalles del evento antiguo 1200 EC."
+    },
+    "image": "path/to/image14.jpg",
+     "layoutId": 1
+  },
+  {
+    "id": 25,
+    "year": "1969 ec",
+    "title": "Sivananda Yoga",
+    "text1": {
+      "title": "Introducción",
+      "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
+    },
+    "text2": {
+      "title": "Formacion de profesores de yoga",
+      "content": "Estos son los detalles del evento antiguo 1200 EC."
+    },
+    "image": "path/to/image14.jpg",
+     "layoutId": 1
+  },
+  {
+    "id": 26,
+    "year": "1973 ec",
+    "title": "Ashtanga en USA",
+    "text1": {
+      "title": "Introducción",
+      "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
+    },
+    "text2": {
+      "title": "Ashtanga en California",
+      "content": "Estos son los detalles del evento antiguo 1200 EC."
+    },
+    "image": "path/to/image14.jpg",
+     "layoutId": 1
+  },
+  {
+    "id": 27,
+    "year": "1974 ec",
+    "title": "Bikram Yoga",
+    "text1": {
+      "title": "Introducción",
+      "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
+    },
+    "text2": {
+      "title": "Bikram Choudhury inventa el hotyoga",
+      "content": "Estos son los detalles del evento antiguo 1200 EC."
+    },
+    "image": "path/to/image14.jpg",
+     "layoutId": 1
+  },
+  {
+    "id": 28,
+    "year": "1975 ec",
+    "title": "Yin Yoga",
+    "text1": {
+      "title": "Introducción",
+      "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
+    },
+    "text2": {
+      "title": "Yoga & medicina tradicional china",
+      "content": "Estos son los detalles del evento antiguo 1200 EC."
+    },
+    "image": "path/to/image14.jpg",
+     "layoutId": 1
+  },
+  {
+    "id": 29,
+    "year": "1976 ec",
+    "title": "T.K.V. Desikachar",
+    "text1": {
+      "title": "Introducción",
+      "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
+    },
+    "text2": {
+      "title": "Krishnamacharya Yoga Mandiram",
+      "content": "Estos son los detalles del evento antiguo 1200 EC."
+    },
+    "image": "path/to/image14.jpg",
+     "layoutId": 1
+  },
+  {
+    "id": 30,
+    "year": "1980 ec",
+    "title": "Rocket Yoga",
+    "text1": {
+      "title": "Introducción",
+      "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
+    },
+    "text2": {
+      "title": "Larry Schultz",
+      "content": "Estos son los detalles del evento antiguo 1200 EC."
+    },
+    "image": "path/to/image14.jpg",
+     "layoutId": 1
+  },
+  {
+    "id": 31,
+    "year": "1984 ec",
+    "title": "Jivamukti Yoga",
+    "text1": {
+      "title": "Introducción",
+      "content": "Sharon Gannon y David Life crean en Manhattan un estilo que combina arte, activismo y veganismo"
+    },
+    "text2": {
+      "title": "Detalle",
+      "content": "Estos son los detalles del evento antiguo 1200 EC."
+    },
+    "image": "path/to/image14.jpg",
+     "layoutId": 1
+  },
+  {
+    "id": 32,
+    "year": "1990 ec",
+    "title": "Prana Vinyasa Yoga",
+    "text1": {
+      "title": "Introducción",
+      "content": "Shiva Rea"
+    },
+    "text2": {
+      "title": "la imagen femenina del yoga",
+      "content": "Estos son los detalles del evento antiguo 1200 EC."
+    },
+    "image": "path/to/image14.jpg",
+     "layoutId": 1
+  },
+  {
+    "id": 33,
+    "year": "1997 ec",
+    "title": "Anusara Yoga",
+    "text1": {
+      "title": "Introducción",
+      "content": "John Friend"
+    },
+    "text2": {
+      "title": "Detalle",
+      "content": "Estos son los detalles del evento antiguo 1200 EC."
+    },
+    "image": "path/to/image14.jpg",
+     "layoutId": 1
+  },
+  {
+    "id": 34,
+    "year": "2003 ec",
+    "title": "Acroyoga",
+    "text1": {
+      "title": "Introducción",
+      "content": ""
+    },
+    "text2": {
+      "title": "Detalle",
+      "content": "Estos son los detalles del evento antiguo 1200 EC."
+    },
+    "image": "path/to/image14.jpg",
+     "layoutId": 1
+  },
+  {
+    "id": 35,
+    "year": "2005 ec",
+    "title": "Toga festivals",
+    "text1": {
+      "title": "Introducción",
+      "content": ""
+    },
+    "text2": {
+      "title": "Detalle",
+      "content": "Estos son los detalles del evento antiguo 1200 EC."
+    },
+    "image": "path/to/image14.jpg",
+     "layoutId": 1
+  },
+  {
+    "id": 36,
+    "year": "2014 ec",
+    "title": "Día Internacional del Yoga",
+    "text1": {
+      "title": "Introducción",
+      "content": ""
+    },
+    "text2": {
+      "title": "Detalle",
+      "content": "Estos son los detalles del evento antiguo 1200 EC."
+    },
+    "image": "path/to/image14.jpg",
+     "layoutId": 1
+  },
+  {
+    "id": 37,
+    "year": "2015 ec",
+    "title": "Yoga con conejos y mas",
+    "text1": {
+      "title": "Introducción",
+      "content": ""
+    },
+    "text2": {
+      "title": "Detalle",
+      "content": "Estos son los detalles del evento antiguo 1200 EC."
+    },
+    "image": "path/to/image14.jpg",
+     "layoutId": 1
+  },
+  {
+    "id": 38,
+    "year": "2016 ec",
+    "title": "Acusaciones de abuso sexual en el yoga",
+    "text1": {
+      "title": "Introducción",
+      "content": ""
+    },
+    "text2": {
+      "title": "Detalle",
+      "content": "Estos son los detalles del evento antiguo 1200 EC."
+    },
+    "image": "path/to/image14.jpg",
+     "layoutId": 1
+  },
+  {
+    "id": 39,
+    "year": "2020 ec",
+    "title": "Yoga online",
+    "text1": {
+      "title": "Introducción",
+      "content": ""
+    },
+    "text2": {
+      "title": "Detalle",
       "content": "Estos son los detalles del evento antiguo 1200 EC."
     },
     "image": "path/to/image14.jpg",
