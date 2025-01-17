@@ -12,7 +12,11 @@
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in nisl ullamcorper, tincidunt est eu, congue felis. Morbi pharetra imperdiet mollis. Nullam hendrerit dui leo, eu feugiat risus tristique eu. Integer aliquam odio vitae velit hendrerit aliquet. Curabitur bibendum dapibus porta. "
     },
     "image1": "yoga.png",
-     "layoutId": 0
+    "bibliography": {
+      "books": [],
+      "links": []
+    },
+    "layoutId": 0
   },
   {
     "id": 2,
@@ -29,7 +33,17 @@
     "image1": "sello-1.png",
     "image2": "sello-2.png",
     "imageTop": "mapa.png",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
      "layoutId": 1
+     
   },
   {
     "id": 3,
@@ -80,6 +94,15 @@
           }]
       },
     "image": "",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
     "layoutId": 2
   },
  {
@@ -116,6 +139,15 @@
       "image": "vedas4.png"
     }
   ],
+  "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
   "layoutId": 3
 },
   {
@@ -161,6 +193,15 @@
         }]
       },
     "image": "",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
     "layoutId": 2
   },
   {
@@ -177,6 +218,15 @@
     },
     "image1": "katha2.png",
     "imageTop": "katha-top.png",
+    "bibliography": {
+      "books": ["Upanishads Correspondencias Ocultas <br/> <p style=\"font-size: 0.8rem\"> Juan Aranu - Editorial Atalanta</p>", "Isa, Katha, Kena, Mundaka Y Preshna Upanishads<br/> <p style=\"font-size: 0.8rem\"> de Swami Nikhilananda - Editorial Hastinapura</p>"],
+      "links": [
+        {
+          "link": "https://gita.pub/upanishad/katha/",
+          "description": "Recitación en sánscrito con traducción al inglés"
+        }
+      ]
+    },
      "layoutId": 1
   },
   {
@@ -194,6 +244,15 @@
     "image1": "buddha-2.png",
     "image2": "",
     "imageTop": "buddha-map.png",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
     "layoutId": 1
   },
   {
@@ -220,6 +279,15 @@
             "cell": "La Śvetāśvatara Upanishad presenta una <b>visión más teísta y personal</b>. En ella, el Brahman se identifica con una divinidad trascendental, a menudo asociada con Śiva o Rudra, y el Yoga se convierte en un medio para conectar directamente con esta divinidad.<br/><br/> La Upanishad subraya que, a través de <b>la práctica del Yoga (meditación, control de la mente y devoción)</b>, se puede alcanzar la <b>unión con lo divino</b> y experimentar la paz eterna y la liberación. La relación con lo divino, por tanto, es clave para entender la práctica y el propósito del Yoga en este texto."
         }]
       },
+      "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
      "layoutId": 2
   },
   {
@@ -237,6 +305,15 @@
     "image1": "gita-4.png",
     "image2": "gita-3.png",
     "imageTop": "gita-top.png",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
     "layoutId": 1
   },
   {
@@ -252,6 +329,15 @@
       "content": "Estos son los detalles del evento antiguo 563 EC."
     },
     "image": "path/to/image10.jpg",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
      "layoutId": 1
   },
   {
@@ -267,6 +353,15 @@
       "content": "Estos son los detalles del evento antiguo 200 EC."
     },
     "image": "path/to/image11.jpg",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
      "layoutId": 1
   },
   {
@@ -282,6 +377,15 @@
       "content": "Estos son los detalles del evento antiguo 400 EC."
     },
     "image": "path/to/image12.jpg",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
      "layoutId": 1
   },
   {
@@ -297,6 +401,15 @@
       "content": "Estos son los detalles del evento antiguo 600 EC."
     },
     "image": "path/to/image13.jpg",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
      "layoutId": 1
   },
   {
@@ -312,6 +425,15 @@
       "content": "Estos son los detalles del evento antiguo 1200 EC."
     },
     "image": "path/to/image14.jpg",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
      "layoutId": 1
   },
   {
@@ -327,6 +449,15 @@
       "content": "Estos son los detalles del evento antiguo 1200 EC."
     },
     "image": "path/to/image14.jpg",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
      "layoutId": 1
   },
   {
@@ -342,6 +473,15 @@
       "content": "Estos son los detalles del evento antiguo 1200 EC."
     },
     "image": "path/to/image14.jpg",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
      "layoutId": 1
   },
   {
@@ -357,6 +497,15 @@
       "content": "Estos son los detalles del evento antiguo 1200 EC."
     },
     "image": "path/to/image14.jpg",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
      "layoutId": 1
   },
   {
@@ -372,6 +521,15 @@
       "content": "Estos son los detalles del evento antiguo 1200 EC."
     },
     "image": "path/to/image14.jpg",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
      "layoutId": 1
   },
   {
@@ -387,6 +545,15 @@
       "content": "Estos son los detalles del evento antiguo 1200 EC."
     },
     "image": "path/to/image14.jpg",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
      "layoutId": 1
   },
   {
@@ -402,6 +569,15 @@
       "content": "Estos son los detalles del evento antiguo 1200 EC."
     },
     "image": "path/to/image14.jpg",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
      "layoutId": 1
   },
   {
@@ -417,6 +593,15 @@
       "content": "Estos son los detalles del evento antiguo 1200 EC."
     },
     "image": "path/to/image14.jpg",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
      "layoutId": 1
   },
   {
@@ -432,6 +617,15 @@
       "content": "Estos son los detalles del evento antiguo 1200 EC."
     },
     "image": "path/to/image14.jpg",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
      "layoutId": 1
   },
   {
@@ -447,6 +641,15 @@
       "content": "Estos son los detalles del evento antiguo 1200 EC."
     },
     "image": "path/to/image14.jpg",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
      "layoutId": 1
   },
   {
@@ -462,6 +665,15 @@
       "content": "Estos son los detalles del evento antiguo 1200 EC."
     },
     "image": "path/to/image14.jpg",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
      "layoutId": 1
   },
   {
@@ -477,6 +689,15 @@
       "content": "Estos son los detalles del evento antiguo 1200 EC."
     },
     "image": "path/to/image14.jpg",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
      "layoutId": 1
   },
   {
@@ -492,6 +713,15 @@
       "content": "Estos son los detalles del evento antiguo 1200 EC."
     },
     "image": "path/to/image14.jpg",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
      "layoutId": 1
   },
   {
@@ -507,6 +737,15 @@
       "content": "Estos son los detalles del evento antiguo 1200 EC."
     },
     "image": "path/to/image14.jpg",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
      "layoutId": 1
   },
   {
@@ -522,6 +761,15 @@
       "content": "Estos son los detalles del evento antiguo 1200 EC."
     },
     "image": "path/to/image14.jpg",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
      "layoutId": 1
   },
   {
@@ -537,6 +785,15 @@
       "content": "Estos son los detalles del evento antiguo 1200 EC."
     },
     "image": "path/to/image14.jpg",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
      "layoutId": 1
   },
   {
@@ -552,6 +809,15 @@
       "content": "Estos son los detalles del evento antiguo 1200 EC."
     },
     "image": "path/to/image14.jpg",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
      "layoutId": 1
   },
   {
@@ -567,6 +833,15 @@
       "content": "Estos son los detalles del evento antiguo 1200 EC."
     },
     "image": "path/to/image14.jpg",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
      "layoutId": 1
   },
   {
@@ -582,6 +857,15 @@
       "content": "Estos son los detalles del evento antiguo 1200 EC."
     },
     "image": "path/to/image14.jpg",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
      "layoutId": 1
   },
   {
@@ -597,6 +881,15 @@
       "content": "Estos son los detalles del evento antiguo 1200 EC."
     },
     "image": "path/to/image14.jpg",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
      "layoutId": 1
   },
   {
@@ -612,6 +905,15 @@
       "content": "Estos son los detalles del evento antiguo 1200 EC."
     },
     "image": "path/to/image14.jpg",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
      "layoutId": 1
   },
   {
@@ -627,6 +929,15 @@
       "content": "Estos son los detalles del evento antiguo 1200 EC."
     },
     "image": "path/to/image14.jpg",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
      "layoutId": 1
   },
   {
@@ -642,6 +953,15 @@
       "content": "Estos son los detalles del evento antiguo 1200 EC."
     },
     "image": "path/to/image14.jpg",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
      "layoutId": 1
   },
   {
@@ -657,6 +977,15 @@
       "content": "Estos son los detalles del evento antiguo 1200 EC."
     },
     "image": "path/to/image14.jpg",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
      "layoutId": 1
   },
   {
@@ -672,6 +1001,15 @@
       "content": "Estos son los detalles del evento antiguo 1200 EC."
     },
     "image": "path/to/image14.jpg",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
      "layoutId": 1
   },
   {
@@ -687,6 +1025,15 @@
       "content": "Estos son los detalles del evento antiguo 1200 EC."
     },
     "image": "path/to/image14.jpg",
+    "bibliography": {
+      "books": ["libro1", "libro2"],
+      "links": [
+        {
+          "link": "www.link.com",
+          "description": "este es un link de interes"
+        }
+      ]
+    },
      "layoutId": 1
   }
 ]

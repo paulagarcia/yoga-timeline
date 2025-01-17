@@ -11,7 +11,7 @@
   --yellow: #F0C16B;
 }
 
-#app {
+#app, body {
   font-weight: normal;
   background-color: var(--floral-white);
   font-family: 'Montserrat Alternates', sans-serif;
@@ -42,11 +42,28 @@ h2 {
   letter-spacing: -12px;
 }
 
+h4 {
+  font-size: 1.5em;
+  font-weight: 600;
+  font-style: normal;
+  color: var(--yellow);
+  line-height: 1;
+}
+
 p {
   font-size: 1rem;
   font-weight: 400;
   font-style: normal;
 }
+.color-text-primary {
+  color: var(--force-blue);
+} 
+.color-text-primary-light {
+  color: var(--powder-blue);
+} 
+.color-text-secondary {
+  color: var(--yellow);
+} 
 
 .border-page {
   border-right: 1px dashed #EFCD9F;

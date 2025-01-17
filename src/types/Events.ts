@@ -11,6 +11,7 @@ export interface Event {
     image1?: string;
     image2?: string;
     imageTop?: string;
+    bibliography: Bibliography;
   }
 
 export interface Table {
@@ -26,4 +27,12 @@ export interface Card {
   subtitle: string;
   content: string;
   image?: string;
+}
+
+export interface Bibliography {
+  books: string[];
+  links: {
+    link: string;
+    description: string;
+  }[];
 }

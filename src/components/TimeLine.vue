@@ -60,8 +60,8 @@ watch(() => props.eventId, () => {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 250px;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(248 247 241));
+    height: 390px;
+    background: linear-gradient(0deg, rgba(248, 247, 240, 1) 0%, rgb(248 247 240) 35%, rgba(248, 247, 240, 0) 100%);
 }
 
 .selected {
