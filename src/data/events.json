@@ -300,7 +300,7 @@
     },
     "text2": {
       "title": "Que dice del yoga?",
-      "content": "El Mahabharata, especialmente la Bhagavad Gita, establece los fundamentos del yoga como un camino espiritual. Krishna enseña a Arjuna sobre <b>tres tipos principales de yoga:</b><br/><b>Karma Yoga:</b>: yoga de la acción desinteresada<br/><b>Bhakti Yoga</b> yoga de la devoción<br/><b>Jnana Yoga:</b> yoga del conocimiento.<br/><br/>Estos caminos guían al practicante hacia la liberación (moksha), integrando ética, disciplina y espiritualidad. Además, la epopeya aborda temas de control de la mente y desapego, principios centrales en el yoga. El Mahabharata conecta la práctica del yoga con la vida cotidiana y el dharma."
+      "content": "El Mahabharata, especialmente la Bhagavad Gita, establece los fundamentos del yoga como un camino espiritual. Krishna enseña a Arjuna sobre <b>tres tipos principales de yoga:</b><br/><b>Karma Yoga:</b>: yoga de la acción desinteresada<br/><b>Bhakti Yoga</b> yoga de la devoción<br/><b>Jnana Yoga:</b> yoga del conocimiento.<br/><br/>Estos caminos guían al practicante hacia la liberación (moksha), integrando ética, disciplina y espiritualidad. Además, la epopeya aborda temas de <b>control de la mente y desapego</b>, principios centrales en el yoga. El Mahabharata conecta la práctica del yoga con la vida cotidiana y el dharma."
     },
     "image1": "gita-4.png",
     "image2": "gita-3.png",
@@ -321,16 +321,16 @@
     "year": "400 ec",
     "title": "Yoga Sutra",
     "text1": {
-      "title": "Introducción",
-      "content": "Este es el contenido de la introducción del evento antiguo 563 EC."
+      "title": "",
+      "content": "Los Yoga Sūtras son un texto clásico del yoga escrito por el <b>sabio Patañjali</b>, probablemente alrededor del siglo II a.C. Se componen de <b>196 aforismos breves</b> que sistematizan la práctica y filosofía del yoga en cuatro capítulos: <b>Samādhi Pāda, Sādhana Pāda, Vibhūti Pāda y Kaivalya Pāda</b>. <br/><br/>Este texto describe el yoga como <b>\"la cesación de las fluctuaciones de la mente\" (citta vṛtti nirodhaḥ)</b>, enfocándose en la trascendencia de la mente para experimentar la verdadera naturaleza del ser."
     },
     "text2": {
-      "title": "Detalles",
-      "content": "Estos son los detalles del evento antiguo 563 EC."
+      "title": "El ashtanga yoga",
+      "content": "El aṣṭāṅga yoga de Patañjali, es un sistema integral que guía al practicante hacia la autorrealización y la liberación espiritual. Estos ocho pasos son: <br/><b>Yama:</b> códigos éticos, <br/><b>Niyama:</b> disciplinas personales, <br/><b>Asana:</b> posturas físicas, <br/><b>Prāṇāyāma:</b> control de la respiración, <br/><b>Pratyāhāra:</b> retiro de los sentidos,<br/><b> Dhāraṇā: </b>concentración, <br/><b>Dhyāna: </b> meditación  <br/><b>Samādhi:</b> absorción en el estado supremo.<br/></br/> Cada paso está diseñado para purificar el cuerpo, la mente y el espíritu, progresando desde el autocontrol externo hacia la introspección profunda, con el objetivo final de alcanzar la unión con el ser supremo."
     },
-    "image": "path/to/image10.jpg",
+    "image1": "sutras.png",
     "bibliography": {
-      "books": ["libro1", "libro2"],
+      "books": ["Yogasûtra - Los aforismos del Yoga <br/> <p style=\"font-size: 0.8rem\"> Òscar Pujol - Editorial Kairos</p>", "El yoga de Patanjali. Los yoga sutras.<br/> <p style=\"font-size: 0.8rem\"> José Antonio Offroy Arranz - Editorial Ela</p>", "Yoga sutras de Patanjali.<br/> <p style=\"font-size: 0.8rem\"> T.K.V. Desikachar - Editorial Edaf</p>", "Los yoga sutras de Patanjali.<br/> <p style=\"font-size: 0.8rem\"> Sri Swami Satchidananda - Editorial Integral Yoga Publications</p>", "Luz sobre los Yoga-sutras de Patañjali<br/> <p style=\"font-size: 0.8rem\"> B.K.S. Iyengar - Editorial Kairós</p>"],
       "links": [
         {
           "link": "www.link.com",
@@ -338,7 +338,7 @@
         }
       ]
     },
-     "layoutId": 1
+     "layoutId": 4
   },
   {
     "id": 11,
@@ -346,23 +346,34 @@
     "title": "Tantra hindú",
     "text1": {
       "title": "Introducción",
-      "content": "Este es el contenido de la introducción del evento antiguo 200 EC."
+      "content": "El tantra hindú, surgido aproximadamente en el siglo VI d.C., fue un <b>movimiento espiritual que desafió las normas ortodoxas de la época</b>. Mientras que las tradiciones védicas y brahmánicas enfatizaban la renuncia y los rituales formales, el tantra proponía una <b>visión inclusiva, donde el cuerpo, los sentidos y las experiencias mundanas se consideraban herramientas válidas</b> para alcanzar la iluminación.<br/></br/> Fundado en textos llamados tantras, este enfoque revolucionario resaltaba la <b>unión de los principios divinos masculino (Shiva) y femenino (Shakti)</b>, y valoraba prácticas que exploraban la energía interna y la transformación personal, marcando un giro en las tradiciones espirituales de la India."
     },
-    "text2": {
-      "title": "Detalles",
-      "content": "Estos son los detalles del evento antiguo 200 EC."
+    "table1": {
+      "title": "Influencia del Tantra en el Yoga",
+      "content": [
+        {
+          "cellTitle": "",
+          "cell": "El tantra hindú transformó la práctica del yoga al integrar elementos ritualísticos y técnicas enfocadas en el control de la energía y la mente. <br/>Introdujo conceptos como los <b>chakras (centros de energía)</b>, las <b>nadis (canales energéticos)</b> y el <b>kundalini</b>, que se convertirían en pilares fundamentales de prácticas posteriores como el hatha yoga. <br/>A través de la combinación de posturas, respiración y meditación, el tantra destacó la importancia del cuerpo como vehículo para la autorrealización."
+        }]
     },
-    "image": "path/to/image11.jpg",
+    "table2": {
+        "title": "El tantra hoy",
+        "content": [
+          {
+            "cellTitle": "",
+            "cell": "Hoy en día, el tantra es una tradición espiritual compleja y diversa que abarca múltiples interpretaciones, tanto en Oriente como en Occidente. En su forma tradicional, especialmente en <b>India y el Tíbet</b>, el tantra sigue siendo una práctica ritualística y filosófica profunda, enfocada en la unión de lo divino y lo humano, el control de la energía interna y la autorrealización mediante <b>meditaciones, mantras, yantras, yóga y rituales devocionales.</b><br/><br/>En <b>Occidente</b>, el tantra ha sido reinterpretado, muchas veces <b>reducido o malentendido</b>, y a menudo asociado casi exclusivamente con la <b>sexualidad sagrada</b>. Aunque el aspecto sexual es parte del tantra tradicional, representa <b>solo un fragmento de su vasto sistema</b>, que en esencia busca trascender las dualidades y despertar el potencial espiritual inherente en cada individuo."
+        }]
+      },
     "bibliography": {
-      "books": ["libro1", "libro2"],
-      "links": [
+    "books": ["libro1", "libro2"],
+       "links": [
         {
           "link": "www.link.com",
           "description": "este es un link de interes"
         }
       ]
     },
-     "layoutId": 1
+     "layoutId": 2
   },
   {
     "id": 12,
@@ -370,13 +381,13 @@
     "title": "Tantra Budista",
     "text1": {
       "title": "Introducción",
-      "content": "Este es el contenido de la introducción del evento antiguo 400 EC."
+      "content": "El tantra budista, también conocido como <b>vajrayāna o el \"Camino del Diamante\"</b>, es una rama del budismo que surgió alrededor del siglo VI d.C. en India. <br/>Este enfoque combina enseñanzas tradicionales del budismo con prácticas tántricas, utilizando rituales, visualizaciones y meditaciones avanzadas para acelerar el camino hacia la iluminación.<br/> Considerado esotérico, el tantra budista <b>requiere la guía de un maestro calificado</b> y un compromiso profundo con las prácticas. <br/>Su objetivo principal es transformar las emociones y energías ordinarias en herramientas de realización espiritual, enfocándose en la <b>unión de la compasión (karuṇā) y la sabiduría (prajñā)</b>."
     },
     "text2": {
       "title": "Amrtasiddhi",
-      "content": "Estos son los detalles del evento antiguo 400 EC."
+      "content": "La Amṛtasiddhi es un <b>texto seminal sobre hatha yoga</b>, escrito en sánscrito y fechado aproximadamente entre los siglos XI y XII. Se considera uno de los primeros tratados conocidos que exploran técnicas yóguicas relacionadas con la alquimia interna y el control de la energía vital (prāṇa). El texto se centra en <b>conceptos fundamentales como el bindu (esencia seminal), el nāda (sonido interior) y el amṛta (néctar de la inmortalidad)</b>, presentando prácticas que prometen la longevidad y la autorrealización. <br/><br/>A diferencia de textos posteriores, la Amṛtasiddhi tiene una conexión estrecha con tradiciones budistas tántricas, lo que refleja el intercambio cultural y espiritual de la época. <b>Su influencia es evidente en obras más conocidas como la Haṭha Yoga Pradīpikā.</b>"
     },
-    "image": "path/to/image12.jpg",
+    "image1": "tantra-budista.png",
     "bibliography": {
       "books": ["libro1", "libro2"],
       "links": [
@@ -386,7 +397,7 @@
         }
       ]
     },
-     "layoutId": 1
+     "layoutId": 4
   },
   {
     "id": 13,
@@ -394,13 +405,14 @@
     "title": "Amaraughaprabodha",
     "text1": {
       "title": "Introducción",
-      "content": "Este es el contenido de la introducción del evento antiguo 600 EC."
+      "content": "La Amaraughaprabodha, cuyo título puede traducirse como \"El Despertar de la Corriente Inmortal\", es un texto en sánscrito atribuido tradicionalmente al <b>sabio Gorakṣanātha</b>, aunque su autoría exacta es incierta. <br/><br/>Fechado aproximadamente entre los siglos XIII y XIV, este tratado explora prácticas espirituales relacionadas con el control de la energía y la realización interior.<br/> <br/>Está vinculado a las <b>tradiciones nathas y el yoga tántrico</b>, enfocándose en la trascendencia de la dualidad y el despertar del néctar de la inmortalidad (amṛta), un tema central en las tradiciones del yoga esotérico."
     },
     "text2": {
-      "title": "Detalles",
-      "content": "Estos son los detalles del evento antiguo 600 EC."
+      "title": "La Amaraughaprabodha y el Hatha Yoga",
+      "content": "La Amaraughaprabodha es notable por ser uno de los <b>primeros textos conocidos que mencionan explícitamente el término hathayoga</b>. <br/><br/>En este contexto, el hathayoga se describe no solo como una disciplina física, sino como una <b>práctica integral para equilibrar las energías opuestas del cuerpo (ha, el sol, y ṭha, la luna)</b>. <br/><br/>Este texto ayudó a establecer las bases conceptuales para el desarrollo del hathayoga como una tradición sistematizada en siglos posteriores, enfatizando la unión del cuerpo y la mente como un camino hacia la iluminación."
     },
-    "image": "path/to/image13.jpg",
+    "image1": "sol-luna.png",
+    "imageTop": "",
     "bibliography": {
       "books": ["libro1", "libro2"],
       "links": [
@@ -410,7 +422,7 @@
         }
       ]
     },
-     "layoutId": 1
+     "layoutId": 4
   },
   {
     "id": 14,
@@ -418,13 +430,14 @@
     "title": "Manuales de Hatha Yoga",
     "text1": {
       "title": "Introducción",
-      "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
+      "content": "Los <b>textos clásicos del yoga</b> son fundamentales para entender su evolución.<br/><br/>  <b>El Dattātreyayogaśāstra</b> (siglo XIII) presenta un enfoque inclusivo que combina jñana yoga, karma yoga y hatha yoga. <br/><br/> <b>El Gorakṣa Śataka</b>, también del siglo XIII, se enfoca en técnicas de purificación yóguica y es una obra central de los nathas. <br/> <br/>En el siglo XIV, la <b>Śiva Saṁhitā</b> destaca como una síntesis de filosofía y práctica, abordando asanas, prāṇāyāma y conceptos tántricos. <br/><br/> <b>La Gheraṇḍa Saṁhitā</b> (siglo XVIII) es un tratado más técnico y sistemático que describe el saptāṅga yoga o yoga de siete etapas, cubriendo aspectos físicos y espirituales."
     },
     "text2": {
       "title": "Hatha Pradīpikā (Siglo XV)",
-      "content": "Estos son los detalles del evento antiguo 1200 EC."
+      "content": "La Haṭha Pradīpikā, escrita por <b>Svātmārāma</b>, es el <b>manual más influyente de hatha yoga</b>. <br/><br/>Presenta un <b>enfoque sistemático</b> en cuatro capítulos que abarcan <b>asanas</b> (posturas físicas), <b>prāṇāyāma</b> (control de la respiración), <b>mudras</b> (gestos energéticos) y <b>samādhi</b> (absorción meditativa). <br/><br/>Este texto consolida enseñanzas de tradiciones previas y las adapta en un marco accesible, integrando prácticas físicas y energéticas con metas espirituales. Además, enfatiza la <b>preparación del cuerpo y la mente como base para alcanzar la iluminación</b>.<br/><br/> La Haṭha Pradīpikā es fundamental en la historia del yoga, influyendo en prácticas contemporáneas y en textos posteriores como la Gheraṇḍa Saṁhitā."
     },
-    "image": "path/to/image14.jpg",
+    "image1": "hatha-1.png",
+    "image2": "hatha-2.png",
     "bibliography": {
       "books": ["libro1", "libro2"],
       "links": [
@@ -442,13 +455,14 @@
     "title": "Sociedad Teosófica",
     "text1": {
       "title": "Introducción",
-      "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
+      "content": "La Sociedad Teosófica, fundada en 1875 en <b>Nueva York</b> por <b>Helena Blavatsky, Henry Steel Olcott y William Quan Judge</b>, es una organización dedicada a la búsqueda de sabiduría espiritual universal.<br/><br/> Su objetivo principal es <b>estudiar religiones comparadas, filosofía y ciencias para fomentar la fraternidad humana</b>. Inspirada por tradiciones orientales como el hinduismo y el budismo, <b>promueve la idea de una verdad subyacente común</b> a todas las religiones."
     },
     "text2": {
       "title": "Relacion con el Yoga",
-      "content": "Estos son los detalles del evento antiguo 1200 EC."
+      "content": "La Sociedad Teosófica desempeñó un <b>papel clave en la difusión del yoga en Occidente a finales del siglo XIX y principios del XX</b>. <br/><br/>A través de sus líderes y publicaciones, promovió el interés por las prácticas espirituales de la India, incluyendo el <b>yoga como un camino de autorrealización y conexión con lo divino</b>. <br/><br/> Aunque la interpretación teosófica del yoga a menudo enfatizaba aspectos filosóficos y esotéricos más que las prácticas físicas, <b>sentó las bases para su aceptación global</b> como una herramienta de transformación espiritual."
     },
-    "image": "path/to/image14.jpg",
+    "image1": "soc-teo.png",
+    "imageTop": "teo-top.png",
     "bibliography": {
       "books": ["libro1", "libro2"],
       "links": [

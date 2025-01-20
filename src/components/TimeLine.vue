@@ -2,7 +2,7 @@
   <div class="h-full flex items-center w-full relative">
   <div class="flex w-full flex-col max-h-75 overflow-auto  justify-center items-center hide-scrollbar fade-out shadows-into-light-two-regular">
     <ul class="flex flex-col max-w-max max-h-75">
-      <li v-for="yearAndID in yearsWithId" :key="yearAndID.id" @click="changePath(yearAndID.id)" class="cursor-pointer mb-2 text-right" :class="{ 'text-xl selected': yearAndID.id === eventId }">
+      <li v-for="yearAndID in yearsWithId" :key="yearAndID.id" @click="changePath(yearAndID.id)" class="cursor-pointer mb-2 text-right last:pb-60" :class="{ 'text-xl selected': yearAndID.id === eventId }">
         {{ yearAndID.year }}
       </li>
     </ul>

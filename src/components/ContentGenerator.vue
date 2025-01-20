@@ -11,6 +11,9 @@
   <template v-else-if="event && event.layoutId == 3">
     <LayoutThree :event="event" />
   </template>
+  <template v-else-if="event && event.layoutId == 4">
+    <LayoutFour :event="event" />
+  </template>
   <div v-else>
     <p>Evento no encontrado</p>
   </div>
@@ -23,6 +26,7 @@ import LayoutHome from './LayoutHome.vue';
 import LayoutOne from './LayoutOne.vue';
 import LayoutTwo from './LayoutTwo.vue';
 import LayoutThree from './LayoutThree.vue';
+import LayoutFour from './LayoutFour.vue';
 import { Event } from '../types/Events';
 
 const props = defineProps<{ eventId: number }>();
