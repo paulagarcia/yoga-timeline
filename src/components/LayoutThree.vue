@@ -121,6 +121,7 @@ h4 {
   max-width: 180px;
   width: 180px;
   height: auto;
+  border-radius: 8px;
  
 }
 </style>

@@ -960,7 +960,7 @@
       "title": "Yoga de la Risa",
       "subtitle": "",
       "content": "Combina la risa voluntaria con ejercicios de respiración y posturas de yoga, buscando liberar tensiones, mejorar la salud mental y promover el bienestar a través del humor",
-      "image": "yoga-risa.png"
+      "image": "risa.png"
     },
     {
       "title": "Aqua Yoga",
@@ -989,40 +989,28 @@
   },
   {
     "id": 36,
-    "year": "2016 ec",
-    "title": "Acusaciones de abuso sexual en el yoga",
-    "text1": {
-      "title": "Introducción",
-      "content": ""
-    },
-    "text2": {
-      "title": "Detalle",
-      "content": "Estos son los detalles del evento antiguo 1200 EC."
-    },
-    "image": "path/to/image14.jpg",
-    "bibliography": {
-      "books": ["libro1", "libro2"],
-      "links": [
-        {
-          "link": "www.link.com",
-          "description": "este es un link de interes"
-        }
-      ]
-    },
-     "layoutId": 1
-  },
-  {
-    "id": 37,
     "year": "2020 ec",
     "title": "Yoga online",
     "text1": {
       "title": "Introducción",
-      "content": ""
+      "content": "La migración del yoga presencial a la modalidad online se aceleró debido a la <b>pandemia de COVID-19</b>, que obligó a la mayoría de los estudios y centros de yoga a cerrar temporalmente.<br/><br/> Los maestros y practicantes comenzaron a adaptarse a <b>plataformas digitales</b> como Zoom, YouTube y aplicaciones especializadas, permitiendo continuar con las clases desde casa. <br/><br/>Aunque muchos encontraron consuelo en mantener sus prácticas, la transición no estuvo exenta de desafíos, como la pérdida de la interacción personal y la falta de ajustes físicos por parte del instructor. Sin embargo, el acceso global y la flexibilidad horaria resultaron ser puntos fuertes de este cambio."
     },
-    "text2": {
-      "title": "Detalle",
-      "content": "Estos son los detalles del evento antiguo 1200 EC."
+    "table1": {
+      "title": "Posibles ventajas",
+      "content": [
+        {
+          "cellTitle": "",
+          "cell": "<b>Flexibilidad </b>horaria y acceso desde cualquier lugar.<br/><br/> <b>Mayor alcance</b>, permitiendo a estudiantes de todo el mundo unirse.<br/><br/> Acceso a <b>clases grabadas</b> para una práctica más personalizada."
+        }]
     },
+    "table2": {
+        "title": "Posibles desventajas",
+        "content": [
+          {
+            "cellTitle": "",
+            "cell": "Falta de interacción física, <b>dificultando ajustes o correcciones</b> por parte del instructor.<br/><br/>Posible <b>desconexión del ambiente físico y energético</b> del estudio.<br/><br/><b>Dependencia de la tecnología</b>, lo que puede ser un obstáculo para algunos."
+        }]
+      },
     "image": "path/to/image14.jpg",
     "bibliography": {
       "books": ["libro1", "libro2"],
@@ -1033,6 +1021,6 @@
         }
       ]
     },
-     "layoutId": 1
+     "layoutId": 2
   }
 ]
