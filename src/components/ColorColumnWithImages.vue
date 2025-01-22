@@ -2,7 +2,7 @@
   <div class="flex column-container" :class="bgColorClass">
     <div class="column"></div>
     <div class="flex flex-col relative" :class="[bgColorClass === 'blue' ? 'top-20' : 'top-8']">
-        <img v-if="image1" :src="image1Src" alt="Image 1" class="image mb-8" />
+        <img v-if="image1" :src="image1Src" alt="Image 1" class="image mb-12" />
         <img v-if="image2" :src="image2Src" alt="Image 2" class="image" />
     </div>
     
@@ -28,12 +28,12 @@ const bgColorClass = computed(() => props.color ? props.color : 'yellow');
   display: flex;
   justify-content: space-between;
   height: 100%;
-  min-height: 68vh;
+  min-height: 74vh;
   &.blue {
     align-items: flex-start;
     .column {
       background-color: var(--powder-blue);
-      height: 74%;
+      height: 80%;
       width: 125px;
     }
   }

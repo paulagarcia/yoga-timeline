@@ -480,23 +480,27 @@
     "title": "Swami Vivekananda",
     "text1": {
       "title": "Introducción",
-      "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
+      "content": "Swami Vivekananda (1863-1902) fue un <b>filósofo, místico y reformador indio</b>, discípulo principal de <b>Sri Ramakrishna</b>. <br/> <br/>Fue un pionero en llevar las <b>enseñanzas del hinduismo al escenario global</b>, promoviendo la unidad espiritual y la aceptación interreligiosa. Vivekananda fundó <b>la Misión Ramakrishna</b>, una organización dedicada a la filantropía, la educación y la espiritualidad.<br/> <br/>Su pensamiento combinaba la <b>tradición espiritual india con ideas progresistas</b>, enfatizando la autorrealización, la justicia social y la unidad de la humanidad. Considerado un arquitecto del renacimiento hindú, Vivekananda sigue siendo una figura influyente tanto en India como en el mundo."
     },
     "text2": {
       "title": "Discurso en Chicago",
-      "content": "Estos son los detalles del evento antiguo 1200 EC."
+      "content": "El 11 de septiembre de 1893, Swami Vivekananda pronunció un <b>histórico discurso en el Parlamento Mundial de las Religiones en Chicago</b>.<br/> <br/> Su saludo inicial, \"Hermanas y hermanos de América\", fue ovacionado, marcando un hito en la historia del diálogo interreligioso.<br/> <br/> Vivekananda presentó el hinduismo como una religión de tolerancia, unidad y aceptación universal. Enfatizó la armonía entre las creencias, rechazando el sectarismo y la intolerancia. Este discurso no solo consolidó su papel como embajador espiritual de la India, sino que también <b>introdujo el yoga y la filosofía vedanta al público occidental</b>, generando un interés masivo en las tradiciones espirituales de India."
     },
-    "image": "path/to/image14.jpg",
+    "image1": "vivekananda.png",
     "bibliography": {
       "books": ["libro1", "libro2"],
       "links": [
         {
-          "link": "www.link.com",
-          "description": "este es un link de interes"
+          "link": "https://www.youtube.com/watch?v=cdTy8e7XMxA&ab_channel=NewsHindustanNH-24",
+          "description": "Video del discurso completo en ingles"
+        },
+        {
+          "link": "https://yoganidra.com.mx/2021/02/23/discruso-de-bienvenida-de-swami-vivekananda-en-el-parlamento-de-religiones-de-1893/",
+          "description": "Discurso completo en español"
         }
       ]
     },
-     "layoutId": 1
+     "layoutId": 4
   },
   {
     "id": 17,
@@ -504,19 +508,20 @@
     "title": "Shri Yogendra",
     "text1": {
       "title": "Introducción",
-      "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
+      "content": "Shri Yogendra (1897-1989) fue un <b>influyente maestro y pionero del yoga moderno</b> en India y Occidente. <br/><br/>Considerado uno de los <b>fundadores del yoga terapéutico</b>, combinó las prácticas tradicionales con un enfoque científico y accesible para personas de todas las edades y condiciones físicas. Inspirado por su maestro, Paramahamsa Madhavdasji, Shri Yogendra dedicó su vida a desmitificar el yoga y promoverlo como una <b>herramienta práctica para el bienestar físico, mental y espiritual</b>. <br/><br/>Su enfoque pragmático revolucionó la enseñanza del yoga, haciendo que fuera adoptado como un <b>sistema integral de salud </b>en lugar de un camino exclusivamente espiritual."
     },
     "text2": {
       "title": "The Yoga Institute",
-      "content": "Estos son los detalles del evento antiguo 1200 EC."
+      "content": "Fundado por Shri Yogendra en 1918 en Mumbai, The Yoga Institute es el <b>centro de yoga más antiguo del mundo</b> dedicado a la difusión de las enseñanzas del yoga tradicional adaptadas a la vida moderna.<br/><br/> Con un enfoque en la simplicidad y la practicidad, el instituto integra <b>posturas físicas (asanas), técnicas de respiración (pranayama) y principios éticos</b> para mejorar la calidad de vida diaria. <br/><br/>Es pionero en yoga terapéutico, ofreciendo programas para <b>tratar enfermedades específicas</b> como diabetes, hipertensión y ansiedad. También promueve el estudio del yoga como un <b>estilo de vida</b>, centrándose en la autodisciplina, la dieta saludable y la gestión del estrés. <br/><br/>Su influencia global ha contribuido a popularizar el yoga como una <b>herramienta accesible para el bienestar holístico</b>."
     },
-    "image": "path/to/image14.jpg",
+    "image1": "yogendra.png",
+    "imageTop": "mumbai.png",
     "bibliography": {
       "books": ["libro1", "libro2"],
       "links": [
         {
-          "link": "www.link.com",
-          "description": "este es un link de interes"
+          "link": "https://theyogainstitute.org/",
+          "description": "Link al instituto"
         }
       ]
     },
@@ -528,23 +533,23 @@
     "title": "Paramahansa Yogananda",
     "text1": {
       "title": "Introducción",
-      "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
+      "content": "Paramahansa Yogananda (1893-1952) fue un <b>maestro espiritual indio</b> conocido por ser uno de los primeros en llevar las enseñanzas del yoga y la espiritualidad india a Occidente. <br/><br/>Fue discípulo de<b> Swami Sri Yukteswar</b> y perteneció a la tradición de los maestros del Kriya Yoga. Su legado principal radica en la promoción de la <b>autorrealización como el propósito más elevado de la vida</b>.<br/><br/> También escribió <b>Autobiografía de un Yogui</b>, una obra que explica su viaje espiritual y presenta el yoga como un camino universal hacia la paz interior y la conexión divina. <b>Su enfoque integrador conectó la ciencia y la espiritualidad.</b>"
     },
     "text2": {
       "title": "Difusión mundial del kriyā yoga",
-      "content": "Estos son los detalles del evento antiguo 1200 EC."
+      "content": "Yogananda llegó a Estados Unidos en 1920 para asistir al <b>Congreso Internacional de Religiones Liberales en Boston</b>. Su discurso inicial marcó el inicio de su misión de compartir las enseñanzas del yoga en Occidente. <br/><br/>En 1925 fundó la <b>Self-Realization Fellowship</b> en Los Ángeles, un centro dedicado a enseñar el <b>Kriya Yoga</b>, una técnica avanzada de meditación enfocada en el <b>control de la energía vital</b>.<br/><br/>Con giras nacionales, estableció comunidades espirituales y promovió la práctica del yoga como un medio para alcanzar la armonía interior y exterior. Su enfoque práctico y universal <b>atrajo a personas de diversas creencias</b>, ayudando a popularizar el yoga en todo el mundo."
     },
-    "image": "path/to/image14.jpg",
+    "image1": "yogananda.png",
     "bibliography": {
-      "books": ["libro1", "libro2"],
+      "books": ["Autobiografía de un Yogui <br/> <p style=\"font-size: 0.8rem\">  Paramahansa Yogananda - Editorial Self-Realization Fellowship</p>"],
       "links": [
         {
-          "link": "www.link.com",
-          "description": "este es un link de interes"
+          "link": "https://yogananda.org/es/",
+          "description": "Yogananda - Self-Realization Fellowship"
         }
       ]
     },
-     "layoutId": 1
+     "layoutId": 4
   },
   {
     "id": 19,
@@ -552,19 +557,20 @@
     "title": "Swami Kuvalayananda",
     "text1": {
       "title": "Introducción",
-      "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
+      "content": "Swami Kuvalayananda (1883-1966) fue un destacado <b>yogui, científico y educador indio</b> que desempeñó un papel fundamental en el estudio científico del yoga. <br/><br/>Su visión era combinar la sabiduría ancestral del yoga con el enfoque analítico de la ciencia moderna. Fue uno de los primeros en <b>medir los efectos fisiológicos y psicológicos de las prácticas de yoga</b>, como el pranayama y las asanas. <br/><br/>Kuvalayananda creía que el yoga podría aplicarse para <b>mejorar la salud pública y promover el bienestar integral</b>, abriendo el camino para su aceptación en los campos de la medicina y la educación física."
     },
     "text2": {
       "title": "Instituto Kaivalyadhama",
-      "content": "Estos son los detalles del evento antiguo 1200 EC."
+      "content": "Kaivalyadhama es un instituto pionero fundado por Swami Kuvalayananda en 1924 en Lonavla, India. <br/><br/>Su misión es <b>integrar</b> la práctica del <b>yoga tradicional con la investigación científica moderna</b>, la educación y la terapia.<br/><br/> Kaivalyadhama cuenta con un <b>laboratorio avanzado para estudiar los efectos del yoga en el cuerpo y la mente</b>, ofreciendo programas educativos y tratamientos basados en las técnicas yóguicas. <br/><br/>Además, promueve la preservación de textos clásicos de yoga y su enseñanza. Es reconocido internacionalmente por su enfoque único que <b>combina tradición y ciencia</b>, influyendo significativamente en cómo el yoga se practica y percibe en el mundo moderno."
     },
-    "image": "path/to/image14.jpg",
+    "image1": "kuvalayananda.png",
+    "image2": "kuva-2.png",
     "bibliography": {
       "books": ["libro1", "libro2"],
       "links": [
         {
-          "link": "www.link.com",
-          "description": "este es un link de interes"
+          "link": "https://kdham.com/",
+          "description": "Instituto Kaivalyadhama"
         }
       ]
     },
@@ -576,13 +582,14 @@
     "title": "T. Krishnamacharya",
     "text1": {
       "title": "Introducción",
-      "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
+      "content": "Tirumalai Krishnamacharya (1888-1989) fue un influyente <b>maestro de yoga, erudito y médico ayurvédico indio</b> conocido como el <b>\"padre del yoga moderno\"</b>. <br/><br/>Con un profundo conocimiento de textos clásicos, desarrolló métodos adaptativos que combinaban posturas, respiración y meditación para adaptarse a las necesidades de cada individuo.<br/><br/> Krishnamacharya fue <b>mentor de figuras clave como Pattabhi Jois, B.K.S. Iyengar y T.K.V. Desikachar</b>, quienes popularizaron el yoga en todo el mundo. <br/><br/>Su enfoque innovador <b>unió tradición y modernidad</b>, sentando las bases para el renacimiento del yoga en el siglo XX y su evolución como práctica global para el bienestar físico y espiritual."
     },
     "text2": {
-      "title": "Haṭhayoga para jóvenes regios",
-      "content": "Estos son los detalles del evento antiguo 1200 EC."
+      "title": "Hathayoga para jóvenes regios",
+      "content": "En la <b>década de 1930</b>, Krishnamacharya fue invitado por el Maharajá de Mysore, Krishnaraja Wadiyar IV, a enseñar yoga en su palacio. Allí fundó una escuela de yoga donde comenzó a enseñar <b>haṭhayoga a jóvenes regios y atletas locales.</b> <br/><br/>Este periodo marcó el inicio de un <b>enfoque más dinámico del yoga</b>, con énfasis en las posturas (asanas) y la sincronización de la respiración con el movimiento.<br/><br/> Inspirado por el interés del Maharajá en la salud física, Krishnamacharya desarrolló un <b>estilo accesible y vigoroso</b>, que luego influyó en las formas modernas de yoga como el Ashtanga Vinyasa. Esta etapa fue clave para la revitalización del yoga en India y en el mundo."
     },
-    "image": "path/to/image14.jpg",
+    "image1": "krishnamacharya.png",
+    "image2": "krishnamacharya-2.png",
     "bibliography": {
       "books": ["libro1", "libro2"],
       "links": [
@@ -592,7 +599,7 @@
         }
       ]
     },
-     "layoutId": 1
+     "layoutId": 4
   },
   {
     "id": 21,
@@ -600,13 +607,14 @@
     "title": "Sitadevi Yogendra",
     "text1": {
       "title": "Introducción",
-      "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
+      "content": "Sitadevi Yogendra (1909-2008) fue una pionera del yoga moderno y una figura clave en la <b>integración del yoga en la vida cotidiana</b>. Esposa de Shri Yogendra, fundador del Yoga Institute, fue la <b>primera mujer india en dedicarse profesionalmente a la enseñanza de yoga</b>. <br/><br/>Sitadevi promovió el papel del yoga en la salud y el bienestar familiar, especialmente enfocado en mujeres y niños, rompiendo barreras sociales de su tiempo. Su enfoque práctico y accesible <b>ayudó a llevar el yoga a los hogares indios y a empoderar a muchas mujeres</b> para adoptar la práctica como herramienta de transformación personal y comunitaria."
     },
     "text2": {
       "title": "Primer libro de yoga escrito por una mujer india",
-      "content": "Estos son los detalles del evento antiguo 1200 EC."
+      "content": "Sitadevi Yogendra escribió Yoga: <b>Physical Education for Women</b>, convirtiéndose en la primera mujer india en publicar un libro sobre yoga.<br/><br/> Publicado en 1959, el texto está <b>dirigido específicamente a las necesidades físicas y emocionales de las mujeres</b>, abordando temas como el embarazo, la menstruación y la salud en general desde la perspectiva del yoga. <br/><br/>Este logro marcó un hito histórico, destacando su <b>visión innovadora y su compromiso con la promoción del yoga entre las mujeres</b>. Su obra no solo difundió conocimientos esenciales, sino que también estableció un precedente para futuras generaciones de mujeres en el ámbito del yoga."
     },
-    "image": "path/to/image14.jpg",
+    "image1": "sitadevi.png",
+    "image2": "sitadevi-libro.png",
     "bibliography": {
       "books": ["libro1", "libro2"],
       "links": [
@@ -624,13 +632,13 @@
     "title": "Pattabhi Jois",
     "text1": {
       "title": "Introducción",
-      "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
+      "content": "Sri K. Pattabhi Jois (1915-2009) fue un maestro de yoga indio conocido por desarrollar y popularizar el Ashtanga Vinyasa Yoga. Nacido en el estado de Karnataka, comenzó su formación en yoga a los 12 años bajo <b>la guía de Krishnamacharya</b>, su maestro y mentor en el Palacio de Mysore. Jois dedicó su vida a la enseñanza del yoga, estableciendo el <b>Instituto de Investigación de Ashtanga Yoga en Mysore en 1948</b>. <br/><br/>A través de su carismática enseñanza, atrajo a estudiantes de todo el mundo, contribuyendo significativamente a la expansión global del yoga como una <b>disciplina vigorosa, estructurada y espiritual.</b>"
     },
     "text2": {
       "title": "Ashtanga vinyāsa yoga",
-      "content": "Estos son los detalles del evento antiguo 1200 EC."
+      "content": "Pattabhi Jois desarrolló el Ashtanga Vinyasa Yoga, un <b>estilo dinámico</b> que combina movimiento fluido y respiración sincronizada. <br/><br/>La práctica se organiza en series progresivas, comenzando con posturas básicas y avanzando hacia asanas más complejas. <b>Cada serie incluye secuencias específicas</b> diseñadas para fortalecer el cuerpo, mejorar la flexibilidad y concentrar la mente. <br/><br/>El enfoque en la respiración controlada (ujjayi pranayama), los sellos energéticos (bandhas) y la mirada focalizada (drishti) transforma la práctica física en una <b>meditación en movimiento</b>. Este estilo influyó en muchas formas modernas de yoga, como el Vinyasa Flow, y consolidó el papel del yoga como práctica integral y dinámica."
     },
-    "image": "path/to/image14.jpg",
+    "image1": "pattabhi-jois.png",
     "bibliography": {
       "books": ["libro1", "libro2"],
       "links": [
@@ -640,7 +648,7 @@
         }
       ]
     },
-     "layoutId": 1
+     "layoutId": 4
   },
   {
     "id": 23,
@@ -648,13 +656,14 @@
     "title": "BKS Iyengar",
     "text1": {
       "title": "Introducción",
-      "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
+      "content": "B.K.S. Iyengar (1918-2014) fue uno de los  <b>maestros de yoga </b> más influyentes del siglo XX y el fundador del método Iyengar Yoga. <br/><br/> <b>Discípulo de Krishnamacharya </b>, comenzó su práctica para superar  <b>problemas de salud debilitantes  </b>durante su infancia en Karnataka, India. Su búsqueda personal de bienestar lo llevó a desarrollar una enseñanza meticulosa y accesible. <br/><br/>Publicó  <b>Luz sobre el Yoga (Light on Yoga) en 1966 </b>, una obra icónica que  <b>detalla cientos de posturas y técnicas de respiración </b>, sirviendo como referencia fundamental para practicantes de yoga en todo el mundo. Este libro consolidó su reputación internacional y ayudó a popularizar el yoga en Occidente."
     },
     "text2": {
-      "title": "Luz sobre el Yoga",
-      "content": "Estos son los detalles del evento antiguo 1200 EC."
+      "title": "Estilo de práctica Iyengar",
+      "content": "El método Iyengar Yoga se caracteriza por su  <b>énfasis en la alineación precisa </b>, el uso de accesorios y una atención rigurosa a los detalles. <br/><br/>Diseñado para hacer el yoga accesible a personas de todas las edades y condiciones físicas,  <b>Iyengar introdujo bloques, cinturones y mantas para facilitar </b> la correcta realización de las posturas (asanas). Este enfoque también incluye técnicas específicas de respiración (pranayama), destacando la conexión entre cuerpo y mente.<br/><br/> El método Iyengar se utiliza ampliamente en el  <b>yoga terapéutico </b>, ayudando a abordar diversas dolencias. Su énfasis en la técnica y la constancia ha influido profundamente en muchas prácticas modernas de yoga."
     },
-    "image": "path/to/image14.jpg",
+    "image2": "iyengar-1.png",
+    "image1": "iyengar-2.png",
     "bibliography": {
       "books": ["libro1", "libro2"],
       "links": [
@@ -664,7 +673,7 @@
         }
       ]
     },
-     "layoutId": 1
+     "layoutId": 4
   },
   {
     "id": 24,
@@ -672,13 +681,13 @@
     "title": "Yogi Bhajan",
     "text1": {
       "title": "Introducción",
-      "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
+      "content": "Yogi Bhajan (1929-2004) fue un <b>maestro espiritual nacido en Punjab, India</b>, reconocido por haber introducido el Kundalini Yoga en Occidente. <br/><br/>En 1969, emigró a los Estados Unidos y comenzó a enseñar esta práctica como un camino integral hacia la transformación física, mental y espiritual. <b>Fundó la organización 3HO (Healthy, Happy, Holy Organization)</b> para difundir las enseñanzas del yoga y promover un estilo de vida consciente. <br/><br/>Además de ser un líder espiritual, <b>fue un empresario y defensor de valores como la comunidad y la autosuficiencia</b>. Su influencia sigue viva a través de sus escritos, enseñanzas y la comunidad global de Kundalini Yoga."
     },
     "text2": {
       "title": "kundalini yoga",
-      "content": "Estos son los detalles del evento antiguo 1200 EC."
+      "content": "El Kundalini Yoga, como lo enseñó Yogi Bhajan, es una disciplina que <b>combina posturas físicas (asanas), técnicas de respiración (pranayama), cánticos (mantras), meditación y mudras</b> para <b>despertar la energía kundalini</b>, representada como una fuerza latente en la base de la columna vertebral. <br/><br/>Su objetivo es <b>armonizar el cuerpo, la mente y el espíritu</b>, promoviendo un estado de conciencia elevada y bienestar integral. Esta práctica se enfoca en la transformación personal, proporcionando herramientas para superar bloqueos emocionales y mentales. <br/><br/>Con un enfoque estructurado y accesible, Kundalini Yoga ha ganado popularidad por su <b>capacidad de generar cambios profundos en un corto período de tiempo</b>."
     },
-    "image": "path/to/image14.jpg",
+    "image1": "yogi-bhajan.png",
     "bibliography": {
       "books": ["libro1", "libro2"],
       "links": [
@@ -688,7 +697,7 @@
         }
       ]
     },
-     "layoutId": 1
+     "layoutId": 4
   },
   {
     "id": 25,
@@ -696,13 +705,13 @@
     "title": "Sivananda Yoga",
     "text1": {
       "title": "Introducción",
-      "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
+      "content": "Swami Sivananda (1887-1963) fue un destacado <b>maestro espiritual y médico</b> originario de Tamil Nadu, India. Después de trabajar como médico, renunció a su práctica para dedicarse por completo a la búsqueda espiritual. <br/><br/><b>Fundó la Divine Life Society en 1936 en Rishikesh</b>, donde compartió sus enseñanzas basadas en la síntesis de los principios del yoga y la filosofía védica. <br/><br/>Autor prolífico, <b>escribió más de 200 libros sobre yoga, espiritualidad y salud</b>. Su enfoque práctico y universal hacia el yoga buscaba hacerlo <b>accesible a personas de todas las creencias y condiciones</b>, influyendo profundamente en generaciones de practicantes en todo el mundo."
     },
     "text2": {
       "title": "Formacion de profesores de yoga",
-      "content": "Estos son los detalles del evento antiguo 1200 EC."
+      "content": "Swami Sivananda fue <b>pionero en sistematizar la formación de yoga</b>, estableciendo un enfoque estructurado que integraba las principales ramas del yoga: Karma Yoga, Bhakti Yoga, Jñana Yoga y Raja Yoga.<br/><br/> A través de la Divine Life Society, inició programas de formación para aspirantes a profesores de yoga, proporcionando una <b>enseñanza integral y holística </b>que incluía posturas físicas, respiración, meditación y estudio espiritual. <br/><br/>Fue uno de los primeros maestros en ofrecer formación de yoga organizada, <b>sentando las bases para los programas modernos de certificación de yoga en todo el mundo</b>. Su metodología marcó el inicio de una tradición educativa continua en el yoga."
     },
-    "image": "path/to/image14.jpg",
+    "image1": "sivananda.png",
     "bibliography": {
       "books": ["libro1", "libro2"],
       "links": [
@@ -716,17 +725,18 @@
   },
   {
     "id": 26,
-    "year": "1973 ec",
-    "title": "Ashtanga en USA",
+    "year": "1974 ec",
+    "title": "Bikram Choudhury",
     "text1": {
       "title": "Introducción",
-      "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
+      "content": "Bikram Choudhury es un <b>controvertido instructor de yoga </b>nacido en Calcuta, India, en 1944. Alumno de Bishnu Charan Ghosh, maestro de yoga y hermano de Paramahansa Yogananda, Bikram se destacó como campeón de yoga en su juventud.<br/><br/> En la década de 1970, emigró a los Estados Unidos, donde popularizó su propio método de yoga conocido como <b>Bikram Yoga</b>. <br/><br/>Su enfoque, que combina una secuencia fija de posturas con un ambiente cálido y controlado, <b>ganó rápidamente popularidad internaciona</b>. <br/>Sin embargo, su legado ha sido empañado por múltiples acusaciones de conducta indebida y demandas legales, que han afectado su reputación y la expansión de su práctica."
     },
     "text2": {
-      "title": "Ashtanga en California",
-      "content": "Estos son los detalles del evento antiguo 1200 EC."
+      "title": "Hot yoga",
+      "content": "El Hot Yoga, creado por Bikram Choudhury, es un estilo de yoga que se practica en una <b>sala calentada a aproximadamente 40 °C con una humedad del 40%</b>. <br/><br/>Bikram desarrolló este método combinando <b>26 posturas y dos ejercicios de respiración</b>, adaptados de hatha yoga tradicional. Creía que el calor ayudaba a aumentar la flexibilidad, eliminar toxinas y prevenir lesiones.<br/><br/> El <b>primer estudio</b> dedicado al Bikram Yoga se estableció en <b>Los Ángeles en la década de 1970</b>, y el método se convirtió en un fenómeno mundial. Su popularidad inspiró variaciones del Hot Yoga, aunque su enfoque original sigue siendo una práctica distintiva."
     },
-    "image": "path/to/image14.jpg",
+    "image1": "hot-yoga-3.png",
+    "image2": "hot-yoga-2.png",
     "bibliography": {
       "books": ["libro1", "libro2"],
       "links": [
@@ -736,34 +746,10 @@
         }
       ]
     },
-     "layoutId": 1
+     "layoutId": 4
   },
   {
     "id": 27,
-    "year": "1974 ec",
-    "title": "Bikram Yoga",
-    "text1": {
-      "title": "Introducción",
-      "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
-    },
-    "text2": {
-      "title": "Bikram Choudhury inventa el hotyoga",
-      "content": "Estos son los detalles del evento antiguo 1200 EC."
-    },
-    "image": "path/to/image14.jpg",
-    "bibliography": {
-      "books": ["libro1", "libro2"],
-      "links": [
-        {
-          "link": "www.link.com",
-          "description": "este es un link de interes"
-        }
-      ]
-    },
-     "layoutId": 1
-  },
-  {
-    "id": 28,
     "year": "1975 ec",
     "title": "Yin Yoga",
     "text1": {
@@ -787,7 +773,7 @@
      "layoutId": 1
   },
   {
-    "id": 29,
+    "id": 28,
     "year": "1976 ec",
     "title": "T.K.V. Desikachar",
     "text1": {
@@ -811,7 +797,7 @@
      "layoutId": 1
   },
   {
-    "id": 30,
+    "id": 29,
     "year": "1980 ec",
     "title": "Rocket Yoga",
     "text1": {
@@ -835,7 +821,7 @@
      "layoutId": 1
   },
   {
-    "id": 31,
+    "id": 30,
     "year": "1984 ec",
     "title": "Jivamukti Yoga",
     "text1": {
@@ -859,7 +845,7 @@
      "layoutId": 1
   },
   {
-    "id": 32,
+    "id": 31,
     "year": "1990 ec",
     "title": "Prana Vinyasa Yoga",
     "text1": {
@@ -883,7 +869,7 @@
      "layoutId": 1
   },
   {
-    "id": 33,
+    "id": 32,
     "year": "1997 ec",
     "title": "Anusara Yoga",
     "text1": {
@@ -907,7 +893,7 @@
      "layoutId": 1
   },
   {
-    "id": 34,
+    "id": 33,
     "year": "2003 ec",
     "title": "Acroyoga",
     "text1": {
@@ -931,7 +917,7 @@
      "layoutId": 1
   },
   {
-    "id": 35,
+    "id": 34,
     "year": "2005 ec",
     "title": "Toga festivals",
     "text1": {
@@ -955,7 +941,7 @@
      "layoutId": 1
   },
   {
-    "id": 36,
+    "id": 35,
     "year": "2014 ec",
     "title": "Día Internacional del Yoga",
     "text1": {
@@ -979,7 +965,7 @@
      "layoutId": 1
   },
   {
-    "id": 37,
+    "id": 36,
     "year": "2015 ec",
     "title": "Yoga con conejos y mas",
     "text1": {
@@ -1003,7 +989,7 @@
      "layoutId": 1
   },
   {
-    "id": 38,
+    "id": 37,
     "year": "2016 ec",
     "title": "Acusaciones de abuso sexual en el yoga",
     "text1": {
@@ -1027,7 +1013,7 @@
      "layoutId": 1
   },
   {
-    "id": 39,
+    "id": 38,
     "year": "2020 ec",
     "title": "Yoga online",
     "text1": {
