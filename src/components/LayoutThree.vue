@@ -9,7 +9,7 @@
         <div class="flex justify-start">
           <div class="color-column"></div>
           <div class="flex flex-col justify-end pb-8">
-            <h4>{{ event.cards[0].title }}</h4>
+            <h4 class="color-text-primary">{{ event.cards[0].title }}</h4>
             <p class="year">{{ event.cards[0].subtitle }}</p>
           </div>
         </div>
@@ -23,9 +23,9 @@
         <div class="color-column-right"></div>
         <div class="flex justify-end items-center relative mb-2 z-10">
           <div class="flex flex-col items-end mr-4">
-            <h4>{{ event.cards[1].title }}</h4>
+            <h4 class="color-text-primary">{{ event.cards[1].title }}</h4>
             <p class="year mb-2">{{ event.cards[1].subtitle }}</p>
-            <p class="text-right" v-html="event.cards[1].content"></p>
+            <p class="text-right max-w-lg" v-html="event.cards[1].content"></p>
           </div>
           <div class="flex justify-between items-end">
             <img :src="image2Src" alt="Image 2" class="image" />
@@ -34,9 +34,9 @@
 		<!-- Tercera -->
 		<div class="flex justify-end items-center relative z-10 -mt-2">
           <div class="flex flex-col items-end mr-4">
-            <h4>{{ event.cards[2].title }}</h4>
+            <h4 class="color-text-primary">{{ event.cards[2].title }}</h4>
             <p class="year mb-2">{{ event.cards[2].subtitle }}</p>
-            <p class="text-right" v-html="event.cards[2].content"></p>
+            <p class="text-right max-w-lg" v-html="event.cards[2].content"></p>
           </div>
           <div class="flex justify-between items-end">
             <img :src="image3Src" alt="Image 2" class="image" />
@@ -48,7 +48,7 @@
 		    <div class="color-column-bottom"></div>
         <div class="flex flex-col align-center">
           <div class="-mt-4">
-            <h4 class="ml-20">{{ event.cards[3].title }}</h4>
+            <h4 class="ml-20 color-text-primary">{{ event.cards[3].title }}</h4>
             <p class="year ml-20">{{ event.cards[3].subtitle }}</p>
           </div>
           <div class="flex items-center relative z-10 bottom-0 right-10">
@@ -117,5 +117,10 @@ h4 {
     letter-spacing: -2px;
 }
 
-
+.image {
+  max-width: 180px;
+  width: 180px;
+  height: auto;
+ 
+}
 </style>

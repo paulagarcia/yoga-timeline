@@ -754,13 +754,13 @@
     "title": "Yin Yoga",
     "text1": {
       "title": "Introducción",
-      "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
+      "content": "Yin Yoga es un estilo de yoga que se enfoca en la <b>relajación profunda y la meditación, con posturas sostenidas</b> durante períodos prolongados, generalmente entre 3 y 5 minutos. <br/><br/> A diferencia de los estilos dinámicos, Yin Yoga trabaja principalmente los <b>tejidos conectivos profundos</b>, como los ligamentos, los tendones y las fascias, promoviendo la flexibilidad y la circulación energética en el cuerpo. <br/><br/> Este enfoque suave y pausado fomenta una conexión interna más profunda y una calma mental, siendo ideal para <b>equilibrar la energía y contrarrestar el ritmo acelerado de la vida moderna</b>. Yin Yoga es accesible para practicantes de todos los niveles."
     },
     "text2": {
       "title": "Yoga & medicina tradicional china",
-      "content": "Estos son los detalles del evento antiguo 1200 EC."
+      "content": "Yin Yoga está <b>influenciado por la Medicina Tradicional China (MTC)</b> al trabajar con los meridianos, canales energéticos que transportan el qi (energía vital) a través del cuerpo. <br/><br/> Las posturas de Yin Yoga están diseñadas para <b>estimular puntos específicos de los meridianos</b>, promoviendo el equilibrio de los órganos y la salud general. <br/><br/> Por ejemplo, las torsiones y las flexiones pueden activar los meridianos del hígado, los riñones y el estómago, mejorando la circulación energética. Al integrarse con los principios del yin y yang, el Yin Yoga busca <b>armonizar cuerpo, mente y emociones</b>, complementando prácticas como la acupuntura y la terapia herbal de la MTC."
     },
-    "image": "path/to/image14.jpg",
+    "image1": "yin-yoga.png",
     "bibliography": {
       "books": ["libro1", "libro2"],
       "links": [
@@ -770,7 +770,7 @@
         }
       ]
     },
-     "layoutId": 1
+     "layoutId": 4
   },
   {
     "id": 28,
@@ -778,13 +778,13 @@
     "title": "T.K.V. Desikachar",
     "text1": {
       "title": "Introducción",
-      "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
+      "content": "Tirumalai Krishnamacharya Venkata Desikachar (1938-2016) fue un influyente maestro de yoga indio, <b>hijo y discípulo de T. Krishnamacharya</b>. Desikachar inicialmente estudió ingeniería, pero eventualmente dedicó su vida al yoga bajo la guía de su padre.<br/><br/> Su enfoque enfatizaba la <b>personalización de la práctica</b> según las necesidades del individuo, priorizando la conexión mente-cuerpo y el bienestar integral.<br/><br/> Autor del influyente libro <b>The Heart of Yoga (El corazón del yoga)</b>, Desikachar fue un pionero en difundir el yoga terapéutico en Occidente y Oriente, haciendo hincapié en la adaptabilidad y accesibilidad del yoga para todos."
     },
     "text2": {
-      "title": "Krishnamacharya Yoga Mandiram",
-      "content": "Estos son los detalles del evento antiguo 1200 EC."
+    "title": "Krishnamacharya Yoga Mandiram (KYM)",
+      "content": "El Krishnamacharya Yoga Mandiram (KYM) es una prestigiosa institución de yoga fundada por T.K.V. Desikachar en 1976 en Chennai, India, en <b>honor a su padre</b>, T. Krishnamacharya. <br/><br/>El KYM se dedica a <b>preservar y transmitir las enseñanzas tradicionales del yoga</b>, adaptándolas a las necesidades individuales de los practicantes. Con un <b>enfoque terapéutico</b>, combina yoga, filosofía y técnicas respiratorias para tratar problemas físicos, mentales y emocionales.<br/><br/> El centro también ofrece formación profesional y talleres para estudiantes y maestros de yoga de todo el mundo, consolidándose como un <b>referente en la enseñanza personalizada</b> y en el uso del yoga como herramienta para la salud integral."
     },
-    "image": "path/to/image14.jpg",
+    "image1": "desikachar.png",
     "bibliography": {
       "books": ["libro1", "libro2"],
       "links": [
@@ -799,16 +799,16 @@
   {
     "id": 29,
     "year": "1980 ec",
-    "title": "Rocket Yoga",
+    "title": "Larry Schultz",
     "text1": {
       "title": "Introducción",
-      "content": "Este es el contenido de la introducción del evento antiguo 1200 EC."
+      "content": "Larry Schultz (1950-2011) fue un <b>maestro de yoga estadounidense</b> conocido por modernizar y popularizar el Ashtanga Yoga a través de su enfoque innovador y dinámico.<br/><br/> Apodado el <b>\"Bad Man of Ashtanga\"</b> por su interpretación poco convencional, Schultz <b>entrenó con Pattabhi Jois</b> durante varios años antes de desarrollar su estilo único.<br/><br/> En la década de 1980, <b>fundó \"It's Yoga\"</b> en San Francisco, un estudio que atrajo tanto a practicantes novatos como experimentados. Fue el creador del Rocket Yoga, un estilo accesible y energético diseñado para adaptarse a todos los niveles, con el objetivo de democratizar la práctica del Ashtanga Yoga."
     },
     "text2": {
-      "title": "Larry Schultz",
-      "content": "Estos son los detalles del evento antiguo 1200 EC."
+      "title": "Rocket Yoga",
+      "content": "El Rocket Yoga combina posturas tradicionales con un enfoque más flexible y accesible, permitiendo a los practicantes modificar y explorar las secuencias según sus habilidades. <br/><br/>Dividido en <b>tres series principales</b>, el Rocket Yoga promueve fuerza, flexibilidad y equilibrio a través de movimientos fluidos y transiciones desafiantes. <br/><br/>Se llama \"Rocket\" porque Schultz creía que <b>esta práctica permitía \"elevarse\" rápidamente en términos de progreso físico y espiritual</b>. Este enfoque innovador popularizó el yoga entre un público más amplio y diverso."
     },
-    "image": "path/to/image14.jpg",
+    "image1": "rocket.png",
     "bibliography": {
       "books": ["libro1", "libro2"],
       "links": [
@@ -823,16 +823,16 @@
   {
     "id": 30,
     "year": "1984 ec",
-    "title": "Jivamukti Yoga",
+    "title": "Sharon Gannon y David Life ",
     "text1": {
       "title": "Introducción",
-      "content": "Sharon Gannon y David Life crean en Manhattan un estilo que combina arte, activismo y veganismo"
+      "content": "Sharon Gannon y David Life son maestros de yoga y visionarios que fundaron Jivamukti Yoga en 1984, en Nueva York. Inspirados por las tradiciones del yoga clásico, combinaron la práctica física con un <b>enfoque innovador que incluía música y activismo</b>.<br/><br/> Ambos son reconocidos por su <b>fuerte compromiso con el veganismo, la ecología y los derechos de los animales</b>, valores que promovieron en sus enseñanzas. Además, sus estudios han atraído a una comunidad internacional de practicantes y profesores, convirtiéndolos en referentes globales en la <b>integración de los principios éticos y espirituales dentro del yoga moderno</b>."
     },
     "text2": {
-      "title": "Detalle",
-      "content": "Estos son los detalles del evento antiguo 1200 EC."
+      "title": "Jivamukti Yoga",
+      "content": "Jivamukti Yoga es un enfoque contemporáneo del yoga que <b>combina posturas dinámicas con prácticas espirituales y éticas</b>. <br/><br/>Este estilo se distingue por sus <b>clases inmersivas</b> que incluyen música, mantras, meditación y enseñanzas basadas en textos tradicionales del yoga.<br/><br/> Además de la práctica física, promueve valores como la <b>compasión, el activismo social y la conexión consciente con el entorno</b>. <br/><br/>Sus cinco pilares: <b>ahimsa, bhakti, dhyana, nada y shastra</b> guían a los practicantes hacia un estilo de vida equilibrado y comprometido con la transformación personal y global. Su popularidad ha inspirado comunidades de yoga en todo el mundo."
     },
-    "image": "path/to/image14.jpg",
+    "image1": "jivamukti.png",
     "bibliography": {
       "books": ["libro1", "libro2"],
       "links": [
@@ -842,21 +842,21 @@
         }
       ]
     },
-     "layoutId": 1
+     "layoutId": 4
   },
   {
     "id": 31,
     "year": "1990 ec",
-    "title": "Prana Vinyasa Yoga",
+    "title": "Shiva Rea",
     "text1": {
       "title": "Introducción",
-      "content": "Shiva Rea"
+      "content": "Shiva Rea es una destacada <b>maestra de yoga contemporánea</b> conocida por su enfoque innovador y su capacidad para fusionar tradiciones antiguas con prácticas modernas. <b>Estudió yoga, danza y meditación con maestros de diversas corrientes</b>, desarrollando un estilo único que resalta el movimiento fluido y la conexión con la energía vital. <br/><br/><b>Autora, conferencista y líder de retiros internacionales</b>, Shiva ha inspirado a una generación de practicantes con su enfoque centrado en la transformación personal y la expresión creativa. Su trabajo ha sido fundamental en la popularización del yoga dinámico y en la conexión entre prácticas somáticas y espirituales."
     },
     "text2": {
-      "title": "la imagen femenina del yoga",
-      "content": "Estos son los detalles del evento antiguo 1200 EC."
+      "title": "Prana Vinyasa Yoga",
+      "content": "Prana Vinyasa Yoga es un estilo desarrollado por Shiva Rea que <b>combina la práctica de vinyasa flow con un enfoque centrado en la energía vital</b>, conocida como \"prana\". <br/><br/>Esta metodología busca sincronizar el movimiento con la respiración en secuencias fluidas que <b>emulan los ritmos naturales del cuerpo y del universo</b>. <br/><br/><b>Inspirado en los elementos de la naturaleza y las tradiciones tántricas</b>, incluye meditaciones, mantras y prácticas energéticas. <br/><br/>Prana Vinyasa <b>promueve la libertad de movimiento</b>, la conexión espiritual y el equilibrio interior, proporcionando una experiencia transformadora tanto a nivel físico como emocional y energético."
     },
-    "image": "path/to/image14.jpg",
+    "image1": "shiva-rea.png",
     "bibliography": {
       "books": ["libro1", "libro2"],
       "links": [
@@ -871,16 +871,16 @@
   {
     "id": 32,
     "year": "1997 ec",
-    "title": "Anusara Yoga",
+    "title": "John Friend",
     "text1": {
       "title": "Introducción",
-      "content": "John Friend"
+      "content": "John Friend es un reconocido maestro de yoga y el creador de Anusara Yoga, un estilo que combina principios de alineación con enseñanzas filosóficas. Nacido en 1959, comenzó su práctica de yoga en su adolescencia y <b>estudió con destacados maestros de Iyengar Yoga</b>, lo que influyó en su enfoque detallado hacia la alineación.  <br/><br/><b>Fundó Anusara en 1997</b>, popularizándolo rápidamente a nivel global gracias a su enfoque inclusivo y accesible. Aunque su carrera enfrentó controversias que afectaron la reputación del método, Friend sigue siendo una figura influyente en el mundo del yoga moderno."
     },
     "text2": {
-      "title": "Detalle",
-      "content": "Estos son los detalles del evento antiguo 1200 EC."
+      "title": "Anusara Yoga",
+      "content": "Anusara Yoga es un estilo que <b>combina posturas físicas (asanas) con principios filosóficos derivados del tantra no dualista</b>. Se centra en cinco principios universales de alineación que buscan alinear el cuerpo, la mente y el corazón, promoviendo la expansión de la energía vital. <br/><br/> Anusara significa <b>\"fluir con gracia\" y enfatiza la apertura del corazón</b>, la autoaceptación y la alegría en la práctica. Este método atrae a quienes buscan no solo mejorar su técnica física, sino también profundizar en su conexión espiritual y emocional a través del yoga."
     },
-    "image": "path/to/image14.jpg",
+    "image1": "john-friend.png",
     "bibliography": {
       "books": ["libro1", "libro2"],
       "links": [
@@ -890,7 +890,7 @@
         }
       ]
     },
-     "layoutId": 1
+     "layoutId": 4
   },
   {
     "id": 33,
@@ -898,13 +898,13 @@
     "title": "Acroyoga",
     "text1": {
       "title": "Introducción",
-      "content": ""
+      "content": "El Acroyoga es una práctica que <b>combina elementos del yoga, la acrobacia y el masaje tailandés</b>. Se realiza en pareja o grupos, fomentando la conexión, la confianza y la comunicación entre los participantes. <br/><br/>En esta disciplina, suelen haber <b>tres roles principales: la base, el volador y el observador</b>, quienes trabajan en conjunto para realizar posturas dinámicas y estáticas en el aire. Además de fortalecer el cuerpo, el Acroyoga cultiva la empatía y el trabajo en equipo, convirtiéndose en una actividad tanto física como emocionalmente enriquecedora."
     },
     "text2": {
-      "title": "Detalle",
-      "content": "Estos son los detalles del evento antiguo 1200 EC."
+      "title": "De donde nace el acroyoga?",
+      "content": "El Acroyoga surgió a principios de los años 2000, principalmente en <b>América del Norte</b>, como una fusión de disciplinas milenarias y modernas. <br/><br/>Aunque la práctica de posturas en pareja ya existía en tradiciones de yoga y acrobacia, el término \"Acroyoga\" se popularizó con el trabajo de <b>Jason Nemer y Jenny Sauer-Klein</b>, quienes <b>fundaron AcroYoga International en 2003</b>. <br/><br/>Inspirados por la <b>acrobacia circense, el yoga y el masaje terapéutico</b>, desarrollaron un sistema que integra fuerza, equilibrio y sanación, adaptado a un contexto más accesible y comunitario."
     },
-    "image": "path/to/image14.jpg",
+    "image1": "acroyoga.png",
     "bibliography": {
       "books": ["libro1", "libro2"],
       "links": [
@@ -914,21 +914,22 @@
         }
       ]
     },
-     "layoutId": 1
+     "layoutId": 4
   },
   {
     "id": 34,
-    "year": "2005 ec",
-    "title": "Toga festivals",
+    "year": "2014 ec",
+    "title": "Día Internacional del Yoga",
     "text1": {
       "title": "Introducción",
-      "content": ""
+      "content": "El Día Internacional del Yoga fue propuesto por el <b>primer ministro de la India, Narendra Modi</b>, durante un discurso ante la Asamblea General de las Naciones Unidas (ONU) el 27 de septiembre de 2014. En su discurso, Modi <b>destacó la importancia del yoga</b> como una práctica antigua que promueve la unidad entre mente, cuerpo y espíritu, y que fomenta un estilo de vida equilibrado y armonioso."
     },
     "text2": {
-      "title": "Detalle",
-      "content": "Estos son los detalles del evento antiguo 1200 EC."
+      "title": "",
+      "content": "La propuesta recibió un <b>apoyo masivo: un total de 177 países copatrocinaron la resolución</b>, que fue adoptada el 11 de diciembre de 2014. Se estableció el 21 de junio como el Día Internacional del Yoga, coincidiendo con el <b>solsticio de verano en el hemisferio norte</b>, un día simbólico de renovación y equilibrio.<br/><br/> El primer Día Internacional del Yoga se celebró el 21 de junio de 2015, con <b>eventos masivos en todo el mundo</b>, destacándose una sesión multitudinaria en Nueva Delhi, liderada por Narendra Modi. El día busca <b>promover la conciencia sobre los beneficios del yoga</b> para la salud física, mental y espiritual, así como su <b>capacidad para unir a las personas</b> más allá de las fronteras culturales y religiosas."
     },
-    "image": "path/to/image14.jpg",
+    "image1": "dia-yoga.png",
+    "image2": "dia-yoga-2.png",
     "bibliography": {
       "books": ["libro1", "libro2"],
       "links": [
@@ -942,40 +943,38 @@
   },
   {
     "id": 35,
-    "year": "2014 ec",
-    "title": "Día Internacional del Yoga",
-    "text1": {
-      "title": "Introducción",
-      "content": ""
-    },
-    "text2": {
-      "title": "Detalle",
-      "content": "Estos son los detalles del evento antiguo 1200 EC."
-    },
-    "image": "path/to/image14.jpg",
-    "bibliography": {
-      "books": ["libro1", "libro2"],
-      "links": [
-        {
-          "link": "www.link.com",
-          "description": "este es un link de interes"
-        }
-      ]
-    },
-     "layoutId": 1
-  },
-  {
-    "id": 36,
     "year": "2015 ec",
     "title": "Yoga con conejos y mas",
     "text1": {
       "title": "Introducción",
-      "content": ""
+      "content": "El auge de los diferentes tipos de yoga en Occidente se debe, en gran medida, a la <b>creciente popularidad de la práctica en los últimos 100 años</b>. La adaptación de estas técnicas tradicionales a las necesidades del estilo de vida moderno, como el yoga para adelgazar, el yoga terapéutico o el yoga con música, ha hecho que muchos se interesen por los beneficios físicos y emocionales. <br/><br/>Sin embargo, con esta proliferación, a menudo se dejan de lado los principios filosóficos y espirituales que son la base del yoga, se toma como único metodo o herramienta las posturas (asanas), transformándolo en una práctica predominantemente física, <b>desvinculada de su profundo significado original</b>."
     },
-    "text2": {
-      "title": "Detalle",
-      "content": "Estos son los detalles del evento antiguo 1200 EC."
+    "cards": [
+    {
+      "title": "Yoga con conejos",
+      "subtitle": "",
+      "content": "Este estilo incorpora la presencia de conejos durante la práctica, lo que se cree que genera una atmósfera relajante y ayuda a reducir el estrés, promoviendo la conexión con los animales",
+      "image": "bunnies.png"
     },
+    {
+      "title": "Yoga de la Risa",
+      "subtitle": "",
+      "content": "Combina la risa voluntaria con ejercicios de respiración y posturas de yoga, buscando liberar tensiones, mejorar la salud mental y promover el bienestar a través del humor",
+      "image": "yoga-risa.png"
+    },
+    {
+      "title": "Aqua Yoga",
+      "subtitle": "",
+      "content": "Practicado en el agua, ayudando a mejorar la flexibilidad y el equilibrio sin riesgo de lesiones, ideal para personas con problemas articulares.",
+      "image": "aqua.png"
+    },
+    {
+      "title": "Beer Yoga",
+      "subtitle": "",
+      "content": "Combina la práctica de yoga con el consumo moderado de cerveza, generalmente durante o al final de la sesión, para disfrutar de la experiencia de manera social y divertida.",
+      "image": "beer.png"
+    }
+  ],
     "image": "path/to/image14.jpg",
     "bibliography": {
       "books": ["libro1", "libro2"],
@@ -986,10 +985,10 @@
         }
       ]
     },
-     "layoutId": 1
+     "layoutId": 3
   },
   {
-    "id": 37,
+    "id": 36,
     "year": "2016 ec",
     "title": "Acusaciones de abuso sexual en el yoga",
     "text1": {
@@ -1013,7 +1012,7 @@
      "layoutId": 1
   },
   {
-    "id": 38,
+    "id": 37,
     "year": "2020 ec",
     "title": "Yoga online",
     "text1": {
