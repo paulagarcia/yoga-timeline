@@ -1,11 +1,11 @@
 <template>
-  <div class="flex h-full justify-between items-center"> 
-    <div class="w-2/6 2xl:w-3/5">
+  <div class="flex h-full justify-between items-center flex-col md:flex-row"> 
+    <div class="w-full md:w-2/6">
       <YearTitleText :event="event" />
     </div>
-      <div class="w-4/6 2xl:w-3/5 relative h-full flex">
+      <div class="w-full md:w-4/6 relative h-full flex flex-col md:flex-row">
         <ColorColumnWithImages :image1="event.image1" :image2="event.image2" color="blue" />
-        <div v-if="event.text2" class="flex flex-col justify-center pr-16 2xl:pr-24 pt-48 z-10 h-full">
+        <div v-if="event.text2" class="flex flex-col justify-center md:pr-16 2xl:pr-24 md:pt-48 z-10 md:h-full">
           <h3>{{ event.text2.title }}</h3>
           <p v-html="event.text2.content"></p>
         </div>
@@ -25,15 +25,3 @@ defineProps<{
 }>();
 
 </script>
-
-<style scoped>
-.top-image {
-  max-width: 480px;
-  width: 54%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-
-</style>

@@ -1,10 +1,10 @@
 <template>
-  <div class="flex h-full justify-between items-center"> 
-    <div class="w-2/6 2xl:w-3/5 2xl:pr-16 pr-4">
+  <div class="flex h-full justify-between items-center flex-col md:flex-row">
+    <div class="w-full md:w-2/6">
       <YearTitleText :event="event" />
     </div>
-    <div v-if="event.table1 && event.table2" class="w-4/6 2xl:w-3/5 h-full flex p-4 pl-0 items-center 2xl:p-8 justify-center">
-      <div class="yellow-column"></div>
+    <div v-if="event.table1 && event.table2" class="w-full md:w-4/6 h-full flex p-4 pl-0 items-center 2xl:p-8 justify-center">
+      <div class="yellow-column hidden md:block"></div>
       <div class="flex flex-col">
 
         <h3 class="mt-8">{{ event.table1.title }}</h3>
@@ -71,12 +71,18 @@ h3 {
     font-weight: 400;
     font-style: normal;
     position: relative;
-    left: -10rem;
+    left: -2rem;
     background: #efcda082;
     padding: 0.5rem;
-    padding-left: 162px;
+    padding-left: 2rem;
 }
 
+@media only screen and (min-width: 768px) {
+  h3 {
+    left: -10rem;
+    padding-left: 162px;
+  }
+}
 .yellow-column {
     background-color: var(--force-blue);
     width: 98px;

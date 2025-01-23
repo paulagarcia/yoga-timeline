@@ -1,14 +1,14 @@
 <template>
-  <div class="flex justify-between h-full">
-    <div class="w-1/2 border-page flex items-center">
+  <div class="flex flex-col md:flex-row justify-between h-full">
+    <div class="w-full md:w-1/2 border-page flex items-center">
       <div class="flex flex-col justify-center">
         <h1 class="leading-none mb-2" v-html="event.title"></h1>
         <h2 class="uppercase mb-4 font-extrabold">{{ event.text1.title }}</h2>
-        <p class="pr-10" v-html="event.text1.content"></p>
+        <p class="p-2 md:pr-10" v-html="event.text1.content"></p>
       </div>
     </div>
-    <div class="w-1/2 flex flex-col justify-center items-center">
-      <div class="h-1/2 flex items-end justify-center px-8">
+    <div class="w-full md:w-1/2 flex md:flex-col flex-col-reverse justify-center items-center">
+      <div class="h-1/2 flex md:items-end justify-center md:px-8">
         <p class="" v-if="event.text2" v-html="event.text2.content"></p>
       </div>
       <div class="h-1/2 flex justify-center items-center flex-wrap">

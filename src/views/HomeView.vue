@@ -1,9 +1,9 @@
 <template>
-  <div class="page-wrapper relative">
-    <div class="w-1/12">
+  <div class="page-wrapper relative md:max-h-screen md:h-screen">
+    <div class="md:w-1/12 hidden md:block">
       <TimeLine :eventId="selectedEventId ?? 0" :id="eventId" />
     </div>
-    <div class="w-11/12">
+    <div class="w-full md:w-11/12 p-4 md:p-0">
       <ContentGenerator :eventId="selectedEventId ?? 0" :id="eventId"/>
     </div>
     
@@ -42,9 +42,6 @@ watch(() => props.eventId, (newValue) => {
 <style scoped>
 .page-wrapper {
   display: flex;
-  height: 100vh;
-  max-height: 100vh;
-  overflow: hidden;
   margin: 0 auto;
   background-color: var(--floral-white);
   font-family: 'Montserrat Alternates', sans-serif;

@@ -11,6 +11,11 @@
   --yellow: #F0C16B;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-snap-align: start;
+}
+
 #app, body {
   font-weight: normal;
   background-color: var(--floral-white);
@@ -35,7 +40,7 @@ h3 {
 }
 
 h2 {
-  font-size: 6.2em;
+  font-size: 5rem;
   font-weight: 600;
   font-style: normal;
   color: var(--yellow);
@@ -66,9 +71,27 @@ p {
   color: var(--yellow);
 } 
 
-.border-page {
-  border-right: 1px dashed #EFCD9F;
+
+@media only screen and (min-width: 768px) {
+  .border-page {
+    border-right: 1px dashed #EFCD9F;
+  }
+  /* h1 {
+    font-size: 2.5rem;
+  } */
+  h3 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 6.2em;
+  }
+  h4 {
+    font-size: 1.5em;
+  }
+  
 }
+  
+
 
 .layout-container {
   display: flex;

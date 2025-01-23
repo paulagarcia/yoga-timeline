@@ -2,7 +2,6 @@
   <router-view />
 </template>
 
-
 <script setup lang="ts">
 import { onMounted, onUnmounted } from 'vue';
 import { useRouter, useRoute } from 'vue-router';
@@ -19,28 +18,40 @@ const handleWheel = (event: WheelEvent) => {
   const currentEventId = getEventIdFromRoute(route.name as string);
   if (currentEventId === null) return;
 
-  const delay = 500; // Delay in milliseconds
+  const container = document.documentElement;
+  const scrollTop = container.scrollTop;
+  const scrollHeight = container.scrollHeight;
+  const clientHeight = container.clientHeight;
 
-  if (event.deltaY > 0) {
-    // User scrolled down, navigate to the next page
+  if (event.deltaY > 0 && scrollTop + clientHeight >= scrollHeight - 5) {
+    // User scrolled down and reached the bottom, navigate to the next page
     const nextEventId = currentEventId + 1;
     const nextRoute = router.getRoutes().find(r => r.name === `event-${nextEventId}`);
     if (nextRoute) {
+      window.removeEventListener('wheel', handleWheel);
       setTimeout(() => {
         router.push({ name: `event-${nextEventId}` });
-      }, delay);
+        setTimeout(() => {
+          window.addEventListener('wheel', handleWheel);
+        }, 500); // Re-add the listener after 500ms
+      }, 300); // Add a delay of 300ms before changing the route
     }
-  } else if (event.deltaY < 0) {
-    // User scrolled up, navigate to the previous page
+  } else if (event.deltaY < 0 && scrollTop === 0) {
+    // User scrolled up and reached the top, navigate to the previous page
     const prevEventId = currentEventId - 1;
     const prevRoute = router.getRoutes().find(r => r.name === `event-${prevEventId}`);
     if (prevRoute) {
+      window.removeEventListener('wheel', handleWheel);
       setTimeout(() => {
         router.push({ name: `event-${prevEventId}` });
-      }, delay);
+        setTimeout(() => {
+          window.addEventListener('wheel', handleWheel);
+        }, 500); // Re-add the listener after 500ms
+      }, 300); // Add a delay of 300ms before changing the route
     }
   }
 };
+
 onMounted(() => {
   window.addEventListener('wheel', handleWheel);
 });
