@@ -8,9 +8,11 @@
       <img v-if="imageSrcTop" class="absolute top-0 right-0 top-image" :src="imageSrcTop" alt="Mapa" />
       <div class="flex">
         <ColorColumnWithImages :image1="event.image1" :image2="event.image2" />
-        <div v-if="event.text2" class="flex flex-col  pr-16 pb-16 2xl:pr-24 2xl:pb-24 z-10" :class="[imageSrcTop ? 'justify-center' : 'justify-start']">
-          <h3>{{ event.text2.title }}</h3>
-          <p v-html="event.text2.content"></p>
+        <div v-if="event.text2" class="flex  z-10" >
+          <div class="flex flex-col w-11/12" :class="[imageSrcTop ? 'justify-center' : 'justify-start']">
+            <h3>{{ event.text2.title }}</h3>
+            <p v-html="event.text2.content"></p>
+          </div>
         </div>
       </div>
     </div>
@@ -36,8 +38,7 @@ const imageSrcTop = computed(() =>
 
 <style scoped>
 .top-image {
-  max-width: 420px;
-  /* width: 54%; */
+  max-width: 395px;
   height: auto;
   display: block;
   margin: 0 auto;

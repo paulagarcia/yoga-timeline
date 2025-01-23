@@ -1,14 +1,19 @@
 <template>
-  <div class="layout-container">
-    <div class="column justify-center border-page">
-      <h1 class="yoga">{{ event.title }}</h1>
-      <h2 class="uppercase mb-4 font-extrabold">{{ event.text1.title }}</h2>
-      <p class="pr-10" v-html="event.text1.content"></p>
+  <div class="flex justify-between h-full">
+    <div class="w-1/2 border-page flex items-center">
+      <div class="flex flex-col justify-center">
+        <h1 class="leading-none mb-2" v-html="event.title"></h1>
+        <h2 class="uppercase mb-4 font-extrabold">{{ event.text1.title }}</h2>
+        <p class="pr-10" v-html="event.text1.content"></p>
+      </div>
     </div>
-    <div class="column justify-end">
-      <p class="px-20 mb-12" v-if="event.text2">{{ event.text2.content }}</p>
-      <img :src="imageSrc" alt="Image" />
-      
+    <div class="w-1/2 flex flex-col justify-center items-center">
+      <div class="h-1/2 flex items-end justify-center px-8">
+        <p class="" v-if="event.text2" v-html="event.text2.content"></p>
+      </div>
+      <div class="h-1/2 flex justify-center items-center flex-wrap">
+        <img :src="imageSrc" alt="Image" class="yoga-img" />
+      </div>
     </div>
   </div>
 </template>
@@ -25,35 +30,9 @@ const imageSrc = computed(() => new URL(`../assets/images/${props.event.image1}`
 </script>
 
 <style scoped>
-.layout-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
-  
+.yoga-img {
+  width: auto;
+  max-height: 100%;
+  min-width: 100%;
 }
-.yoga { 
-  max-width: 215px; 
-  line-height: 1; 
-  margin-bottom: 1rem;
-}
-
-.column {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  
-  padding: 1rem;
-  height: 100%;
-  
-}
-
-.column img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-
 </style>
