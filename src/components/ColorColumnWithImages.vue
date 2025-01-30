@@ -35,7 +35,7 @@ const bgColorClass = computed(() => props.color ? props.color : 'yellow');
     .column {
       background-color: var(--powder-blue);
       background-image: linear-gradient(to top, var(--powder-blue) 0%, var(--force-blue) 100%);
-      height: 80%;
+      height: 620px;
       width: 125px;
     }
   }
@@ -44,7 +44,7 @@ const bgColorClass = computed(() => props.color ? props.color : 'yellow');
     .column{
       background-color: var(--sunset);
       background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
-      height: 100%;
+      height: 600px;
       width: 132px;
     }
   }

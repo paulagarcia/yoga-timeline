@@ -32,23 +32,20 @@ const selectEvent = (eventId: number) => {
 };
 
 const yearsWithId = ref(years);
-
 const selectedYearID = ref<number | null>(props.eventId);
 
 const yearItems = ref<HTMLElement[]>([]);
 const scrollContainer = ref<HTMLElement | null>(null);
 
 const scrollToSelectedYear = () => {
-  
   nextTick(() => {
     if (!scrollContainer.value) return;
 
     const selectedYearItem = yearItems.value.find(item => item?.classList.contains('selected'));
    
     if (selectedYearItem) {
-      console.log(selectedYearItem.offsetTop, scrollContainer.value.offsetTop)
       scrollContainer.value.scrollTo({
-        top: selectedYearItem.offsetTop - scrollContainer.value.offsetTop, // Adjust for correct alignment
+        top: selectedYearItem.offsetTop - (scrollContainer.value.offsetTop + 40), // Adjust for correct alignment
         behavior: 'smooth'
       });
     }

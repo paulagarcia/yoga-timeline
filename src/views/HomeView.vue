@@ -7,6 +7,10 @@
 
     <!-- Content section with animation -->
     <div class="w-full md:w-11/12 p-4 md:p-0 relative md:overflow-hidden" ref="contentContainer">
+      <template v-if="isMobile">
+        <ContentGenerator v-for="event in events" :key="event.id" :eventId="event.id" />
+      </template>
+      <template v-else>
       <transition name="slide" mode="out-in">
         <ContentGenerator 
           v-if="selectedEventId" 
@@ -14,14 +18,16 @@
           :key="selectedEventId" 
         />
       </transition>
+    </template>
     </div>
 
     <!-- Bibliography book icon -->
-    <div v-if="hasBibliography" class="fixed book-container cursor-pointer" @click="isModalOpen = true">
+    <div v-if="hasBibliography && !isMobile" class="fixed book-container cursor-pointer" @click="isModalOpen = true">
       <img src="../assets/images/book.png" alt="Biblografia" class="w-20 h-20" />
     </div>
 
     <!-- Modal -->
+    
     <BibliographyModal 
       v-if="selectedEvent" 
       :isOpen="isModalOpen" 
@@ -38,19 +44,18 @@ import TimeLine from '../components/TimeLine.vue';
 import BibliographyModal from '../components/BibliographyModal.vue';
 import events from '../data/events.json';
 import { Event } from '../types/Events';
-import { useRouter, useRoute } from 'vue-router';
+import { useRouter } from 'vue-router';
 
-const router = useRouter();
-const route = useRoute();
-const isNavigating = ref(false);
+const isMobile = ref(window.innerWidth < 768);
 
 const props = defineProps<{ eventId: number }>();
 
-
+const router = useRouter();
+const isNavigating = ref(false);
 const contentContainer = ref<HTMLElement | null>(null);
 
 // Event management
-const selectedEventId = ref<number>();
+const selectedEventId = ref<number>(props.eventId);
 const selectedEvent = ref<Event | null>(events.find((event: Event) => event.id === selectedEventId.value) || null);
 const hasBibliography = computed(() => selectedEvent.value && (selectedEvent.value.bibliography?.books.length > 0 || selectedEvent.value?.bibliography?.links.length > 0));
 
@@ -76,26 +81,19 @@ const handleEventSelected = (eventId: number) => {
   
 };
 
-const getEventIdFromRoute = (routeName: string): number | null => {
-  const match = routeName.match(/event-(\d+)/);
-  return match ? parseInt(match[1], 10) : null;
-};
-
 const navigateToEvent = async (direction: 'next' | 'prev') => {
-  const currentEventId = getEventIdFromRoute(route.name as string);
-  if (currentEventId === null || isNavigating.value) return;
+  if (selectedEventId.value === null || isNavigating.value) return;
 
-  const targetEventId = direction === 'next' ? currentEventId + 1 : currentEventId - 1;
-  console.log(targetEventId)
+  const targetEventId = direction === 'next' ? selectedEventId.value + 1 : selectedEventId.value - 1;
   const targetRoute = router.getRoutes().find(r => r.name === `event-${targetEventId}`);
-  console.log(targetRoute)
+ 
   if (targetRoute) {
     isNavigating.value = true;
     await router.push({ name: `event-${targetEventId}` });
     await nextTick();
     setTimeout(() => {
       isNavigating.value = false;
-    }, 1500); // Match the transition duration
+    }, 1500); // Longer than transition duration to avoid skipping pages
   }
 };
 
@@ -109,15 +107,26 @@ const handleTouch = {
   startY: 0,
   endY: 0,
   onTouchStart: (event: TouchEvent) => {
-    console.log(event.touches[0].clientY)
     handleTouch.startY = event.touches[0].clientY;
   },
   onTouchEnd: (event: TouchEvent) => {
     handleTouch.endY = event.changedTouches[0].clientY;
     const distance = handleTouch.startY - handleTouch.endY;
-    console.log(distance)
-    if (distance > 200) navigateToEvent('next'); // Swipe up
-    else if (distance < -50) navigateToEvent('prev'); // Swipe down
+    const container = contentContainer.value;
+
+    if (container) {
+      const atTop = container.scrollTop === 0;
+      const atBottom = container.scrollHeight - container.scrollTop === container.clientHeight;
+      console.log(distance, atTop, atBottom);
+      console.log(container.scrollTop, container.scrollHeight, container.clientHeight);
+
+      if (container.scrollTop + container.clientHeight >= container.scrollHeight - 10) {
+        navigateToEvent('next');
+        container.scrollTo({ top: 0, behavior: 'smooth' }); // Swipe up and at the bottom
+      } else if (distance < -50 && atTop) {
+        navigateToEvent('prev'); // Swipe down and at the top
+      }
+    }
   },
 };
 
@@ -159,7 +168,7 @@ onUnmounted(() => {
   padding-top: 1rem;
   padding-left: 1rem;
 }
-
+/* 
 .slide-enter-active, .slide-leave-active {
   transition: transform 0.5s ease-in-out;
 }
@@ -168,7 +177,7 @@ onUnmounted(() => {
 }
 .slide-leave-to {
   transform: translateY(-100%);
-}
+} */
 
 
 /* Slide transition animation for desktop views */

@@ -1,5 +1,5 @@
 <template>
-    <div class="column md:pr-8">
+    <div class="column md:pr-8 mt-7 md:mt-0">
         <h2 >{{ event.year }}</h2>
         <h1 class="leading-none mb-8" v-html="event.title"></h1>
         <p class="" v-html="event.text1.content"></p>
