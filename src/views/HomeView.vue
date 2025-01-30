@@ -1,14 +1,20 @@
 <template>
-  <div class="page-wrapper relative md:max-h-screen md:h-screen" >
+  <div class="page-wrapper relative md:max-h-screen md:h-screen flex-col md:flex-row" >
+
+    <!-- Mobile timeline -->
+    <div class="md:hidden sticky top-0 h-12 w-full z-20">
+      <MobileTimeLine :eventId="selectedEventId ?? 0"  @mobile-event-selected="handleEventSelectedOnMobile"  />
+    </div>
+    
     <!-- Timeline stays fixed -->
     <div class="md:w-1/12 hidden md:block">
       <TimeLine :eventId="selectedEventId ?? 0" :id="eventId"  @event-selected="handleEventSelected"  />
     </div>
 
     <!-- Content section with animation -->
-    <div class="w-full md:w-11/12 p-4 md:p-0 relative md:overflow-hidden" ref="contentContainer">
+    <div class="w-full md:w-11/12 p-4 md:p-0 relative md:overflow-hidden mt-10 md:mt-0" ref="contentContainer">
       <template v-if="isMobile">
-        <ContentGenerator v-for="event in events" :key="event.id" :eventId="event.id" />
+        <ContentGenerator v-for="event in events" :key="event.id" :eventId="event.id" :id="`event-${event.id}`" />
       </template>
       <template v-else>
       <transition name="slide" mode="out-in">
@@ -27,7 +33,6 @@
     </div>
 
     <!-- Modal -->
-    
     <BibliographyModal 
       v-if="selectedEvent" 
       :isOpen="isModalOpen" 
@@ -42,6 +47,7 @@ import { ref, computed, watch, nextTick, onMounted, onUnmounted } from 'vue';
 import ContentGenerator from '../components/ContentGenerator.vue';
 import TimeLine from '../components/TimeLine.vue';
 import BibliographyModal from '../components/BibliographyModal.vue';
+import MobileTimeLine from '../components/MobileTimeLine.vue';
 import events from '../data/events.json';
 import { Event } from '../types/Events';
 import { useRouter } from 'vue-router';
@@ -61,6 +67,17 @@ const hasBibliography = computed(() => selectedEvent.value && (selectedEvent.val
 
 const isModalOpen = ref(false);
 
+// Mobile Event selection
+const handleEventSelectedOnMobile = (eventId: number) => {
+  console.log('Mobile event selected', eventId);
+  selectedEventId.value = eventId;
+  const element = document.getElementById(`event-${eventId}`);
+  if (element) {
+    element.scrollIntoView({  behavior: 'smooth', block: 'start' });
+  }
+}
+
+
 // Watch for changes in props and update selected event
 watch(() => props.eventId, (newValue) => {
   selectedEventId.value = newValue;
@@ -69,7 +86,7 @@ watch(() => props.eventId, (newValue) => {
 }, { deep: true, immediate: true });
 
 
-// change url 
+// change url - Desktop view
 const changePath = (id: number) => {
   router.push({ name: `event-${id}` });
 };
@@ -98,50 +115,43 @@ const navigateToEvent = async (direction: 'next' | 'prev') => {
 };
 
 const handleWheel = (event: WheelEvent) => {
-  // console.log(event.deltaY);
   if (event.deltaY > 0) navigateToEvent('next');
   else if (event.deltaY < 0) navigateToEvent('prev');
 };
 
-const handleTouch = {
-  startY: 0,
-  endY: 0,
-  onTouchStart: (event: TouchEvent) => {
-    handleTouch.startY = event.touches[0].clientY;
-  },
-  onTouchEnd: (event: TouchEvent) => {
-    handleTouch.endY = event.changedTouches[0].clientY;
-    const distance = handleTouch.startY - handleTouch.endY;
-    const container = contentContainer.value;
-
-    if (container) {
-      const atTop = container.scrollTop === 0;
-      const atBottom = container.scrollHeight - container.scrollTop === container.clientHeight;
-      console.log(distance, atTop, atBottom);
-      console.log(container.scrollTop, container.scrollHeight, container.clientHeight);
-
-      if (container.scrollTop + container.clientHeight >= container.scrollHeight - 10) {
-        navigateToEvent('next');
-        container.scrollTo({ top: 0, behavior: 'smooth' }); // Swipe up and at the bottom
-      } else if (distance < -50 && atTop) {
-        navigateToEvent('prev'); // Swipe down and at the top
-      }
+// Observer fot the mobile event selection
+// IntersectionObserver for mobile view
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const eventId = parseInt(entry.target.id.replace('event-', ''), 10);
+      selectedEventId.value = eventId;
     }
-  },
-};
+  });
+}, { threshold: 0.5 });
+
 
 onMounted(() => {
   if (!contentContainer.value) return;
   contentContainer.value.addEventListener('wheel', handleWheel);
-  contentContainer.value.addEventListener('touchstart', handleTouch.onTouchStart);
-  contentContainer.value.addEventListener('touchend', handleTouch.onTouchEnd);
+  // Observe events for mobile view
+  if (isMobile.value) {
+    events.forEach(event => {
+      const element = document.getElementById(`event-${event.id}`);
+      if (element) {
+        observer.observe(element);
+      }
+    });
+  }
+ 
 });
 
 onUnmounted(() => {
   if (!contentContainer.value) return;
   contentContainer.value.removeEventListener('wheel', handleWheel);
-  contentContainer.value.removeEventListener('touchstart', handleTouch.onTouchStart);
-  contentContainer.value.removeEventListener('touchend', handleTouch.onTouchEnd);
+  // Disconnect observer
+  observer.disconnect();
+ 
 });
 
 </script>

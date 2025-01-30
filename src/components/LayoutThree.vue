@@ -33,8 +33,8 @@
           </div>
         </div>
 		<!-- Tercera -->
-		<div class="flex justify-end items-center relative z-10 -mt-2">
-          <div class="flex flex-col items-end mr-4">
+		<div class="flex justify-end items-center relative z-10 md:-mt-2 mt-6">
+          <div class="flex flex-col items-end md:mr-4">
             <h4 class="color-text-primary">{{ event.cards[2].title }}</h4>
             <p class="year mb-2">{{ event.cards[2].subtitle }}</p>
             <p class="text-right max-w-lg" v-html="event.cards[2].content"></p>
@@ -45,17 +45,17 @@
         </div>
       </div>
       <!-- Cuarta card a la izquierda -->
-      <div class="flex flex-col justify-center relative w-full overflow-hidden md:overflow-visible">
+      <div class="flex flex-col justify-center relative w-full overflow-hidden md:overflow-visible mt-6 md:mt-0">
 		    <div class="color-column-bottom"></div>
-        <div class="flex flex-col align-center">
-          <div class="mt-4 md:-mt-4">
+        <div class="flex flex-col  md:items-start items-end">
+          
             <h4 class="ml-20 color-text-primary">{{ event.cards[3].title }}</h4>
             <p class="year ml-20">{{ event.cards[3].subtitle }}</p>
-            <img :src="image4Src" alt="Image 3" class="image mr-4 block md:hidden" />
-          </div>
+            <img :src="image4Src" alt="Image 3" class="image block md:hidden" />
+          
           <div class="flex items-center relative z-10 md:bottom-0 md:right-10">
             <img :src="image4Src" alt="Image 3" class="image mr-4 hidden md:block" />
-            <p class="max-w-md" v-html="event.cards[3].content"></p>
+            <p class="max-w-md ml-8 text-right md:text-left md:ml-0" v-html="event.cards[3].content"></p>
           </div>
         </div>
        </div>

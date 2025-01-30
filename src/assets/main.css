@@ -23,6 +23,18 @@ html {
   color: var(--force-blue);
 }
 
+.bg-floral {
+  background-color: var(--floral-white);
+}
+
+.bg-sunset {
+  background-color: var(--sunset);
+} 
+
+.bg-powder {
+  background-color: var(--powder-blue);
+} 
+
 h1 {
   font-size: 2rem;
   font-family: "Shadows Into Light Two", serif;
