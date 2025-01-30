@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col md:flex-row justify-between md:h-full">
+  <div class="flex flex-col md:flex-row justify-between h-full">
     <div class="w-full md:w-1/2 border-page flex items-center">
       <div class="flex flex-col justify-center">
         <h1 class="leading-none mb-2" v-html="event.title"></h1>

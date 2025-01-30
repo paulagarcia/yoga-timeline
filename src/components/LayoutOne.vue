@@ -1,5 +1,5 @@
 <template>
-  <div class="flex md:h-full justify-between items-center flex-col md:flex-row">
+  <div class="flex h-full justify-between items-center flex-col md:flex-row">
     <div class="w-full md:w-2/6 ">
       <YearTitleText :event="event" />
     </div>

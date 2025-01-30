@@ -12,7 +12,7 @@
     </div>
 
     <!-- Content section with animation -->
-    <div class="w-full md:w-11/12 p-4 md:p-0 relative md:overflow-hidden mt-10 md:mt-0" ref="contentContainer">
+    <div class="w-full md:w-11/12 p-4 md:p-0 relative md:overflow-hidden md:mt-0" ref="contentContainer">
       <template v-if="isMobile">
         <ContentGenerator v-for="event in events" :key="event.id" :eventId="event.id" :id="`event-${event.id}`" />
       </template>
@@ -26,7 +26,7 @@
       </transition>
     </template>
     </div>
-
+    
     <!-- Bibliography book icon -->
     <div v-if="hasBibliography && !isMobile" class="fixed book-container cursor-pointer" @click="isModalOpen = true">
       <img src="../assets/images/book.png" alt="Biblografia" class="w-20 h-20" />
