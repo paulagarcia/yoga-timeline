@@ -1,62 +1,71 @@
 <template>
-  <router-view />
+  <router-view v-slot="{ Component }">
+      <component :is="Component" />
+  </router-view>
 </template>
 
 <script setup lang="ts">
-import { onMounted, onUnmounted } from 'vue';
+import { onMounted, onUnmounted, ref, nextTick } from 'vue';
 import { useRouter, useRoute } from 'vue-router';
 
 const router = useRouter();
 const route = useRoute();
+const isNavigating = ref(false);
 
 const getEventIdFromRoute = (routeName: string): number | null => {
   const match = routeName.match(/event-(\d+)/);
   return match ? parseInt(match[1], 10) : null;
 };
 
-const handleWheel = (event: WheelEvent) => {
+const navigateToEvent = async (direction: 'next' | 'prev') => {
   const currentEventId = getEventIdFromRoute(route.name as string);
-  if (currentEventId === null) return;
+  if (currentEventId === null || isNavigating.value) return;
 
-  const container = document.documentElement;
-  const scrollTop = container.scrollTop;
-  const scrollHeight = container.scrollHeight;
-  const clientHeight = container.clientHeight;
-
-  if (event.deltaY > 0 && scrollTop + clientHeight >= scrollHeight - 5) {
-    // User scrolled down and reached the bottom, navigate to the next page
-    const nextEventId = currentEventId + 1;
-    const nextRoute = router.getRoutes().find(r => r.name === `event-${nextEventId}`);
-    if (nextRoute) {
-      window.removeEventListener('wheel', handleWheel);
-      setTimeout(() => {
-        router.push({ name: `event-${nextEventId}` });
-        setTimeout(() => {
-          window.addEventListener('wheel', handleWheel);
-        }, 500); // Re-add the listener after 500ms
-      }, 300); // Add a delay of 300ms before changing the route
-    }
-  } else if (event.deltaY < 0 && scrollTop === 0) {
-    // User scrolled up and reached the top, navigate to the previous page
-    const prevEventId = currentEventId - 1;
-    const prevRoute = router.getRoutes().find(r => r.name === `event-${prevEventId}`);
-    if (prevRoute) {
-      window.removeEventListener('wheel', handleWheel);
-      setTimeout(() => {
-        router.push({ name: `event-${prevEventId}` });
-        setTimeout(() => {
-          window.addEventListener('wheel', handleWheel);
-        }, 500); // Re-add the listener after 500ms
-      }, 300); // Add a delay of 300ms before changing the route
-    }
+  const targetEventId = direction === 'next' ? currentEventId + 1 : currentEventId - 1;
+  console.log(targetEventId)
+  const targetRoute = router.getRoutes().find(r => r.name === `event-${targetEventId}`);
+  console.log(targetRoute)
+  if (targetRoute) {
+    isNavigating.value = true;
+    await router.push({ name: `event-${targetEventId}` });
+    await nextTick();
+    setTimeout(() => {
+      isNavigating.value = false;
+    }, 1500); // Match the transition duration
   }
+};
+
+const handleWheel = (event: WheelEvent) => {
+  // console.log(event.deltaY);
+  if (event.deltaY > 0) navigateToEvent('next');
+  else if (event.deltaY < 0) navigateToEvent('prev');
+};
+
+const handleTouch = {
+  startY: 0,
+  endY: 0,
+  onTouchStart: (event: TouchEvent) => {
+    console.log(event.touches[0].clientY)
+    handleTouch.startY = event.touches[0].clientY;
+  },
+  onTouchEnd: (event: TouchEvent) => {
+    handleTouch.endY = event.changedTouches[0].clientY;
+    const distance = handleTouch.startY - handleTouch.endY;
+    console.log(distance)
+    if (distance > 200) navigateToEvent('next'); // Swipe up
+    else if (distance < -50) navigateToEvent('prev'); // Swipe down
+  },
 };
 
 onMounted(() => {
   window.addEventListener('wheel', handleWheel);
+  window.addEventListener('touchstart', handleTouch.onTouchStart);
+  window.addEventListener('touchend', handleTouch.onTouchEnd);
 });
 
 onUnmounted(() => {
   window.removeEventListener('wheel', handleWheel);
+  window.removeEventListener('touchstart', handleTouch.onTouchStart);
+  window.removeEventListener('touchend', handleTouch.onTouchEnd);
 });
 </script>

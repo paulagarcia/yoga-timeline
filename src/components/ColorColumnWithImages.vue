@@ -34,6 +34,7 @@ const bgColorClass = computed(() => props.color ? props.color : 'yellow');
     align-items: flex-start;
     .column {
       background-color: var(--powder-blue);
+      background-image: linear-gradient(to top, var(--powder-blue) 0%, var(--force-blue) 100%);
       height: 80%;
       width: 125px;
     }

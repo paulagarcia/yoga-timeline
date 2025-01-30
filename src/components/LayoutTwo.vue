@@ -11,13 +11,13 @@
         <!-- Solo texto -->
         <div v-if="event.table1.content.length == 1">
           <p v-if="event.table1.content[0].cellTitle" class="cell-title">{{ event.table1.content[0].cellTitle }}</p>
-          <p class="pr-16 text-sm" v-html="event.table1.content[0].cell"></p>
+          <p class="md:pr-16 text-sm" v-html="event.table1.content[0].cell"></p>
         </div>
         <!-- Tabla  -->
         <div v-else class="grid grid-cols-2 gap-4">
           <div v-for="(content, index) in event.table1.content" :key="index" :class="{'col-span-2': event.table1.content.length != 4 && index == 2}">
             <p v-if="content.cellTitle" class="cell-title">{{ content.cellTitle }}</p>
-            <p class="pr-4 text-sm" v-html="content.cell"></p>
+            <p class="md:pr-4 text-sm" v-html="content.cell"></p>
           </div>
         </div>
       
@@ -25,13 +25,13 @@
         <!-- Solo texto -->
         <div v-if="event.table2.content.length == 1">
           <p v-if="event.table2.content[0].cellTitle" class="cell-title">{{ event.table2.content[0].cellTitle }}</p>
-          <p class="pr-16 text-sm" v-html="event.table2.content[0].cell"></p>
+          <p class="md:pr-16 text-sm" v-html="event.table2.content[0].cell"></p>
         </div>
         <!-- Tabla  -->
         <div v-else class="grid grid-cols-2 gap-4"> 
           <div v-for="(content, index) in event.table2.content" :key="index" :class="{'col-span-2': event.table2.content.length == 3 && index == 2}">
             <p v-if="content.cellTitle" class="cell-title">{{ content.cellTitle }}</p>
-            <p class="pr-4 text-sm" v-html="content.cell"></p>
+            <p class="md:pr-4 text-sm" v-html="content.cell"></p>
           </div>
         </div>
       
