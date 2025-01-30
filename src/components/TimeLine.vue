@@ -1,8 +1,15 @@
 <template>
   <div class="h-full flex items-center w-full relative">
-  <div class="flex w-full flex-col max-h-75 overflow-auto  justify-center items-center hide-scrollbar fade-out shadows-into-light-two-regular">
+  <div class="flex w-full flex-col max-h-75 overflow-auto  justify-center items-center hide-scrollbar fade-out shadows-into-light-two-regular" ref="scrollContainer">
     <ul class="flex flex-col max-w-max max-h-75">
-      <li v-for="yearAndID in yearsWithId" :key="yearAndID.id" @click="changePath(yearAndID.id)" class="cursor-pointer mb-2 text-right last:pb-60" :class="{ 'text-xl selected': yearAndID.id === eventId }">
+      <li 
+        v-for="yearAndID in yearsWithId" 
+        :key="yearAndID.id" 
+        @click="selectEvent(yearAndID.id)" 
+        class="cursor-pointer mb-2 text-right last:pb-64" 
+        :class="{ 'text-xl selected': yearAndID.id === selectedYearID }" 
+        ref="yearItems"
+      >
         {{ yearAndID.year }}
       </li>
     </ul>
@@ -11,34 +18,56 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, ref, watch } from 'vue';
+import { nextTick, ref, watch, onMounted } from 'vue';
 import years from '../data/years'; // Importa los años desde el archivo years.ts
-import { useRouter } from 'vue-router';
-
-const router = useRouter(); // Importa el router de vue-router
+import { defineProps, defineEmits } from 'vue';
 
 const props = defineProps<{ eventId: number }>();
+const emit = defineEmits(['event-selected']);
+
+
+const selectEvent = (eventId: number) => {
+  scrollToSelectedYear();
+  emit('event-selected', eventId);
+};
+
 const yearsWithId = ref(years);
+
+const selectedYearID = ref<number | null>(props.eventId);
+
 const yearItems = ref<HTMLElement[]>([]);
+const scrollContainer = ref<HTMLElement | null>(null);
 
-const changePath = (id: number) => {
-  router.push({ name: `event-${id}` });
+const scrollToSelectedYear = () => {
+  
+  nextTick(() => {
+    if (!scrollContainer.value) return;
+
+    const selectedYearItem = yearItems.value.find(item => item?.classList.contains('selected'));
+   
+    if (selectedYearItem) {
+      console.log(selectedYearItem.offsetTop, scrollContainer.value.offsetTop)
+      scrollContainer.value.scrollTo({
+        top: selectedYearItem.offsetTop - scrollContainer.value.offsetTop, // Adjust for correct alignment
+        behavior: 'smooth'
+      });
+    }
+  });
 };
 
-const scrollToSelected = () => {
-  const selectedItem = yearItems.value.find(item => item.classList.contains('selected'));
-  if (selectedItem) {
-    selectedItem.scrollIntoView({ behavior: 'smooth', block: 'center' });
+// Scroll on event change
+watch(() => props.eventId, (newValue) => {
+  if (newValue) {
+    selectedYearID.value = newValue;
+    scrollToSelectedYear() 
   }
-};
+})
 
+// Make sure the timeline scrolls correctly on mount
 onMounted(() => {
-  scrollToSelected();
-});
+  scrollToSelectedYear();
+})
 
-watch(() => props.eventId, () => {
-  scrollToSelected();
-});
 </script>
 
 <style scoped>
@@ -63,6 +92,7 @@ watch(() => props.eventId, () => {
     height: 390px;
     background: linear-gradient(0deg, rgba(248, 247, 240, 1) 0%, rgb(248 247 240) 35%, rgba(248, 247, 240, 0) 100%);
 }
+
 
 .selected {
   &:after {
