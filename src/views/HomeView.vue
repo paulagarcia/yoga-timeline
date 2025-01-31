@@ -3,7 +3,7 @@
 
     <!-- Mobile timeline -->
     <div class="md:hidden sticky top-0 h-12 w-full z-20">
-      <MobileTimeLine :eventId="selectedEventId ?? 0"  @mobile-event-selected="handleEventSelectedOnMobile"  />
+      <MobileTimeLine :eventId="selectedEventId ?? 0"  @mobile-event-selected="handleEventSelectedOnMobile" @mobile-biblio-selected="handleMobileBiblio" />
     </div>
     
     <!-- Timeline stays fixed -->
@@ -14,7 +14,7 @@
     <!-- Content section with animation -->
     <div class="w-full md:w-11/12 p-4 md:p-0 relative md:overflow-hidden md:mt-0" ref="contentContainer">
       <template v-if="isMobile">
-        <ContentGenerator v-for="event in events" :key="event.id" :eventId="event.id" :id="`event-${event.id}`" />
+        <ContentGenerator v-for="event in events" :key="event.id" :eventId="event.id" :id="`event-${event.id}`" :isMobile="true"/>
       </template>
       <template v-else>
       <transition name="slide" mode="out-in">
@@ -119,6 +119,8 @@ const handleWheel = (event: WheelEvent) => {
   else if (event.deltaY < 0) navigateToEvent('prev');
 };
 
+
+
 // Observer fot the mobile event selection
 // IntersectionObserver for mobile view
 const observer = new IntersectionObserver((entries) => {
@@ -126,9 +128,15 @@ const observer = new IntersectionObserver((entries) => {
     if (entry.isIntersecting) {
       const eventId = parseInt(entry.target.id.replace('event-', ''), 10);
       selectedEventId.value = eventId;
+      selectedEvent.value = events.find((event: Event) => event.id === selectedEventId.value) || null;
     }
   });
-}, { threshold: 0.5 });
+}, { threshold: 0.2 });
+
+
+const handleMobileBiblio = () => {
+  isModalOpen.value = true;
+};
 
 
 onMounted(() => {
