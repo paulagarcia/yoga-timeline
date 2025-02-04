@@ -10,13 +10,13 @@
               <DialogPanel class="w-full max-w-md transform overflow-hidden rounded-2xl p-6 text-left align-middle shadow-xl transition-all modal-content">
                 <DialogTitle as="h3" class="color-text-primary">Bibliografía y links de interes</DialogTitle>
                 <div class="mt-6 mb-8 flex flex-col space-y-4">
-                  <div class="flex flex-col space-y-2">
+                  <div class="flex flex-col space-y-2" v-if="bibliography.books.length > 0">
                     <h4 class="subtitle py-1 uppercase color-text-secondary">Libros</h4>
                     <ul class="">
                       <li v-for="(book, index) in bibliography.books" :key="index" class="color-text-primary py-2 "><p class="text-sm font-medium" v-html="book"></p></li>
                     </ul> 
                   </div>
-                  <div class="flex flex-col space-y-2">
+                  <div class="flex flex-col space-y-2" v-if="bibliography.links.length > 0">
                     <h4 class="subtitle py-1 uppercase color-text-secondary ">LINKS</h4>
                     <ul class="">
                       <li v-for="(link, index) in bibliography.links" :key="index" class="color-text-primary py-2">
