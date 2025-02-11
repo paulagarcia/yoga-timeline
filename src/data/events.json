@@ -320,11 +320,7 @@
     "image1": "sutras.png",
     "bibliography": {
       "books": ["Yogasûtra - Los aforismos del Yoga <br/> <p style=\"font-size: 0.8rem\"> Òscar Pujol - Editorial Kairos</p>", "El yoga de Patanjali. Los yoga sutras.<br/> <p style=\"font-size: 0.8rem\"> José Antonio Offroy Arranz - Editorial Ela</p>", "Yoga sutras de Patanjali.<br/> <p style=\"font-size: 0.8rem\"> T.K.V. Desikachar - Editorial Edaf</p>", "Los yoga sutras de Patanjali.<br/> <p style=\"font-size: 0.8rem\"> Sri Swami Satchidananda - Editorial Integral Yoga Publications</p>", "Luz sobre los Yoga-sutras de Patañjali<br/> <p style=\"font-size: 0.8rem\"> B.K.S. Iyengar - Editorial Kairós</p>"],
-      "links": [
-        {
-          "link": "www.link.com",
-          "description": "este es un link de interes"
-        }
+      "links": [ 
       ]
     },
      "layoutId": 4
@@ -354,13 +350,8 @@
         }]
       },
     "bibliography": {
-    "books": ["libro1", "libro2"],
-       "links": [
-        {
-          "link": "www.link.com",
-          "description": "este es un link de interes"
-        }
-      ]
+    "books": [],
+       "links": []
     },
      "layoutId": 2
   },
@@ -374,17 +365,12 @@
     },
     "text2": {
       "title": "Amrtasiddhi",
-      "content": "La Amṛtasiddhi es un <b>texto seminal sobre hatha yoga</b>, escrito en sánscrito y fechado aproximadamente entre los siglos XI y XII. Se considera uno de los primeros tratados conocidos que exploran técnicas yóguicas relacionadas con la alquimia interna y el control de la energía vital (prāṇa). El texto se centra en <b>conceptos fundamentales como el bindu (esencia seminal), el nāda (sonido interior) y el amṛta (néctar de la inmortalidad)</b>, presentando prácticas que prometen la longevidad y la autorrealización. <br/><br/>A diferencia de textos posteriores, la Amṛtasiddhi tiene una conexión estrecha con tradiciones budistas tántricas, lo que refleja el intercambio cultural y espiritual de la época. <b>Su influencia es evidente en obras más conocidas como la Haṭha Yoga Pradīpikā.</b>"
+      "content": "La Amrtasiddhi es un <b>texto seminal sobre hatha yoga</b>, escrito en sánscrito y fechado aproximadamente entre los siglos XI y XII. Se considera uno de los primeros tratados conocidos que exploran técnicas yóguicas relacionadas con la alquimia interna y el control de la energía vital (prāṇa). El texto se centra en <b>conceptos fundamentales como el bindu (esencia seminal), el nāda (sonido interior) y el amṛta (néctar de la inmortalidad)</b>, presentando prácticas que prometen la longevidad y la autorrealización. <br/><br/>A diferencia de textos posteriores, la Amrtasiddhi tiene una conexión estrecha con tradiciones budistas tántricas, lo que refleja el intercambio cultural y espiritual de la época. <b>Su influencia es evidente en obras más conocidas como la Haṭha Yoga Pradīpikā.</b>"
     },
     "image1": "tantra-budista.png",
     "bibliography": {
-      "books": ["libro1", "libro2"],
-      "links": [
-        {
-          "link": "www.link.com",
-          "description": "este es un link de interes"
-        }
-      ]
+      "books": [],
+      "links": []
     },
      "layoutId": 4
   },
@@ -403,13 +389,8 @@
     "image1": "sol-luna.png",
     "imageTop": "",
     "bibliography": {
-      "books": ["libro1", "libro2"],
-      "links": [
-        {
-          "link": "www.link.com",
-          "description": "este es un link de interes"
-        }
-      ]
+      "books": [],
+      "links": []
     },
      "layoutId": 4
   },
@@ -419,20 +400,24 @@
     "title": "Manuales de Hatha Yoga",
     "text1": {
       "title": "Introducción",
-      "content": "Los <b>textos clásicos del yoga</b> son fundamentales para entender su evolución.<br/><br/>  <b>El Dattātreyayogaśāstra</b> (siglo XIII) presenta un enfoque inclusivo que combina jñana yoga, karma yoga y hatha yoga. <br/><br/> <b>El Gorakṣa Śataka</b>, también del siglo XIII, se enfoca en técnicas de purificación yóguica y es una obra central de los nathas. <br/> <br/>En el siglo XIV, la <b>Śiva Saṁhitā</b> destaca como una síntesis de filosofía y práctica, abordando asanas, prāṇāyāma y conceptos tántricos. <br/><br/> <b>La Gheraṇḍa Saṁhitā</b> (siglo XVIII) es un tratado más técnico y sistemático que describe el saptāṅga yoga o yoga de siete etapas, cubriendo aspectos físicos y espirituales."
+      "content": "Los <b>textos clásicos del yoga</b> son fundamentales para entender su evolución.<br/><br/>  <b>El Dattatreyayogashastra</b> (siglo XIII) presenta un enfoque inclusivo que combina jñana yoga, karma yoga y hatha yoga. <br/><br/> <b>El Goraksha Shataka</b>, también del siglo XIII, se enfoca en técnicas de purificación yóguica y es una obra central de los nathas. <br/> <br/>En el siglo XIV, la <b>Shiva-samjita</b> destaca como una síntesis de filosofía y práctica, abordando asanas, pranayamas y conceptos tántricos. <br/><br/> <b>La Gheranda-samjita  </b> (siglo XVIII) es un tratado más técnico y sistemático que describe el saptāṅga yoga o yoga de siete etapas, cubriendo aspectos físicos y espirituales."
     },
     "text2": {
-      "title": "Hatha Pradīpikā (Siglo XV)",
-      "content": "La Haṭha Pradīpikā, escrita por <b>Svātmārāma</b>, es el <b>manual más influyente de hatha yoga</b>. <br/><br/>Presenta un <b>enfoque sistemático</b> en cuatro capítulos que abarcan <b>asanas</b> (posturas físicas), <b>prāṇāyāma</b> (control de la respiración), <b>mudras</b> (gestos energéticos) y <b>samādhi</b> (absorción meditativa). <br/><br/>Este texto consolida enseñanzas de tradiciones previas y las adapta en un marco accesible, integrando prácticas físicas y energéticas con metas espirituales. Además, enfatiza la <b>preparación del cuerpo y la mente como base para alcanzar la iluminación</b>.<br/><br/> La Haṭha Pradīpikā es fundamental en la historia del yoga, influyendo en prácticas contemporáneas y en textos posteriores como la Gheraṇḍa Saṁhitā."
+      "title": "Hatha Pradípika (Siglo XV)",
+      "content": "La Hatha Pradípika, escrita por <b>Suatmarama</b>, es el <b>manual más influyente de hatha yoga</b>. <br/><br/>Presenta un <b>enfoque sistemático</b> en cuatro capítulos que abarcan <b>asanas</b> (posturas físicas), <b>pranayamas</b> (control de la respiración), <b>mudras</b> (gestos energéticos) y <b>samadhi</b> (absorción meditativa). <br/><br/>Este texto consolida enseñanzas de tradiciones previas y las adapta en un marco accesible, integrando prácticas físicas y energéticas con metas espirituales. Además, enfatiza la <b>preparación del cuerpo y la mente como base para alcanzar la iluminación</b>.<br/><br/> La Hatha Pradípika es fundamental en la historia del yoga, influyendo en prácticas contemporáneas y en textos posteriores como la Gheranda-samjita."
     },
     "image1": "hatha-1.png",
     "image2": "hatha-2.png",
     "bibliography": {
-      "books": ["libro1", "libro2"],
+      "books": ["Gorakṣaśataka y yogabīja - Dos textos seminales de HAṬHAYOGA <br/> <p style=\"font-size: 0.8rem\"> Adrián Muñoz - Editorial Kairos</p>", "Los orígenes del hatha yoga - Hatha Pradipika, Gheranda Samhita, Goraksa-Shataka <br/> <p style=\"font-size: 0.8rem\"> Traducción de Alicia Souto - Editorial Librería Argentina</p>"],
       "links": [
         {
-          "link": "www.link.com",
-          "description": "este es un link de interes"
+          "link": "https://www.academia.edu/123639697/Datt%C4%81treyayoga%C5%9B%C4%81stra_Introduction",
+          "description": "Introducción al Dattatreyayogashastra - INGLES"
+        },
+        {
+          "link": "https://yoganidra.com.mx/wp-content/uploads/2022/02/Dattatreyayogasastra-espanol-traduccion-james-mallison-yoga-nidra-mx-cdmx.pdf",
+          "description": "Version en el español de la traducción de James Mallison"
         }
       ]
     },
@@ -453,11 +438,15 @@
     "image1": "soc-teo.png",
     "imageTop": "teo-top.png",
     "bibliography": {
-      "books": ["libro1", "libro2"],
+      "books": ["La doctrina secreta <br/> <p style=\"font-size: 0.8rem\"> Helena P. Blavatsky </p>", "Isis sin velo<br/> <p style=\"font-size: 0.8rem\"> Helena P. Blavatsky </p>", "H. P. Blavatsky: Fundadora de la Sociedad Teosófica. Una Mártir del Siglo xix <br/> <p style=\"font-size: 0.8rem\"> Mario Roso de Luna - Libreria Argentina</p>", "La Teosofía y la Sociedad Teosófica <br/> <p style=\"font-size: 0.8rem\"> Vicente Hao Chin Jr.</p>"],
       "links": [
         {
-          "link": "www.link.com",
-          "description": "este es un link de interes"
+          "link": "https://www.theosociety.org/pasadena/key/la_clave_de_la_teosofia_hpb.pdf",
+          "description": "La clave de la teosofía - Helena Blavatsky - PDF"
+        },
+        {
+          "link": "https://sociedadteosofica.es/",
+          "description":"Sitio oficial de la Sociedad Teosófica en España"
         }
       ]
     },
@@ -477,7 +466,7 @@
     },
     "image1": "vivekananda.png",
     "bibliography": {
-      "books": ["libro1", "libro2"],
+      "books": [],
       "links": [
         {
           "link": "https://www.youtube.com/watch?v=cdTy8e7XMxA&ab_channel=NewsHindustanNH-24",
@@ -486,6 +475,10 @@
         {
           "link": "https://yoganidra.com.mx/2021/02/23/discruso-de-bienvenida-de-swami-vivekananda-en-el-parlamento-de-religiones-de-1893/",
           "description": "Discurso completo en español"
+        },
+        {
+          "link": "https://www.casadellibro.com/libros-ebooks/swami-vivekananda/90180?srsltid=AfmBOoqK-7Kdk_Qhp_wxsM7qfrSl9L3KFZm2sN87CttY1enpCmEAVvzE",
+          "description": "Libros de Swami Vivekananda"
         }
       ]
     },
@@ -506,7 +499,7 @@
     "image1": "yogendra.png",
     "imageTop": "mumbai.png",
     "bibliography": {
-      "books": ["libro1", "libro2"],
+      "books": [],
       "links": [
         {
           "link": "https://theyogainstitute.org/",
@@ -530,7 +523,7 @@
     },
     "image1": "yogananda.png",
     "bibliography": {
-      "books": ["Autobiografía de un Yogui <br/> <p style=\"font-size: 0.8rem\">  Paramahansa Yogananda - Editorial Self-Realization Fellowship</p>"],
+      "books": ["Autobiografía de un Yogui <br/> <p style=\"font-size: 0.8rem\">  Paramahansa Yogananda - Editorial Self-Realization Fellowship</p>", "El Yoga de Jesús: Claves para comprender las enseñanzas ocultas de los Evangelios <br/> <p style=\"font-size: 0.8rem\">  Paramahansa Yogananda - Editorial Self-Realization Fellowship</p>", "Vive sin miedo: Despierta la fuerza interior de tu alma <br/> <p style=\"font-size: 0.8rem\">  Paramahansa Yogananda - Editorial Self-Realization Fellowship</p>", "Afirmaciones científicas para la curación <br/> <p style=\"font-size: 0.8rem\">  Paramahansa Yogananda - Editorial Self-Realization Fellowship</p>"],
       "links": [
         {
           "link": "https://yogananda.org/es/",
