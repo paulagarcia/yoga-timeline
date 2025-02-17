@@ -466,7 +466,7 @@
     },
     "image1": "vivekananda.png",
     "bibliography": {
-      "books": [],
+      "books": ["Autorealización por el yoga <br/> <p style=\"font-size: 0.8rem\">  Swami Vivekananda - Editorial Libreria Argentina</p>"],
       "links": [
         {
           "link": "https://www.youtube.com/watch?v=cdTy8e7XMxA&ab_channel=NewsHindustanNH-24",
@@ -548,7 +548,7 @@
     "image1": "kuvalayananda.png",
     "image2": "kuva-2.png",
     "bibliography": {
-      "books": ["libro1", "libro2"],
+      "books": ["Pranayama <br/> <p style=\"font-size: 0.8rem\"> Swami Kuvalayananda</p>", "Asana <br/> <p style=\"font-size: 0.8rem\"> Swami Kuvalayananda</p>"],
       "links": [
         {
           "link": "https://kdham.com/",
@@ -573,11 +573,15 @@
     "image1": "krishnamacharya.png",
     "image2": "krishnamacharya-2.png",
     "bibliography": {
-      "books": ["libro1", "libro2"],
+      "books": ["Krishnamacharya: His Life and Teachings <br/> <p style=\"font-size: 0.8rem\"> A.G.Mohan - Editorial Shambhala </p>", "Yoga Makaranda - The Nectar of Yoga  <br/> <p style=\"font-size: 0.8rem\"> T. Krishnamacharya - Editorial Swathi Soft Solutions </p>"],
       "links": [
         {
-          "link": "www.link.com",
-          "description": "este es un link de interes"
+          "link": "https://www.kym.org/about-kym/",
+          "description": "Krishnamacharya Yoga Mandiram"
+        },
+        {
+          "link": "https://www.youtube.com/watch?v=8XF4sCV6aUY",
+          "description": "Krishnamacharya practicando ásanas"
         }
       ]
     },
@@ -598,11 +602,11 @@
     "image1": "sitadevi.png",
     "image2": "sitadevi-libro.png",
     "bibliography": {
-      "books": ["libro1", "libro2"],
+      "books": ["Yoga: Physical Education for Women <br/> <p style=\"font-size: 0.8rem\"> Sitadevi Yogendra</p>"],
       "links": [
         {
-          "link": "www.link.com",
-          "description": "este es un link de interes"
+          "link": "https://archive.org/details/in.ernet.dli.2015.128308?utm_source=chatgpt.com",
+          "description": "Versión online en Ingles"
         }
       ]
     },
@@ -622,11 +626,15 @@
     },
     "image1": "pattabhi-jois.png",
     "bibliography": {
-      "books": ["libro1", "libro2"],
+      "books": ["Yoga Mala. Las enseñanzas originales del Maestro del Ashtanga Yoga <br/> <p style=\"font-size: 0.8rem\"> Pattabhi Jois - Editorial El Hilo de Ariadna</p>"],
       "links": [
         {
-          "link": "www.link.com",
-          "description": "este es un link de interes"
+          "link": "https://www.youtube.com/watch?v=aUgtMaAZzW0",
+          "description": "Clase de Asthanga vinyasa por Pattabhi Jois"
+        },
+        {
+          "link": "https://revistacitrica.com/abusos-en-el-yoga-rompen-el-silencio.html",
+          "description": "Denuncias de abusos por Pattabhi Jois"
         }
       ]
     },
@@ -647,11 +655,15 @@
     "image2": "iyengar-1.png",
     "image1": "iyengar-2.png",
     "bibliography": {
-      "books": ["libro1", "libro2"],
+      "books": [],
       "links": [
         {
-          "link": "www.link.com",
-          "description": "este es un link de interes"
+          "link": "https://bksiyengar.com/",
+          "description": "Sitio oficial"
+        },
+        {
+          "link": "https://www.editorialkairos.com/autores/bks-iyengar",
+          "description": "Libros publicados por Iyengar"
         }
       ]
     },
@@ -671,11 +683,19 @@
     },
     "image1": "yogi-bhajan.png",
     "bibliography": {
-      "books": ["libro1", "libro2"],
+      "books": [],
       "links": [
         {
-          "link": "www.link.com",
-          "description": "este es un link de interes"
+          "link": "https://www.3ho.org/",
+          "description": "Fundación Yogi Bhajan"
+        },
+        {
+          "link": "https://www.nacionsocial.com/comunicados/el-escandalo-del-kundalini-yoga-llega-a-hbo-y-max/",
+          "description": "Respiración de fuego - Documental "
+        },
+        {
+          "link": "https://www.casadellibro.com/libros-ebooks/yogi-bhajan/90141?srsltid=AfmBOooKb_flauAhbNPhZbeDsZG620xhiqx3Rdss8CN7hMjxiOz7n6YE",
+          "description": "Libros de Jogi Bhajan"
         }
       ]
     },
