@@ -691,7 +691,7 @@
         },
         {
           "link": "https://www.nacionsocial.com/comunicados/el-escandalo-del-kundalini-yoga-llega-a-hbo-y-max/",
-          "description": "Respiración de fuego - Documental "
+          "description": "Respiración de fuego - Documental"
         },
         {
           "link": "https://www.casadellibro.com/libros-ebooks/yogi-bhajan/90141?srsltid=AfmBOooKb_flauAhbNPhZbeDsZG620xhiqx3Rdss8CN7hMjxiOz7n6YE",
@@ -715,11 +715,15 @@
     },
     "image1": "sivananda.png",
     "bibliography": {
-      "books": ["libro1", "libro2"],
+      "books": [],
       "links": [
         {
-          "link": "www.link.com",
-          "description": "este es un link de interes"
+          "link": "https://www.sivanandaonline.org",
+          "description": "Divine Life Society"
+        },
+        {
+          "link": "https://www.dlshq.org",
+          "description": "Divine Life Society"
         }
       ]
     },
@@ -740,11 +744,15 @@
     "image1": "hot-yoga-3.png",
     "image2": "hot-yoga-2.png",
     "bibliography": {
-      "books": ["libro1", "libro2"],
+      "books": [],
       "links": [
         {
-          "link": "www.link.com",
-          "description": "este es un link de interes"
+          "link": "https://www.bikramyogaspain.es/pages/que-es-el-bikram-yoga",
+          "description": "Bikram Yoga España"
+        },
+        {
+          "link": "https://www.netflix.com/es/title/80221584",
+          "description": "Docuserie en Netflix"
         }
       ]
     },
@@ -764,11 +772,11 @@
     },
     "image1": "yin-yoga.png",
     "bibliography": {
-      "books": ["libro1", "libro2"],
+      "books": [],
       "links": [
         {
-          "link": "www.link.com",
-          "description": "este es un link de interes"
+          "link": "https://www.yinyoga.es/",
+          "description": "Sitio español de yin yoga"
         }
       ]
     },
@@ -788,11 +796,11 @@
     },
     "image1": "desikachar.png",
     "bibliography": {
-      "books": ["libro1", "libro2"],
+      "books": [],
       "links": [
         {
-          "link": "www.link.com",
-          "description": "este es un link de interes"
+          "link": "https://www.kym.org/",
+          "description": "Krishnamacharya Yoga Mandiram"
         }
       ]
     },
@@ -812,11 +820,11 @@
     },
     "image1": "rocket.png",
     "bibliography": {
-      "books": ["libro1", "libro2"],
+      "books": [],
       "links": [
         {
-          "link": "www.link.com",
-          "description": "este es un link de interes"
+          "link": "https://therocket.info/larry-schultz-page",
+          "description": "Sitio de Rocket yoga"
         }
       ]
     },
@@ -836,11 +844,11 @@
     },
     "image1": "jivamukti.png",
     "bibliography": {
-      "books": ["libro1", "libro2"],
+      "books": [],
       "links": [
         {
-          "link": "www.link.com",
-          "description": "este es un link de interes"
+          "link": "https://jivamuktiyoga.com/#",
+          "description": "Sitio de Jivamukti"
         }
       ]
     },
@@ -860,11 +868,11 @@
     },
     "image1": "shiva-rea.png",
     "bibliography": {
-      "books": ["libro1", "libro2"],
+      "books": [],
       "links": [
         {
-          "link": "www.link.com",
-          "description": "este es un link de interes"
+          "link": "https://shivarea.com/",
+          "description": "Sitio oficial"
         }
       ]
     },
@@ -884,12 +892,21 @@
     },
     "image1": "john-friend.png",
     "bibliography": {
-      "books": ["libro1", "libro2"],
+      "books": [],
       "links": [
         {
-          "link": "www.link.com",
-          "description": "este es un link de interes"
+          "link": "https://www.anusarayoga.com/",
+          "description": "Anasura sitio web"
+        },
+        {
+          "link": "https://www.youtube.com/watch?v=Wb6QBXSqNVk",
+          "description": "Entrevista a John Fiend - Inglés"
+        },
+        {
+          "link": "https://www.washingtonpost.com/lifestyle/style/scandal-contorts-future-of-john-friend-anusara-yoga/2012/03/28/gIQAeLVThS_story.html",
+          "description": "Nota sobre denuncias a Jhon Friend - Inlglés"
         }
+
       ]
     },
      "layoutId": 4
@@ -908,11 +925,11 @@
     },
     "image1": "acroyoga.png",
     "bibliography": {
-      "books": ["libro1", "libro2"],
+      "books": [],
       "links": [
         {
-          "link": "www.link.com",
-          "description": "este es un link de interes"
+          "link": "https://www.acroyoga.org/about-us",
+          "description": "Acroyoga sitio oficial"
         }
       ]
     },
@@ -933,13 +950,8 @@
     "image1": "dia-yoga.png",
     "image2": "dia-yoga-2.png",
     "bibliography": {
-      "books": ["libro1", "libro2"],
-      "links": [
-        {
-          "link": "www.link.com",
-          "description": "este es un link de interes"
-        }
-      ]
+      "books": [],
+      "links": []
     },
      "layoutId": 1
   },
@@ -979,13 +991,8 @@
   ],
     "image": "path/to/image14.jpg",
     "bibliography": {
-      "books": ["libro1", "libro2"],
-      "links": [
-        {
-          "link": "www.link.com",
-          "description": "este es un link de interes"
-        }
-      ]
+      "books": [],
+      "links": []
     },
      "layoutId": 3
   },
@@ -1015,13 +1022,8 @@
       },
     "image": "path/to/image14.jpg",
     "bibliography": {
-      "books": ["libro1", "libro2"],
-      "links": [
-        {
-          "link": "www.link.com",
-          "description": "este es un link de interes"
-        }
-      ]
+      "books": [],
+      "links": []
     },
      "layoutId": 2
   }
