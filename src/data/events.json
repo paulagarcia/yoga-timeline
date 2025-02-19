@@ -135,8 +135,11 @@
     }
   ],
   "bibliography": {
-      "books": [],
-      "links": []
+      "books": ["Himnos del Rig Veda <br/> <p style=\"font-size: 0.8rem\">  Fernando Tola - Editorial Las Cuarenta</p>", "Mujeres en los Vedas<br/> <p style=\"font-size: 0.8rem\">  Edición de Sofia Monco - Editorial Ediciones-Akal</p>"],
+      "links": [{
+        "link": "https://zelalemkibret.wordpress.com/wp-content/uploads/2012/03/the-4-vedas.pdf",
+        "description": "Versión en Inglés online"
+      }]
     },
   "layoutId": 3
 },
